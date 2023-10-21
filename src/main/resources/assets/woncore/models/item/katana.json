@@ -1,0 +1,7 @@
+{
+  "parent": "woncore:custom/katana",
+  "textures": {
+    "4": "woncore:blocks/katanatexture",
+    "particle": "woncore:items/katanatexture"
+  }
+}

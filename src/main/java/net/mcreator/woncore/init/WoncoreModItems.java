@@ -56,6 +56,7 @@ import net.mcreator.woncore.item.LeatherClothesItem;
 import net.mcreator.woncore.item.KeyItem;
 import net.mcreator.woncore.item.Key2Item;
 import net.mcreator.woncore.item.KevlarItem;
+import net.mcreator.woncore.item.KatanaItem;
 import net.mcreator.woncore.item.InfantryItem;
 import net.mcreator.woncore.item.HighVoltageBatteryItem;
 import net.mcreator.woncore.item.HighCapacityBatteryItem;
@@ -231,6 +232,7 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> BROWN_CRYSTAL = block(WoncoreModBlocks.BROWN_CRYSTAL, WoncoreModTabs.TAB_WORLD_OF_NATIONS_BLOCKS);
 	public static final RegistryObject<Item> BLUE_CRYSTAL = block(WoncoreModBlocks.BLUE_CRYSTAL, WoncoreModTabs.TAB_WORLD_OF_NATIONS_BLOCKS);
 	public static final RegistryObject<Item> BLACK_CRYSTAL = block(WoncoreModBlocks.BLACK_CRYSTAL, WoncoreModTabs.TAB_WORLD_OF_NATIONS_BLOCKS);
+	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
