@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/logo_won"
+    },
+    "facing=east": {
+      "model": "woncore:block/logo_won",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/logo_won",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/logo_won",
+      "y": 270
+    }
+  }
+}

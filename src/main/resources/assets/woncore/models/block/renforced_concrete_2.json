@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "woncore:blocks/concrete_texture_presque-casse",
+    "particle": "woncore:blocks/concrete_texture_presque-casse"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/ammunition"
+    },
+    "facing=east": {
+      "model": "woncore:block/ammunition",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/ammunition",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/ammunition",
+      "y": 270
+    }
+  }
+}

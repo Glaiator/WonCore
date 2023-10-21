@@ -1,0 +1,9 @@
+{
+  "parent": "woncore:custom/logo2d",
+  "textures": {
+    "all": "woncore:blocks/iconbaner",
+    "particle": "woncore:blocks/iconbaner",
+    "0": "woncore:blocks/iconbaner",
+    "missing": "woncore:blocks/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "woncore:custom/logo",
+  "textures": {
+    "all": "woncore:blocks/planete",
+    "particle": "woncore:blocks/planete",
+    "0": "woncore:blocks/planete",
+    "1": "woncore:blocks/drapeau",
+    "2": "woncore:blocks/roche",
+    "3": "woncore:blocks/tank",
+    "4": "woncore:blocks/texte",
+    "5": "woncore:blocks/boum"
+  }
+}

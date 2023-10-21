@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "lum",
+        "1": "pierre"
+      },
+      "name": "default"
+    }
+  }
+}

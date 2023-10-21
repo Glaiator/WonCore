@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "woncore:blocks/concrete_texture_semi-casse",
+    "particle": "woncore:blocks/concrete_texture_semi-casse"
+  }
+}

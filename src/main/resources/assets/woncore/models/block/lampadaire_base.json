@@ -1,0 +1,8 @@
+{
+  "parent": "woncore:custom/lampadairebase",
+  "textures": {
+    "all": "woncore:blocks/connect",
+    "particle": "woncore:blocks/connect",
+    "1": "woncore:blocks/hautbase"
+  }
+}

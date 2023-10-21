@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "netherite",
+        "1": "stick",
+        "2": "netherite2"
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "woncore:blocks/bamboo_block_mosaic",
+    "top": "woncore:blocks/bamboo_block_mosaic",
+    "side": "woncore:blocks/bamboo_block_mosaic"
+  }
+}

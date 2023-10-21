@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/double_lamp"
+    },
+    "facing=east": {
+      "model": "woncore:block/double_lamp",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/double_lamp",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/double_lamp",
+      "y": 270
+    }
+  }
+}

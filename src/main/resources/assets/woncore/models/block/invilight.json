@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "woncore:blocks/invi",
+    "up": "woncore:blocks/invi",
+    "north": "woncore:blocks/invi",
+    "east": "woncore:blocks/invi",
+    "south": "woncore:blocks/invi",
+    "west": "woncore:blocks/invi",
+    "particle": "woncore:blocks/invi"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/cypress"
+    },
+    "facing=east": {
+      "model": "woncore:block/cypress",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/cypress",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/cypress",
+      "y": 270
+    }
+  }
+}

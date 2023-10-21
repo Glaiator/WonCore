@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "woncore:bamboo_planks"
+    },
+    "1": {
+      "item": "woncore:bamboo_planks"
+    },
+    "2": {
+      "item": "woncore:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "woncore:bamboo_slab",
+    "count": 6
+  }
+}

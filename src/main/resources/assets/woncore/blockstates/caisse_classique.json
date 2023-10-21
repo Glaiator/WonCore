@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/caisse_classique"
+    },
+    "facing=east": {
+      "model": "woncore:block/caisse_classique",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/caisse_classique",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/caisse_classique",
+      "y": 270
+    }
+  }
+}

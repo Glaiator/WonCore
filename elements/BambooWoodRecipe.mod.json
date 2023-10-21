@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 3,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:BambooLog"
+      },
+      {
+        "value": "CUSTOM:BambooLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:BambooLog"
+      },
+      {
+        "value": "CUSTOM:BambooLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:BambooWood"
+    },
+    "name": "bamboo_wood_recipe",
+    "namespace": "mod"
+  }
+}

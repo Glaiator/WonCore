@@ -1,0 +1,8 @@
+{
+  "parent": "woncore:custom/lootbox",
+  "textures": {
+    "all": "woncore:blocks/texture_caisseclassique",
+    "particle": "woncore:blocks/texture_caisseclassique",
+    "0": "woncore:blocks/texture_caisseclassique"
+  }
+}

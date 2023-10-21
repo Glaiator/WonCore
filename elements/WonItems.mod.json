@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Won Items",
+    "icon": {
+      "value": "CUSTOM:USBKey"
+    },
+    "showSearch": false
+  }
+}

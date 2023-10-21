@@ -1,0 +1,8 @@
+{
+  "parent": "woncore:custom/lampadairebarre",
+  "textures": {
+    "all": "woncore:blocks/connect",
+    "particle": "woncore:blocks/connect",
+    "0": "woncore:blocks/barre"
+  }
+}

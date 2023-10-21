@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "WON Stuff",
+    "icon": {
+      "value": "CUSTOM:Mastodonte.helmet"
+    },
+    "showSearch": false
+  }
+}

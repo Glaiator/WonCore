@@ -1,0 +1,13 @@
+{
+  "group": "seeds",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "woncore:blackberry"
+    }
+  ],
+  "result": {
+    "item": "woncore:blackberry_seeds",
+    "count": 1
+  }
+}

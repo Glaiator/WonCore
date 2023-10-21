@@ -1,0 +1,9 @@
+{
+  "parent": "woncore:custom/palmleaves",
+  "textures": {
+    "all": "woncore:blocks/leave",
+    "particle": "woncore:blocks/leave",
+    "0": "woncore:blocks/jungle_log_top",
+    "2": "woncore:blocks/leave"
+  }
+}

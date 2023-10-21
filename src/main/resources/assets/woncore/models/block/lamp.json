@@ -1,0 +1,9 @@
+{
+  "parent": "woncore:custom/lampsingle",
+  "textures": {
+    "all": "woncore:blocks/connect",
+    "particle": "woncore:blocks/connect",
+    "0": "woncore:blocks/lum",
+    "1": "woncore:blocks/pierre"
+  }
+}

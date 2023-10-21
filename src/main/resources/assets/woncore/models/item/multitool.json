@@ -1,0 +1,7 @@
+{
+  "parent": "woncore:custom/multitool",
+  "textures": {
+    "0": "woncore:blocks/multitool",
+    "particle": "woncore:items/barrier"
+  }
+}

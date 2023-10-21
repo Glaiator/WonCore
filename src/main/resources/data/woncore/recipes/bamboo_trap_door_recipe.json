@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "woncore:bamboo_planks"
+    },
+    "1": {
+      "item": "woncore:bamboo_planks"
+    },
+    "2": {
+      "item": "woncore:bamboo_planks"
+    },
+    "3": {
+      "item": "woncore:bamboo_planks"
+    },
+    "4": {
+      "item": "woncore:bamboo_planks"
+    },
+    "5": {
+      "item": "woncore:bamboo_planks"
+    }
+  },
+  "result": {
+    "item": "woncore:bamboo_trap_door",
+    "count": 3
+  }
+}

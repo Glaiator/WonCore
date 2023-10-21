@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "jungle_log_top",
+        "2": "leave"
+      },
+      "name": "default"
+    }
+  }
+}

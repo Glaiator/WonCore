@@ -1,0 +1,72 @@
+{
+  "_fv": 43,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_nightvision_on",
+          "text": {
+            "fixedValue": "NightVision:"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 6,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_on",
+          "text": {
+            "fixedValue": "ON"
+          },
+          "color": {
+            "value": -13369600,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NVON"
+          },
+          "x": 69,
+          "y": 8
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_off",
+          "text": {
+            "fixedValue": "OFF"
+          },
+          "color": {
+            "value": -3407872,
+            "falpha": 0.0
+          },
+          "displayCondition": {
+            "name": "NVOFF"
+          },
+          "x": 69,
+          "y": 8
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "NightVisionOverlayDisplayOverlayIngame"
+    },
+    "gridSettings": {
+      "sx": 25,
+      "sy": 21,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": true
+    }
+  }
+}

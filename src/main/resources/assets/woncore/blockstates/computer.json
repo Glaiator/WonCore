@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/computer"
+    },
+    "facing=east": {
+      "model": "woncore:block/computer",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/computer",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/computer",
+      "y": 270
+    }
+  }
+}

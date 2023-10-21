@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "3": "stripped_spruce_log",
+        "5": "stripped_oak_log",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/door_top",
+  "textures": {
+    "bottom": "woncore:blocks/bamboo_door_bottom",
+    "top": "woncore:blocks/bamboo_door_top"
+  }
+}

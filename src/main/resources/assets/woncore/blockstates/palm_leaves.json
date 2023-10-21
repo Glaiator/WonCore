@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/palm_leaves"
+    },
+    "facing=east": {
+      "model": "woncore:block/palm_leaves",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/palm_leaves",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/palm_leaves",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "woncore:bamboo_log"
+    },
+    "1": {
+      "item": "woncore:bamboo_log"
+    },
+    "2": {
+      "item": "woncore:bamboo_log"
+    },
+    "3": {
+      "item": "woncore:bamboo_log"
+    }
+  },
+  "result": {
+    "item": "woncore:bamboo_wood",
+    "count": 3
+  }
+}

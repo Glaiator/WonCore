@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "woncore:blocks/blackcrystal",
+    "particle": "woncore:blocks/blackcrystal"
+  }
+}

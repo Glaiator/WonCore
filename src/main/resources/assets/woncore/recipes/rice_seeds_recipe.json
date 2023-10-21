@@ -1,0 +1,13 @@
+{
+  "group": "seeds",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "woncore:rice"
+    }
+  ],
+  "result": {
+    "item": "woncore:rice_seeds",
+    "count": 1
+  }
+}

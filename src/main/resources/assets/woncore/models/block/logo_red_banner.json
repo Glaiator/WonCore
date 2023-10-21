@@ -1,0 +1,10 @@
+{
+  "parent": "woncore:custom/baniere",
+  "textures": {
+    "all": "woncore:blocks/iconbaner",
+    "particle": "woncore:blocks/iconbaner",
+    "0": "woncore:blocks/iconbaner",
+    "1": "woncore:blocks/banner",
+    "2": "woncore:blocks/bar"
+  }
+}

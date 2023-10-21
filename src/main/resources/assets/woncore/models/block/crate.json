@@ -1,0 +1,10 @@
+{
+  "parent": "woncore:custom/crate",
+  "textures": {
+    "all": "woncore:blocks/stripped_oak_log",
+    "particle": "woncore:blocks/stripped_oak_log",
+    "0": "woncore:blocks/stripped_oak_log",
+    "1": "woncore:blocks/stripped_spruce_log",
+    "missing": "woncore:blocks/"
+  }
+}

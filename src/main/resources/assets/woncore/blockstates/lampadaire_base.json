@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/lampadaire_base"
+    },
+    "facing=east": {
+      "model": "woncore:block/lampadaire_base",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/lampadaire_base",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/lampadaire_base",
+      "y": 270
+    }
+  }
+}

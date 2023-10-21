@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "woncore:palm_leaves",
+    "woncore:crate",
+    "woncore:little_crate",
+    "woncore:bamboo_wood",
+    "woncore:bamboo_log",
+    "woncore:bamboo_planks",
+    "woncore:bamboo_stairs",
+    "woncore:bamboo_slab",
+    "woncore:bamboo_fence",
+    "woncore:bamboo_fencegate",
+    "woncore:bamboo_button",
+    "woncore:bamboo_door",
+    "woncore:bamboo_trap_door",
+    "woncore:bamboo_mosaic",
+    "woncore:bamboo_mosaic_stairs",
+    "woncore:bamboo_mosaic_slab",
+    "woncore:bamboo_pressure_plate",
+    "woncore:banc"
+  ]
+}

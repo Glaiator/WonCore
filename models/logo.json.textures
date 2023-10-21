@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "planete",
+        "1": "drapeau",
+        "2": "roche",
+        "3": "tank",
+        "4": "texte",
+        "5": "boum"
+      },
+      "name": "default"
+    }
+  }
+}

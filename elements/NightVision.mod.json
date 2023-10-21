@@ -1,0 +1,12 @@
+{
+  "_fv": 43,
+  "_type": "keybind",
+  "definition": {
+    "triggerKey": "N",
+    "keyBindingName": "Night Vision (with armors)",
+    "keyBindingCategoryKey": "worldofnations",
+    "onKeyPressed": {
+      "name": "NightVisionOnKeyPressed"
+    }
+  }
+}

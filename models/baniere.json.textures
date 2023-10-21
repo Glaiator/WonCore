@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "iconbaner",
+        "1": "banner",
+        "2": "bar"
+      },
+      "name": "default"
+    }
+  }
+}

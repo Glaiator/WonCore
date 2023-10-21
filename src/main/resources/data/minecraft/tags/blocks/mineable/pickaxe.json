@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "woncore:lamp",
+    "woncore:double_lamp",
+    "woncore:mercury_ore",
+    "woncore:renforced_concrete",
+    "woncore:renforced_concrete_1",
+    "woncore:renforced_concrete_2",
+    "woncore:cypress"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "parent": "woncore:custom/sign3x3",
+  "textures": {
+    "all": "woncore:blocks/stripped_oak_log",
+    "particle": "woncore:blocks/stripped_oak_log",
+    "3": "woncore:blocks/stripped_spruce_log",
+    "5": "woncore:blocks/stripped_oak_log",
+    "missing": "woncore:blocks/"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "group": "seeds",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "woncore:lettuce"
+    }
+  ],
+  "result": {
+    "item": "woncore:lettuce_seed",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "woncore:custom/cypress",
+  "textures": {
+    "all": "woncore:blocks/cypresstexture",
+    "particle": "woncore:blocks/cypresstexture",
+    "0": "woncore:blocks/cypresstexture",
+    "missing": "woncore:blocks/"
+  }
+}

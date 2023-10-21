@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "woncore:blocks/mercury",
+    "up": "woncore:blocks/mercury",
+    "north": "woncore:blocks/mercury",
+    "east": "woncore:blocks/mercury",
+    "south": "woncore:blocks/mercury",
+    "west": "woncore:blocks/mercury",
+    "particle": "woncore:blocks/mercury"
+  }
+}

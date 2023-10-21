@@ -1,0 +1,48 @@
+{
+  "_fv": 43,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      },
+      {
+        "value": "CUSTOM:HardenedLeatherIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:HardenedLeather.body"
+    },
+    "name": "h_leather_c",
+    "namespace": "mod"
+  }
+}

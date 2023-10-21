@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "woncore:blocks/bamboo_block_top",
+    "up": "woncore:blocks/bamboo_block_top",
+    "north": "woncore:blocks/bamboo_block",
+    "east": "woncore:blocks/bamboo_block",
+    "south": "woncore:blocks/bamboo_block",
+    "west": "woncore:blocks/bamboo_block",
+    "particle": "woncore:blocks/bamboo_block_top"
+  }
+}

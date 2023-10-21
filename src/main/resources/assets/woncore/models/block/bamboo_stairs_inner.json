@@ -1,0 +1,8 @@
+{
+  "parent": "block/inner_stairs",
+  "textures": {
+    "bottom": "woncore:blocks/bamboo_planks",
+    "top": "woncore:blocks/bamboo_planks",
+    "side": "woncore:blocks/bamboo_planks"
+  }
+}
