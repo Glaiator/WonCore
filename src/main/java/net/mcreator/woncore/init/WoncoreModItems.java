@@ -40,7 +40,6 @@ import net.mcreator.woncore.item.PistonItem;
 import net.mcreator.woncore.item.PhoneItem;
 import net.mcreator.woncore.item.OpticalSightItem;
 import net.mcreator.woncore.item.NuclearBatteryItem;
-import net.mcreator.woncore.item.NetheriteBattleAxeItem;
 import net.mcreator.woncore.item.MultitoolItem;
 import net.mcreator.woncore.item.MorphineItem;
 import net.mcreator.woncore.item.MoneyItem;
@@ -101,7 +100,6 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> INVILIGHT = block(WoncoreModBlocks.INVILIGHT, WoncoreModTabs.TAB_ADMIN);
 	public static final RegistryObject<Item> MONEY = REGISTRY.register("money", () -> new MoneyItem());
 	public static final RegistryObject<Item> PHONE = REGISTRY.register("phone", () -> new PhoneItem());
-	public static final RegistryObject<Item> NETHERITE_BATTLE_AXE = REGISTRY.register("netherite_battle_axe", () -> new NetheriteBattleAxeItem());
 	public static final RegistryObject<Item> SABRE = REGISTRY.register("sabre", () -> new SabreItem());
 	public static final RegistryObject<Item> USB_KEY = REGISTRY.register("usb_key", () -> new USBKeyItem());
 	public static final RegistryObject<Item> HARDENED_LEATHER_HELMET = REGISTRY.register("hardened_leather_helmet", () -> new HardenedLeatherItem.Helmet());

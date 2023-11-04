@@ -15,7 +15,7 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class WineItem extends Item {
 	public WineItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF).stacksTo(2).rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(8).saturationMod(1f)
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(2).rarity(Rarity.EPIC).food((new FoodProperties.Builder()).nutrition(8).saturationMod(1f)
 
 				.build()));
 	}

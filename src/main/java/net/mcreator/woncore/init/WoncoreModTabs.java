@@ -15,6 +15,7 @@ public class WoncoreModTabs {
 	public static CreativeModeTab TAB_ADMIN;
 	public static CreativeModeTab TAB_WON_ITEMS;
 	public static CreativeModeTab TAB_WORLD_OF_NATIONS_BLOCKS;
+	public static CreativeModeTab TAB_ARMES;
 
 	public static void load() {
 		TAB_WON_STUFF = new CreativeModeTab("tabwon_stuff") {
@@ -54,6 +55,17 @@ public class WoncoreModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(WoncoreModBlocks.RENFORCED_CONCRETE_2.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_ARMES = new CreativeModeTab("tabarmes") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(WoncoreModItems.KATANA.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

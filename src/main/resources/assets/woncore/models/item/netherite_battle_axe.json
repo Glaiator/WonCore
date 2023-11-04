@@ -1,9 +1,0 @@
-{
-  "parent": "woncore:custom/hacheepic",
-  "textures": {
-    "0": "woncore:blocks/netherite",
-    "1": "woncore:blocks/stick",
-    "2": "woncore:blocks/netherite2",
-    "particle": "woncore:items/npcdemonicbattleaxe"
-  }
-}

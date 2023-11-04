@@ -214,21 +214,6 @@
       "path": "~/Items"
     },
     {
-      "name": "NetheriteBattleAxe",
-      "type": "tool",
-      "sortid": 174,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "netherite_battle_axe",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/NetheriteBattleAxeItem.java",
-          "src/main/resources/assets/woncore/models/item/netherite_battle_axe.json"
-        ]
-      },
-      "path": "~/Stuffs/armes"
-    },
-    {
       "name": "Sabre",
       "type": "tool",
       "sortid": 175,
@@ -237,8 +222,8 @@
       "registry_name": "sabre",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/sabre.json",
-          "src/main/java/net/mcreator/woncore/item/SabreItem.java"
+          "src/main/java/net/mcreator/woncore/item/SabreItem.java",
+          "src/main/resources/assets/woncore/models/item/sabre.json"
         ]
       },
       "path": "~/Stuffs/armes"
@@ -2940,6 +2925,17 @@
         ]
       },
       "path": "~/Stuffs/armes"
+    },
+    {
+      "name": "Armes",
+      "type": "tab",
+      "sortid": 348,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armes",
+      "metadata": {
+        "files": []
+      }
     }
   ],
   "variable_elements": [
@@ -3026,7 +3022,6 @@
       "item.woncore.mastodonte_boots": "Mastodonte Boots",
       "item.strawberry_sandwich.name": "Strawberry Sandwich",
       "item.expresso.name": "�eExpresso",
-      "item.woncore.netherite_battle_axe": "Netherite Battle Axe",
       "item.woncore.solid_suit_x_407_helmet": "SolidSuit X407 Helmet",
       "tile.lettuce_crop_2.name": "Lettuce Crop",
       "item.woncore.sabre": "Sabre",
@@ -3034,9 +3029,9 @@
       "item.woncore.mastodonte_chestplate": "Mastodonte Body",
       "block.woncore.brown_crystal": "Brown Crystal",
       "item.woncore.tactical_chestplate": "Tactical Body",
-      "item.pistons.name": "Pistons",
-      "item.rice_cake.name": "Rice Cake",
       "item.void_stone.name": "Void Stone",
+      "item.rice_cake.name": "Rice Cake",
+      "item.pistons.name": "Pistons",
       "key.woncore.night_vision": "Night Vision (with armors)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Purple Crystal",
@@ -3047,7 +3042,7 @@
       "item.woncore.steel_shield": "Steel Shield",
       "item.woncore.high_capacity_battery": "High capacity battery",
       "item.rice_seeds.name": "Rice seeds",
-      "itemGroup.tabwon_stuff": "WON Stuff",
+      "itemGroup.tabwon_stuff": "WoN Armors",
       "tile.rooten_crop_0.name": "Rooten Crop 0",
       "tile.blackberry_crop_1.name": "Blackberry Crop",
       "block.woncore.white_crystal": "White Crystal",
@@ -3108,7 +3103,7 @@
       "block.woncore.palm_leaves": "Palm Leaves",
       "item.woncore.advanced_engine": "Advanced Engine",
       "item.woncore.epic_tank_body": "Heavy Tank Body",
-      "itemGroup.tabadmin": "Admin",
+      "itemGroup.tabadmin": "WoN Admin",
       "block.woncore.little_crate": "Little Crate",
       "item.meat_feast_pizza.name": "�eMeat Feast Pizza",
       "item.armor_plate.name": "Armor Plate",
@@ -3202,6 +3197,7 @@
       "item.woncore.light_engine": "Engine",
       "item.woncore.mastodonte_helmet": "Mastodonte Helmet",
       "item.hamburger.name": "Hamburger",
+      "itemGroup.tabarmes": "WoN Weapons",
       "item.woncore.leather_clothes_chestplate": "Leather Clothes Body",
       "item.woncore.water_bottle": "Water Bottle",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
@@ -3221,7 +3217,7 @@
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
       "item.woncore.processor": "Processor",
       "item.orange_sandwich.name": "Orange Sandwich",
-      "itemGroup.tabwon_items": "Won Items",
+      "itemGroup.tabwon_items": "WoN Items",
       "item.toast.name": "Toast",
       "block.woncore.logo_won": "Logo WON",
       "block.woncore.lime_crystal": "Lime Crystal",
@@ -3280,7 +3276,6 @@
       "item.woncore.mastodonte_boots": "Bottes de Mastodonte",
       "item.strawberry_sandwich.name": "Sandwich aux fraises",
       "item.expresso.name": "�eExpresso",
-      "item.woncore.netherite_battle_axe": "Hache de combat en nétherite",
       "item.woncore.solid_suit_x_407_helmet": "Casque SolidSuit X407 ",
       "tile.lettuce_crop_2.name": "Lettuce Crop",
       "item.woncore.sabre": "Sabre",
@@ -3288,9 +3283,9 @@
       "item.woncore.mastodonte_chestplate": "Plastron de Mastodonte",
       "block.woncore.brown_crystal": "Crystal Marron",
       "item.woncore.tactical_chestplate": "Plastron tactique",
-      "item.pistons.name": "Pistons",
-      "item.rice_cake.name": "Gâteau de riz",
       "item.void_stone.name": "Pierre du vide",
+      "item.rice_cake.name": "Gâteau de riz",
+      "item.pistons.name": "Pistons",
       "key.woncore.night_vision": "Night Vision (avec armures)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Crystal Violet",
@@ -3456,6 +3451,7 @@
       "item.woncore.light_engine": "Moteur",
       "item.woncore.mastodonte_helmet": "Casque de Mastodonte",
       "item.hamburger.name": "Hamburger",
+      "itemGroup.tabarmes": "WoN Weapons",
       "item.woncore.leather_clothes_chestplate": "Plastron en cuir",
       "item.woncore.water_bottle": "Bouteille d\u0027eau",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",

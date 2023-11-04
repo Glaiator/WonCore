@@ -8,7 +8,7 @@
     "name": "Wine",
     "rarity": "EPIC",
     "creativeTab": {
-      "value": "CUSTOM:WonStuff"
+      "value": "CUSTOM:WonItems"
     },
     "stackSize": 2,
     "enchantability": 0,

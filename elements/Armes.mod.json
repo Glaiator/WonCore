@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "tab",
   "definition": {
-    "name": "WoN Admin",
+    "name": "WoN Weapons",
     "icon": {
-      "value": "CUSTOM:Inviblock"
+      "value": "CUSTOM:Katana"
     },
     "showSearch": false
   }

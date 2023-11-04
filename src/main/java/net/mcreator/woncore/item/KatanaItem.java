@@ -7,7 +7,8 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.item.CreativeModeTab;
+
+import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class KatanaItem extends SwordItem {
 	public KatanaItem() {
@@ -35,6 +36,6 @@ public class KatanaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -1f, new Item.Properties().tab(CreativeModeTab.TAB_COMBAT).fireResistant());
+		}, 3, -1f, new Item.Properties().tab(WoncoreModTabs.TAB_ARMES).fireResistant());
 	}
 }
