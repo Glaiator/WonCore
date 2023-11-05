@@ -732,21 +732,6 @@
       "path": "~/Items"
     },
     {
-      "name": "Grip",
-      "type": "item",
-      "sortid": 207,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grip",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/GripItem.java",
-          "src/main/resources/assets/woncore/models/item/grip.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "Barrel",
       "type": "item",
       "sortid": 208,
@@ -2580,21 +2565,6 @@
       "path": "~/Items"
     },
     {
-      "name": "OpticalSight",
-      "type": "item",
-      "sortid": 327,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "optical_sight",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/OpticalSightItem.java",
-          "src/main/resources/assets/woncore/models/item/optical_sight.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "ReinforcedPlating",
       "type": "item",
       "sortid": 328,
@@ -2620,21 +2590,6 @@
         "files": [
           "src/main/java/net/mcreator/woncore/item/SpringItem.java",
           "src/main/resources/assets/woncore/models/item/spring.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "Trigger",
-      "type": "item",
-      "sortid": 330,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trigger",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/TriggerItem.java",
-          "src/main/resources/assets/woncore/models/item/trigger.json"
         ]
       },
       "path": "~/Items"
@@ -2991,7 +2946,6 @@
       "block.woncore.ammunition": "Ammunition",
       "item.aerogel.name": "�bAerogel",
       "item.woncore.solid_suit_x_407_chestplate": "SolidSuit X407 Body",
-      "item.woncore.grip": "Grip",
       "item.woncore.key_2": "Key",
       "block.woncore.renforced_concrete": "Renforced Concrete",
       "item.kevlar.name": "�eKevlar",
@@ -3168,7 +3122,6 @@
       "block.woncore.logo_red_banner": "Logo Red Banner",
       "block.woncore.bamboo_planks": "Bamboo Planks",
       "item.blackberry_sandwich.name": "Blackberry Sandwich",
-      "item.woncore.optical_sight": "Optical Sight",
       "item.cranberry_sandwich.name": "Cranberry Sandwich",
       "item.pizza.name": "Pizza",
       "block.woncore.wall_sign_2x_3": "Wall Sign 2x 3",
@@ -3210,7 +3163,6 @@
       "block.woncore.yellow_crystal": "Yellow Crystal",
       "item.woncore.gun_barrel": "Gun Barrel",
       "item.woncore.hardened_leather_helmet": "Hardened Leather Helmet",
-      "item.woncore.trigger": "Trigger",
       "subtitles.stg44fire": "",
       "block.woncore.bamboo_wood": "Bamboo",
       "block.woncore.caisse_premium": "Caisse Premium",
@@ -3245,7 +3197,6 @@
       "block.woncore.ammunition": "Munitions",
       "item.aerogel.name": "�bAerogel",
       "item.woncore.solid_suit_x_407_chestplate": "Plastron SolidSuit X407 ",
-      "item.woncore.grip": "Poignée",
       "item.woncore.key_2": "Clé",
       "block.woncore.renforced_concrete": "Béton Armé",
       "item.kevlar.name": "�eKevlar",
@@ -3422,7 +3373,6 @@
       "block.woncore.logo_red_banner": "Logo Rouge Bannière",
       "block.woncore.bamboo_planks": "Bamboo Planches",
       "item.blackberry_sandwich.name": "Sandwich aux mûres",
-      "item.woncore.optical_sight": "Vision optique",
       "item.cranberry_sandwich.name": "Sandwich aux canneberges",
       "item.pizza.name": "Pizza",
       "block.woncore.wall_sign_2x_3": "Panneau 2x 3 Murale",
@@ -3464,7 +3414,6 @@
       "block.woncore.yellow_crystal": "Crystal Jaune",
       "item.woncore.gun_barrel": "Canon de fusil",
       "item.woncore.hardened_leather_helmet": "Casque en cuir renforcé",
-      "item.woncore.trigger": "Gâchette",
       "subtitles.stg44fire": "",
       "block.woncore.bamboo_wood": "Bamboo",
       "block.woncore.caisse_premium": "Caisse Premium",
