@@ -36,6 +36,6 @@ public class KatanaItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -1f, new Item.Properties().tab(WoncoreModTabs.TAB_ARMES).fireResistant());
+		}, 3, -1f, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF).fireResistant());
 	}
 }

@@ -8,7 +8,7 @@
     "name": "Medical Kit",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "BREWING"
+      "value": "CUSTOM:WonItems"
     },
     "stackSize": 64,
     "enchantability": 0,

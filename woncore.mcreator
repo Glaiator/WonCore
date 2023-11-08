@@ -74,21 +74,6 @@
       }
     },
     {
-      "name": "Wine",
-      "type": "item",
-      "sortid": 117,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wine",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/WineItem.java",
-          "src/main/resources/assets/woncore/models/item/wine.json"
-        ]
-      },
-      "path": "~/Nourriture/Recettes/RecettesAvancees"
-    },
-    {
       "name": "Mastodonte",
       "type": "armor",
       "sortid": 158,
@@ -102,9 +87,9 @@
         "ec": true,
         "files": [
           "src/main/resources/assets/woncore/models/item/mastodonte_helmet.json",
-          "src/main/resources/assets/woncore/models/item/mastodonte_chestplate.json",
           "src/main/java/net/mcreator/woncore/item/MastodonteItem.java",
           "src/main/resources/assets/woncore/models/item/mastodonte_boots.json",
+          "src/main/resources/assets/woncore/models/item/mastodonte_chestplate.json",
           "src/main/resources/assets/woncore/models/item/mastodonte_leggings.json"
         ]
       },
@@ -355,8 +340,8 @@
       "registry_name": "bandage",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/bandage.json",
-          "src/main/java/net/mcreator/woncore/item/BandageItem.java"
+          "src/main/java/net/mcreator/woncore/item/BandageItem.java",
+          "src/main/resources/assets/woncore/models/item/bandage.json"
         ]
       },
       "path": "~/Stuffs/Soins"
@@ -1204,36 +1189,6 @@
       "path": "~/Ressources"
     },
     {
-      "name": "BigBottle",
-      "type": "item",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_bottle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/woncore/models/item/big_bottle.json",
-          "src/main/java/net/mcreator/woncore/item/BigBottleItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "MercuryBottle",
-      "type": "item",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mercury_bottle",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/MercuryBottleItem.java",
-          "src/main/resources/assets/woncore/models/item/mercury_bottle.json"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "Mana",
       "type": "item",
       "sortid": 244,
@@ -1334,21 +1289,6 @@
         "files": [
           "src/main/resources/assets/woncore/models/item/hardened_leather_ingot.json",
           "src/main/java/net/mcreator/woncore/item/HardenedLeatherIngotItem.java"
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
-      "name": "WaterBottle",
-      "type": "item",
-      "sortid": 251,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "water_bottle",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/woncore/models/item/water_bottle.json",
-          "src/main/java/net/mcreator/woncore/item/WaterBottleItem.java"
         ]
       },
       "path": "~/Items"
@@ -1613,42 +1553,6 @@
       "path": "~/Craft"
     },
     {
-      "name": "BigBottleRightclickedOnBlock",
-      "type": "procedure",
-      "sortid": 267,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_bottle_rightclicked_on_block",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/procedures/BigBottleRightclickedOnBlockProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Items"
-    },
-    {
       "name": "BigBottleWaterR",
       "type": "recipe",
       "sortid": 268,
@@ -1658,20 +1562,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/woncore/recipes/big_bottle_water_r.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "BigBottleMercuryR",
-      "type": "recipe",
-      "sortid": 269,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_bottle_mercury_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/big_bottle_mercury_r.json"
         ]
       },
       "path": "~/Craft"
@@ -2882,15 +2772,16 @@
       "path": "~/Stuffs/armes"
     },
     {
-      "name": "Armes",
+      "name": "Tools",
       "type": "tab",
       "sortid": 348,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "armes",
+      "registry_name": "tools",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Stuffs/Outils"
     }
   ],
   "variable_elements": [
@@ -2907,32 +2798,7 @@
       "value": "false"
     }
   ],
-  "sound_elements": [
-    {
-      "name": "stg44fire",
-      "files": [
-        "fire"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "stg44firedistant",
-      "files": [
-        "firedistant"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "stg44reload",
-      "files": [
-        "reload"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    }
-  ],
+  "sound_elements": [],
   "language_map": {
     "en_us": {
       "block.woncore.green_crystal": "Green Crystal",
@@ -2996,7 +2862,7 @@
       "item.woncore.steel_shield": "Steel Shield",
       "item.woncore.high_capacity_battery": "High capacity battery",
       "item.rice_seeds.name": "Rice seeds",
-      "itemGroup.tabwon_stuff": "WoN Armors",
+      "itemGroup.tabwon_stuff": "WoN Combat",
       "tile.rooten_crop_0.name": "Rooten Crop 0",
       "tile.blackberry_crop_1.name": "Blackberry Crop",
       "block.woncore.white_crystal": "White Crystal",
@@ -3011,7 +2877,6 @@
       "item.woncore.solid_suit_x_407_leggings": "SolidSuit X407 Leggings",
       "item.stawberry_smoothie.name": "Strawberry Smoothie",
       "item.orange_smoothie.name": "Orange Smoothie",
-      "item.woncore.big_bottle": "Big Bottle",
       "item.woncore.ruby": "Ruby",
       "block.woncore.lampadaire_barre": "Lampadaire Barre",
       "block.woncore.pink_crystal": "Pink Crystal",
@@ -3089,7 +2954,6 @@
       "item.woncore.hardened_leather_boots": "Hardened Leather Boots",
       "item.woncore.mercury_bucket": "Mercury Bucket",
       "item.woncore.leather_clothes_helmet": "Leather Clothes Helmet",
-      "item.woncore.wine": "Wine",
       "item.woncore.infantry_helmet": "Infantry Helmet",
       "item.footlong.name": "�eFootlong",
       "item.woncore.heavy_tank_cannon": "Heavy Tank Cannon",
@@ -3098,6 +2962,7 @@
       "item.bacon_cheeseburger.name": "Bacon Cheeseburger",
       "item.woncore.medical_bag": "Medical Bag",
       "item.roue.name": "Wheel",
+      "itemGroup.tabtools": "WoN Tools",
       "block.woncore.orange_crystal": "Orange Crystal",
       "tile.blueberry_crop_1.name": "Blueberry Crop",
       "item.watermelon_smoothie.name": "Watermelon Smoothie",
@@ -3150,15 +3015,12 @@
       "item.woncore.light_engine": "Engine",
       "item.woncore.mastodonte_helmet": "Mastodonte Helmet",
       "item.hamburger.name": "Hamburger",
-      "itemGroup.tabarmes": "WoN Weapons \u0026 Tools",
       "item.woncore.leather_clothes_chestplate": "Leather Clothes Body",
-      "item.woncore.water_bottle": "Water Bottle",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bamboo Button",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Copper Coil",
       "item.woncore.cylinder": "Cylinder",
-      "item.woncore.mercury_bottle": "Mercury Bottle",
       "item.woncore.key": "Key",
       "block.woncore.yellow_crystal": "Yellow Crystal",
       "item.woncore.gun_barrel": "Gun Barrel",
@@ -3262,7 +3124,6 @@
       "item.woncore.solid_suit_x_407_leggings": "Pentalon SolidSuit X407",
       "item.stawberry_smoothie.name": "Smoothie aux fraises",
       "item.orange_smoothie.name": "Smoothie à l\u0027orange",
-      "item.woncore.big_bottle": "Grande bouteille",
       "item.woncore.ruby": "Rubie",
       "block.woncore.lampadaire_barre": "Lampadaire Barre",
       "block.woncore.pink_crystal": "Crystal Rose",
@@ -3340,7 +3201,6 @@
       "item.woncore.hardened_leather_boots": "Bottes en cuir renforcé",
       "item.woncore.mercury_bucket": "Seau de mercure",
       "item.woncore.leather_clothes_helmet": "Casque en cuir",
-      "item.woncore.wine": "Vin",
       "item.woncore.infantry_helmet": "Casque d\u0027infanterie",
       "item.footlong.name": "�eFootlong",
       "item.woncore.heavy_tank_cannon": "Canon de char lourd",
@@ -3349,6 +3209,7 @@
       "item.bacon_cheeseburger.name": "Cheeseburger au bacon",
       "item.woncore.medical_bag": "Sac Medical",
       "item.roue.name": "Roue",
+      "itemGroup.tabtools": "WoN Tools",
       "block.woncore.orange_crystal": "Crystal Orange",
       "tile.blueberry_crop_1.name": "Blueberry Crop",
       "item.watermelon_smoothie.name": "Smoothie à la pastèque",
@@ -3401,15 +3262,12 @@
       "item.woncore.light_engine": "Moteur",
       "item.woncore.mastodonte_helmet": "Casque de Mastodonte",
       "item.hamburger.name": "Hamburger",
-      "itemGroup.tabarmes": "WoN Weapons",
       "item.woncore.leather_clothes_chestplate": "Plastron en cuir",
-      "item.woncore.water_bottle": "Bouteille d\u0027eau",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bouton Bamboo",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Bobine de cuivre",
       "item.woncore.cylinder": "Cylinder",
-      "item.woncore.mercury_bottle": "Bouteille de mercure",
       "item.woncore.key": "Clé",
       "block.woncore.yellow_crystal": "Crystal Jaune",
       "item.woncore.gun_barrel": "Canon de fusil",
@@ -3442,17 +3300,7 @@
     "children": [
       {
         "name": "Nourriture",
-        "children": [
-          {
-            "name": "Recettes",
-            "children": [
-              {
-                "name": "RecettesAvancees",
-                "children": []
-              }
-            ]
-          }
-        ]
+        "children": []
       },
       {
         "name": "Stuffs",

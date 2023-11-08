@@ -2,9 +2,9 @@
   "_fv": 43,
   "_type": "tab",
   "definition": {
-    "name": "WoN Weapons & Tools",
+    "name": "WoN Tools",
     "icon": {
-      "value": "CUSTOM:Katana"
+      "value": "CUSTOM:Multitool"
     },
     "showSearch": false
   }

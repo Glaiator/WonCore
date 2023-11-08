@@ -8,7 +8,7 @@
     "name": "Multitool",
     "rarity": "RARE",
     "creativeTab": {
-      "value": "CUSTOM:Admin"
+      "value": "CUSTOM:Tools"
     },
     "stackSize": 64,
     "enchantability": 0,

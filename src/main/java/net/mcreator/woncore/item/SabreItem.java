@@ -36,6 +36,6 @@ public class SabreItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.IRON_INGOT));
 			}
-		}, 3, -2.5f, new Item.Properties().tab(WoncoreModTabs.TAB_ARMES));
+		}, 3, -2.5f, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
 	}
 }

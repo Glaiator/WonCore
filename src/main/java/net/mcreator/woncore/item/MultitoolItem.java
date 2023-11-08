@@ -17,7 +17,7 @@ import com.google.common.collect.ImmutableMultimap;
 
 public class MultitoolItem extends Item {
 	public MultitoolItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_ADMIN).stacksTo(64).fireResistant().rarity(Rarity.RARE));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_TOOLS).stacksTo(64).fireResistant().rarity(Rarity.RARE));
 	}
 
 	@Override
