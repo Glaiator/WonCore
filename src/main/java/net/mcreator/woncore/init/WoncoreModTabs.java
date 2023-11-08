@@ -13,9 +13,9 @@ import net.minecraft.world.item.CreativeModeTab;
 public class WoncoreModTabs {
 	public static CreativeModeTab TAB_WON_STUFF;
 	public static CreativeModeTab TAB_ADMIN;
-	public static CreativeModeTab TAB_WON_ITEMS;
 	public static CreativeModeTab TAB_WORLD_OF_NATIONS_BLOCKS;
 	public static CreativeModeTab TAB_TOOLS;
+	public static CreativeModeTab TAB_ITEMS;
 
 	public static void load() {
 		TAB_WON_STUFF = new CreativeModeTab("tabwon_stuff") {
@@ -40,17 +40,6 @@ public class WoncoreModTabs {
 				return false;
 			}
 		};
-		TAB_WON_ITEMS = new CreativeModeTab("tabwon_items") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(WoncoreModItems.USB_KEY.get());
-			}
-
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
 		TAB_WORLD_OF_NATIONS_BLOCKS = new CreativeModeTab("tabworld_of_nations_blocks") {
 			@Override
 			public ItemStack makeIcon() {
@@ -66,6 +55,17 @@ public class WoncoreModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(WoncoreModItems.MULTITOOL.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_ITEMS = new CreativeModeTab("tabitems") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(WoncoreModItems.MONEY.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

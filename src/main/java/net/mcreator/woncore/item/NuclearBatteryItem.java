@@ -8,6 +8,6 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class NuclearBatteryItem extends Item {
 	public NuclearBatteryItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(64).rarity(Rarity.RARE));
 	}
 }

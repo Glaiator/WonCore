@@ -2,7 +2,6 @@
   "parent": "woncore:custom/munitions",
   "textures": {
     "all": "woncore:blocks/texture_munitions",
-    "particle": "woncore:blocks/texture_munitions",
-    "0": "woncore:blocks/texture_banc"
+    "particle": "woncore:blocks/texture_munitions"
   }
 }

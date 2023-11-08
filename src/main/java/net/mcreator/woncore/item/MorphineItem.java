@@ -10,7 +10,7 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class MorphineItem extends Item {
 	public MorphineItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override

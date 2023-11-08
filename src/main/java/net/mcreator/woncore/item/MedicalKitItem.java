@@ -21,7 +21,7 @@ import java.util.List;
 
 public class MedicalKitItem extends Item {
 	public MedicalKitItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

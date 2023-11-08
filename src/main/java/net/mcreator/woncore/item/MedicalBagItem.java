@@ -17,7 +17,7 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class MedicalBagItem extends Item {
 	public MedicalBagItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(1).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

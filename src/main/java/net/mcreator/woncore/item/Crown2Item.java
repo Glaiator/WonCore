@@ -62,7 +62,7 @@ public abstract class Crown2Item extends ArmorItem {
 
 	public static class Helmet extends Crown2Item {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS));
 		}
 
 		@Override

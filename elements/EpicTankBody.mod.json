@@ -8,7 +8,7 @@
     "name": "Heavy Tank Body",
     "rarity": "UNCOMMON",
     "creativeTab": {
-      "value": "CUSTOM:WonItems"
+      "value": "CUSTOM:Items"
     },
     "stackSize": 64,
     "enchantability": 0,

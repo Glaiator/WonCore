@@ -8,6 +8,6 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class RubyItem extends Item {
 	public RubyItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

@@ -11,7 +11,7 @@
     "enableBoots": false,
     "textureBoots": "",
     "creativeTab": {
-      "value": "CUSTOM:WonItems"
+      "value": "CUSTOM:Items"
     },
     "armorTextureFile": "crown1",
     "helmetName": "Crown",

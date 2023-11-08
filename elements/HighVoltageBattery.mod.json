@@ -8,7 +8,7 @@
     "name": "High voltage battery",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:WonItems"
+      "value": "CUSTOM:Items"
     },
     "stackSize": 64,
     "enchantability": 0,

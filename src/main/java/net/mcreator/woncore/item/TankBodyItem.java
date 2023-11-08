@@ -8,6 +8,6 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class TankBodyItem extends Item {
 	public TankBodyItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }

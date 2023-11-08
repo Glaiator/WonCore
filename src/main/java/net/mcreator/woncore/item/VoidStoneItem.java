@@ -10,7 +10,7 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class VoidStoneItem extends Item {
 	public VoidStoneItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).durability(7000).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).durability(7000).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

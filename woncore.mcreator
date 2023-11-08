@@ -116,8 +116,8 @@
       "registry_name": "delimitation_flag",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/delimitation_flag.json",
-          "src/main/java/net/mcreator/woncore/item/DelimitationFlagItem.java"
+          "src/main/java/net/mcreator/woncore/item/DelimitationFlagItem.java",
+          "src/main/resources/assets/woncore/models/item/delimitation_flag.json"
         ]
       },
       "path": "~/Stuffs/Autre"
@@ -177,8 +177,8 @@
       "registry_name": "money",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/MoneyItem.java",
-          "src/main/resources/assets/woncore/models/item/money.json"
+          "src/main/resources/assets/woncore/models/item/money.json",
+          "src/main/java/net/mcreator/woncore/item/MoneyItem.java"
         ]
       },
       "path": "~/Items"
@@ -192,8 +192,8 @@
       "registry_name": "phone",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/phone.json",
-          "src/main/java/net/mcreator/woncore/item/PhoneItem.java"
+          "src/main/java/net/mcreator/woncore/item/PhoneItem.java",
+          "src/main/resources/assets/woncore/models/item/phone.json"
         ]
       },
       "path": "~/Items"
@@ -222,8 +222,8 @@
       "registry_name": "usb_key",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/usb_key.json",
-          "src/main/java/net/mcreator/woncore/item/USBKeyItem.java"
+          "src/main/java/net/mcreator/woncore/item/USBKeyItem.java",
+          "src/main/resources/assets/woncore/models/item/usb_key.json"
         ]
       },
       "path": "~/Items"
@@ -237,11 +237,11 @@
       "registry_name": "hardened_leather",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/HardenedLeatherItem.java",
-          "src/main/resources/assets/woncore/models/item/hardened_leather_leggings.json",
           "src/main/resources/assets/woncore/models/item/hardened_leather_chestplate.json",
+          "src/main/java/net/mcreator/woncore/item/HardenedLeatherItem.java",
+          "src/main/resources/assets/woncore/models/item/hardened_leather_boots.json",
           "src/main/resources/assets/woncore/models/item/hardened_leather_helmet.json",
-          "src/main/resources/assets/woncore/models/item/hardened_leather_boots.json"
+          "src/main/resources/assets/woncore/models/item/hardened_leather_leggings.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -256,8 +256,8 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/woncore/models/item/logo_won.json",
-          "src/main/resources/assets/woncore/blockstates/logo_won.json",
           "src/main/resources/assets/woncore/models/block/logo_won.json",
+          "src/main/resources/assets/woncore/blockstates/logo_won.json",
           "src/main/java/net/mcreator/woncore/block/LogoWONBlock.java"
         ]
       },
@@ -274,8 +274,8 @@
         "files": [
           "src/main/resources/assets/woncore/models/item/wall_sign_2x_3.json",
           "src/main/resources/assets/woncore/blockstates/wall_sign_2x_3.json",
-          "src/main/resources/assets/woncore/models/block/wall_sign_2x_3.json",
-          "src/main/java/net/mcreator/woncore/block/WallSign2x3Block.java"
+          "src/main/java/net/mcreator/woncore/block/WallSign2x3Block.java",
+          "src/main/resources/assets/woncore/models/block/wall_sign_2x_3.json"
         ]
       },
       "path": "~/Admin"
@@ -289,10 +289,10 @@
       "registry_name": "sign_2x_3",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/sign_2x_3.json",
-          "src/main/java/net/mcreator/woncore/block/Sign2x3Block.java",
           "src/main/resources/assets/woncore/models/item/sign_2x_3.json",
-          "src/main/resources/assets/woncore/models/block/sign_2x_3.json"
+          "src/main/resources/assets/woncore/models/block/sign_2x_3.json",
+          "src/main/resources/assets/woncore/blockstates/sign_2x_3.json",
+          "src/main/java/net/mcreator/woncore/block/Sign2x3Block.java"
         ]
       },
       "path": "~/Admin"
@@ -323,10 +323,10 @@
       "registry_name": "palm_leaves",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/palm_leaves.json",
-          "src/main/resources/assets/woncore/models/block/palm_leaves.json",
+          "src/main/java/net/mcreator/woncore/block/PalmLeavesBlock.java",
           "src/main/resources/assets/woncore/blockstates/palm_leaves.json",
-          "src/main/java/net/mcreator/woncore/block/PalmLeavesBlock.java"
+          "src/main/resources/assets/woncore/models/item/palm_leaves.json",
+          "src/main/resources/assets/woncore/models/block/palm_leaves.json"
         ]
       },
       "path": "~/Admin"
@@ -476,8 +476,8 @@
       "registry_name": "lampadaire_base",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/LampadaireBaseBlock.java",
           "src/main/resources/assets/woncore/models/block/lampadaire_base.json",
+          "src/main/java/net/mcreator/woncore/block/LampadaireBaseBlock.java",
           "src/main/resources/assets/woncore/models/item/lampadaire_base.json",
           "src/main/resources/assets/woncore/blockstates/lampadaire_base.json"
         ]
@@ -493,10 +493,10 @@
       "registry_name": "lampadaire_barre",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/block/lampadaire_barre.json",
           "src/main/java/net/mcreator/woncore/block/LampadaireBarreBlock.java",
           "src/main/resources/assets/woncore/blockstates/lampadaire_barre.json",
-          "src/main/resources/assets/woncore/models/item/lampadaire_barre.json",
-          "src/main/resources/assets/woncore/models/block/lampadaire_barre.json"
+          "src/main/resources/assets/woncore/models/item/lampadaire_barre.json"
         ]
       },
       "path": "~/Admin/lampadaire"
@@ -510,10 +510,10 @@
       "registry_name": "lamp",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/block/lamp.json",
           "src/main/resources/assets/woncore/models/item/lamp.json",
           "src/main/java/net/mcreator/woncore/block/LampBlock.java",
-          "src/main/resources/assets/woncore/blockstates/lamp.json",
-          "src/main/resources/assets/woncore/models/block/lamp.json"
+          "src/main/resources/assets/woncore/blockstates/lamp.json"
         ]
       },
       "path": "~/Admin/lampadaire"
@@ -527,10 +527,10 @@
       "registry_name": "double_lamp",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/double_lamp.json",
           "src/main/resources/assets/woncore/blockstates/double_lamp.json",
-          "src/main/resources/assets/woncore/models/block/double_lamp.json",
           "src/main/java/net/mcreator/woncore/block/DoubleLampBlock.java",
-          "src/main/resources/assets/woncore/models/item/double_lamp.json"
+          "src/main/resources/assets/woncore/models/block/double_lamp.json"
         ]
       },
       "path": "~/Admin/lampadaire"
@@ -546,8 +546,8 @@
         "files": [
           "src/main/resources/assets/woncore/models/item/logo_2_d.json",
           "src/main/resources/assets/woncore/models/block/logo_2_d.json",
-          "src/main/resources/assets/woncore/blockstates/logo_2_d.json",
-          "src/main/java/net/mcreator/woncore/block/Logo2DBlock.java"
+          "src/main/java/net/mcreator/woncore/block/Logo2DBlock.java",
+          "src/main/resources/assets/woncore/blockstates/logo_2_d.json"
         ]
       },
       "path": "~/Admin"
@@ -561,25 +561,13 @@
       "registry_name": "logo_red_banner",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/logo_red_banner.json",
-          "src/main/java/net/mcreator/woncore/block/LogoRedBannerBlock.java",
           "src/main/resources/assets/woncore/models/item/logo_red_banner.json",
-          "src/main/resources/assets/woncore/models/block/logo_red_banner.json"
+          "src/main/resources/assets/woncore/models/block/logo_red_banner.json",
+          "src/main/resources/assets/woncore/blockstates/logo_red_banner.json",
+          "src/main/java/net/mcreator/woncore/block/LogoRedBannerBlock.java"
         ]
       },
       "path": "~/Admin"
-    },
-    {
-      "name": "WonItems",
-      "type": "tab",
-      "sortid": 196,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "won_items",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Items"
     },
     {
       "name": "MetalPlate",
@@ -620,8 +608,8 @@
       "registry_name": "aerogel",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/AerogelItem.java",
-          "src/main/resources/assets/woncore/models/item/aerogel.json"
+          "src/main/resources/assets/woncore/models/item/aerogel.json",
+          "src/main/java/net/mcreator/woncore/item/AerogelItem.java"
         ]
       },
       "path": "~/Items"
@@ -635,8 +623,8 @@
       "registry_name": "nuclear_battery",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/nuclear_battery.json",
-          "src/main/java/net/mcreator/woncore/item/NuclearBatteryItem.java"
+          "src/main/java/net/mcreator/woncore/item/NuclearBatteryItem.java",
+          "src/main/resources/assets/woncore/models/item/nuclear_battery.json"
         ]
       },
       "path": "~/Items"
@@ -665,8 +653,8 @@
       "registry_name": "high_voltage_battery",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/HighVoltageBatteryItem.java",
-          "src/main/resources/assets/woncore/models/item/high_voltage_battery.json"
+          "src/main/resources/assets/woncore/models/item/high_voltage_battery.json",
+          "src/main/java/net/mcreator/woncore/item/HighVoltageBatteryItem.java"
         ]
       },
       "path": "~/Items"
@@ -680,8 +668,8 @@
       "registry_name": "gear",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/GearItem.java",
-          "src/main/resources/assets/woncore/models/item/gear.json"
+          "src/main/resources/assets/woncore/models/item/gear.json",
+          "src/main/java/net/mcreator/woncore/item/GearItem.java"
         ]
       },
       "path": "~/Items"
@@ -710,8 +698,8 @@
       "registry_name": "advanced_processor",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/AdvancedProcessorItem.java",
-          "src/main/resources/assets/woncore/models/item/advanced_processor.json"
+          "src/main/resources/assets/woncore/models/item/advanced_processor.json",
+          "src/main/java/net/mcreator/woncore/item/AdvancedProcessorItem.java"
         ]
       },
       "path": "~/Items"
@@ -770,8 +758,8 @@
       "registry_name": "light_engine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/light_engine.json",
-          "src/main/java/net/mcreator/woncore/item/LightEngineItem.java"
+          "src/main/java/net/mcreator/woncore/item/LightEngineItem.java",
+          "src/main/resources/assets/woncore/models/item/light_engine.json"
         ]
       },
       "path": "~/Items"
@@ -800,8 +788,8 @@
       "registry_name": "heavy_engine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/HeavyEngineItem.java",
-          "src/main/resources/assets/woncore/models/item/heavy_engine.json"
+          "src/main/resources/assets/woncore/models/item/heavy_engine.json",
+          "src/main/java/net/mcreator/woncore/item/HeavyEngineItem.java"
         ]
       },
       "path": "~/Items"
@@ -815,8 +803,8 @@
       "registry_name": "ruby",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/ruby.json",
-          "src/main/java/net/mcreator/woncore/item/RubyItem.java"
+          "src/main/java/net/mcreator/woncore/item/RubyItem.java",
+          "src/main/resources/assets/woncore/models/item/ruby.json"
         ]
       },
       "path": "~/Items"
@@ -830,8 +818,8 @@
       "registry_name": "saphire",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/saphire.json",
-          "src/main/java/net/mcreator/woncore/item/SaphireItem.java"
+          "src/main/java/net/mcreator/woncore/item/SaphireItem.java",
+          "src/main/resources/assets/woncore/models/item/saphire.json"
         ]
       },
       "path": "~/Items"
@@ -845,8 +833,8 @@
       "registry_name": "armor_plate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/armor_plate.json",
-          "src/main/java/net/mcreator/woncore/item/ArmorPlateItem.java"
+          "src/main/java/net/mcreator/woncore/item/ArmorPlateItem.java",
+          "src/main/resources/assets/woncore/models/item/armor_plate.json"
         ]
       },
       "path": "~/Items"
@@ -860,8 +848,8 @@
       "registry_name": "tank_cannon",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/TankCannonItem.java",
-          "src/main/resources/assets/woncore/models/item/tank_cannon.json"
+          "src/main/resources/assets/woncore/models/item/tank_cannon.json",
+          "src/main/java/net/mcreator/woncore/item/TankCannonItem.java"
         ]
       },
       "path": "~/Items"
@@ -890,8 +878,8 @@
       "registry_name": "piston",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/PistonItem.java",
-          "src/main/resources/assets/woncore/models/item/piston.json"
+          "src/main/resources/assets/woncore/models/item/piston.json",
+          "src/main/java/net/mcreator/woncore/item/PistonItem.java"
         ]
       },
       "path": "~/Items"
@@ -905,8 +893,8 @@
       "registry_name": "car_body",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/car_body.json",
-          "src/main/java/net/mcreator/woncore/item/CarBodyItem.java"
+          "src/main/java/net/mcreator/woncore/item/CarBodyItem.java",
+          "src/main/resources/assets/woncore/models/item/car_body.json"
         ]
       },
       "path": "~/Items"
@@ -935,8 +923,8 @@
       "registry_name": "upgraded_tank_bedy",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/upgraded_tank_bedy.json",
-          "src/main/java/net/mcreator/woncore/item/UpgradedTankBedyItem.java"
+          "src/main/java/net/mcreator/woncore/item/UpgradedTankBedyItem.java",
+          "src/main/resources/assets/woncore/models/item/upgraded_tank_bedy.json"
         ]
       },
       "path": "~/Items"
@@ -950,8 +938,8 @@
       "registry_name": "epic_tank_body",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/epic_tank_body.json",
-          "src/main/java/net/mcreator/woncore/item/EpicTankBodyItem.java"
+          "src/main/java/net/mcreator/woncore/item/EpicTankBodyItem.java",
+          "src/main/resources/assets/woncore/models/item/epic_tank_body.json"
         ]
       },
       "path": "~/Items"
@@ -995,10 +983,10 @@
       "registry_name": "soldier",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/soldier_chestplate.json",
           "src/main/resources/assets/woncore/models/item/soldier_helmet.json",
-          "src/main/resources/assets/woncore/models/item/soldier_boots.json",
           "src/main/java/net/mcreator/woncore/item/SoldierItem.java",
-          "src/main/resources/assets/woncore/models/item/soldier_chestplate.json"
+          "src/main/resources/assets/woncore/models/item/soldier_boots.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1012,11 +1000,11 @@
       "registry_name": "leather_clothes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/leather_clothes_chestplate.json",
-          "src/main/resources/assets/woncore/models/item/leather_clothes_boots.json",
           "src/main/resources/assets/woncore/models/item/leather_clothes_helmet.json",
           "src/main/resources/assets/woncore/models/item/leather_clothes_leggings.json",
-          "src/main/java/net/mcreator/woncore/item/LeatherClothesItem.java"
+          "src/main/resources/assets/woncore/models/item/leather_clothes_chestplate.json",
+          "src/main/java/net/mcreator/woncore/item/LeatherClothesItem.java",
+          "src/main/resources/assets/woncore/models/item/leather_clothes_boots.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1061,11 +1049,11 @@
       "registry_name": "solid_suit_x_407",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_boots.json",
           "src/main/resources/assets/woncore/models/item/solid_suit_x_407_leggings.json",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_helmet.json",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_chestplate.json",
           "src/main/java/net/mcreator/woncore/item/SolidSuitX407Item.java",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_boots.json"
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_helmet.json",
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_chestplate.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1094,8 +1082,8 @@
       "registry_name": "crown_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/Crown2Item.java",
-          "src/main/resources/assets/woncore/models/item/crown_2_helmet.json"
+          "src/main/resources/assets/woncore/models/item/crown_2_helmet.json",
+          "src/main/java/net/mcreator/woncore/item/Crown2Item.java"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1126,10 +1114,10 @@
       "registry_name": "caisse_premium",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/CaissePremiumBlock.java",
           "src/main/resources/assets/woncore/models/item/caisse_premium.json",
-          "src/main/resources/assets/woncore/blockstates/caisse_premium.json",
-          "src/main/resources/assets/woncore/models/block/caisse_premium.json"
+          "src/main/java/net/mcreator/woncore/block/CaissePremiumBlock.java",
+          "src/main/resources/assets/woncore/models/block/caisse_premium.json",
+          "src/main/resources/assets/woncore/blockstates/caisse_premium.json"
         ]
       },
       "path": "~/Admin/Lootboxs"
@@ -1144,9 +1132,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/woncore/block/CaisseNoelBlock.java",
-          "src/main/resources/assets/woncore/models/item/caisse_noel.json",
           "src/main/resources/assets/woncore/blockstates/caisse_noel.json",
-          "src/main/resources/assets/woncore/models/block/caisse_noel.json"
+          "src/main/resources/assets/woncore/models/block/caisse_noel.json",
+          "src/main/resources/assets/woncore/models/item/caisse_noel.json"
         ]
       },
       "path": "~/Admin/Lootboxs"
@@ -1160,9 +1148,9 @@
       "registry_name": "mercury_ore",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/mercury_ore.json",
           "src/main/java/net/mcreator/woncore/block/MercuryOreBlock.java",
           "src/main/java/net/mcreator/woncore/world/features/ores/MercuryOreFeature.java",
+          "src/main/resources/assets/woncore/models/item/mercury_ore.json",
           "src/main/resources/assets/woncore/models/block/mercury_ore.json",
           "src/main/resources/assets/woncore/blockstates/mercury_ore.json"
         ]
@@ -1178,12 +1166,12 @@
       "registry_name": "mercury",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/mercury.json",
+          "src/main/resources/assets/woncore/blockstates/mercury.json",
           "src/main/java/net/mcreator/woncore/fluid/MercuryFluid.java",
+          "src/main/java/net/mcreator/woncore/item/MercuryItem.java",
           "src/main/resources/assets/woncore/models/item/mercury_bucket.json",
           "src/main/java/net/mcreator/woncore/block/MercuryBlock.java",
-          "src/main/java/net/mcreator/woncore/item/MercuryItem.java",
-          "src/main/resources/assets/woncore/blockstates/mercury.json"
+          "src/main/resources/assets/woncore/models/block/mercury.json"
         ]
       },
       "path": "~/Ressources"
@@ -1242,8 +1230,8 @@
       "registry_name": "key_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/Key2Item.java",
-          "src/main/resources/assets/woncore/models/item/key_2.json"
+          "src/main/resources/assets/woncore/models/item/key_2.json",
+          "src/main/java/net/mcreator/woncore/item/Key2Item.java"
         ]
       },
       "path": "~/Items"
@@ -1287,8 +1275,8 @@
       "registry_name": "hardened_leather_ingot",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/hardened_leather_ingot.json",
-          "src/main/java/net/mcreator/woncore/item/HardenedLeatherIngotItem.java"
+          "src/main/java/net/mcreator/woncore/item/HardenedLeatherIngotItem.java",
+          "src/main/resources/assets/woncore/models/item/hardened_leather_ingot.json"
         ]
       },
       "path": "~/Items"
@@ -1317,8 +1305,8 @@
       "registry_name": "skull",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/skull.json",
-          "src/main/java/net/mcreator/woncore/item/SkullItem.java"
+          "src/main/java/net/mcreator/woncore/item/SkullItem.java",
+          "src/main/resources/assets/woncore/models/item/skull.json"
         ]
       },
       "path": "~/Items"
@@ -1332,8 +1320,8 @@
       "registry_name": "blueprint",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/blueprint.json",
-          "src/main/java/net/mcreator/woncore/item/BlueprintItem.java"
+          "src/main/java/net/mcreator/woncore/item/BlueprintItem.java",
+          "src/main/resources/assets/woncore/models/item/blueprint.json"
         ]
       },
       "path": "~/Items"
@@ -1674,9 +1662,9 @@
       "registry_name": "renforced_concrete",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/renforced_concrete.json",
           "src/main/resources/assets/woncore/blockstates/renforced_concrete.json",
           "src/main/resources/assets/woncore/models/block/renforced_concrete.json",
-          "src/main/resources/assets/woncore/models/item/renforced_concrete.json",
           "src/main/java/net/mcreator/woncore/block/RenforcedConcreteBlock.java"
         ]
       },
@@ -1691,10 +1679,10 @@
       "registry_name": "renforced_concrete_1",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/RenforcedConcrete1Block.java",
           "src/main/resources/assets/woncore/models/item/renforced_concrete_1.json",
+          "src/main/resources/assets/woncore/models/block/renforced_concrete_1.json",
           "src/main/resources/assets/woncore/blockstates/renforced_concrete_1.json",
-          "src/main/resources/assets/woncore/models/block/renforced_concrete_1.json"
+          "src/main/java/net/mcreator/woncore/block/RenforcedConcrete1Block.java"
         ]
       },
       "path": "~/Blocks/Renforced Concrete"
@@ -1708,10 +1696,10 @@
       "registry_name": "renforced_concrete_2",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/RenforcedConcrete2Block.java",
-          "src/main/resources/assets/woncore/blockstates/renforced_concrete_2.json",
           "src/main/resources/assets/woncore/models/item/renforced_concrete_2.json",
-          "src/main/resources/assets/woncore/models/block/renforced_concrete_2.json"
+          "src/main/resources/assets/woncore/models/block/renforced_concrete_2.json",
+          "src/main/java/net/mcreator/woncore/block/RenforcedConcrete2Block.java",
+          "src/main/resources/assets/woncore/blockstates/renforced_concrete_2.json"
         ]
       },
       "path": "~/Blocks/Renforced Concrete"
@@ -1804,10 +1792,10 @@
       "registry_name": "crate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/crate.json",
+          "src/main/java/net/mcreator/woncore/block/CrateBlock.java",
           "src/main/resources/assets/woncore/models/item/crate.json",
           "src/main/resources/assets/woncore/models/block/crate.json",
-          "src/main/java/net/mcreator/woncore/block/CrateBlock.java"
+          "src/main/resources/assets/woncore/blockstates/crate.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks"
@@ -1821,10 +1809,10 @@
       "registry_name": "little_crate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/little_crate.json",
           "src/main/java/net/mcreator/woncore/block/LittleCrateBlock.java",
-          "src/main/resources/assets/woncore/blockstates/little_crate.json",
-          "src/main/resources/assets/woncore/models/block/little_crate.json"
+          "src/main/resources/assets/woncore/models/item/little_crate.json",
+          "src/main/resources/assets/woncore/models/block/little_crate.json",
+          "src/main/resources/assets/woncore/blockstates/little_crate.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks"
@@ -1855,9 +1843,9 @@
       "registry_name": "bamboo_wood",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/bamboo_wood.json",
           "src/main/java/net/mcreator/woncore/block/BambooWoodBlock.java",
           "src/main/resources/assets/woncore/blockstates/bamboo_wood.json",
+          "src/main/resources/assets/woncore/models/item/bamboo_wood.json",
           "src/main/resources/assets/woncore/models/block/bamboo_wood.json"
         ]
       },
@@ -1872,10 +1860,10 @@
       "registry_name": "bamboo_log",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/bamboo_log.json",
+          "src/main/java/net/mcreator/woncore/block/BambooLogBlock.java",
           "src/main/resources/assets/woncore/blockstates/bamboo_log.json",
           "src/main/resources/assets/woncore/models/item/bamboo_log.json",
-          "src/main/java/net/mcreator/woncore/block/BambooLogBlock.java"
+          "src/main/resources/assets/woncore/models/block/bamboo_log.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -1906,11 +1894,11 @@
       "registry_name": "bamboo_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/bamboo_stairs_outer.json",
-          "src/main/resources/assets/woncore/blockstates/bamboo_stairs.json",
-          "src/main/java/net/mcreator/woncore/block/BambooStairsBlock.java",
           "src/main/resources/assets/woncore/models/item/bamboo_stairs.json",
           "src/main/resources/assets/woncore/models/block/bamboo_stairs_inner.json",
+          "src/main/java/net/mcreator/woncore/block/BambooStairsBlock.java",
+          "src/main/resources/assets/woncore/blockstates/bamboo_stairs.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_stairs_outer.json",
           "src/main/resources/assets/woncore/models/block/bamboo_stairs.json"
         ]
       },
@@ -1925,12 +1913,12 @@
       "registry_name": "bamboo_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/bamboo_slab.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_slab_full.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_slab_top.json",
+          "src/main/resources/assets/woncore/models/item/bamboo_slab.json",
           "src/main/resources/assets/woncore/models/block/bamboo_slab.json",
-          "src/main/java/net/mcreator/woncore/block/BambooSlabBlock.java",
-          "src/main/resources/assets/woncore/models/item/bamboo_slab.json"
+          "src/main/resources/assets/woncore/blockstates/bamboo_slab.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_slab_top.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_slab_full.json",
+          "src/main/java/net/mcreator/woncore/block/BambooSlabBlock.java"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -1944,12 +1932,12 @@
       "registry_name": "bamboo_fence",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/bamboo_fence.json",
-          "src/main/resources/assets/woncore/blockstates/bamboo_fence.json",
-          "src/main/java/net/mcreator/woncore/block/BambooFenceBlock.java",
           "src/main/resources/assets/woncore/models/block/bamboo_fence.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_fence_inventory.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_fence_post.json"
+          "src/main/java/net/mcreator/woncore/block/BambooFenceBlock.java",
+          "src/main/resources/assets/woncore/blockstates/bamboo_fence.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_fence_post.json",
+          "src/main/resources/assets/woncore/models/item/bamboo_fence.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_fence_inventory.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -1963,13 +1951,13 @@
       "registry_name": "bamboo_fencegate",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/bamboo_fencegate_wall.json",
-          "src/main/resources/assets/woncore/blockstates/bamboo_fencegate.json",
-          "src/main/java/net/mcreator/woncore/block/BambooFencegateBlock.java",
           "src/main/resources/assets/woncore/models/item/bamboo_fencegate.json",
+          "src/main/resources/assets/woncore/blockstates/bamboo_fencegate.json",
           "src/main/resources/assets/woncore/models/block/bamboo_fencegate_open.json",
+          "src/main/java/net/mcreator/woncore/block/BambooFencegateBlock.java",
+          "src/main/resources/assets/woncore/models/block/bamboo_fencegate.json",
           "src/main/resources/assets/woncore/models/block/bamboo_fencegate_wall_open.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_fencegate.json"
+          "src/main/resources/assets/woncore/models/block/bamboo_fencegate_wall.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -1984,11 +1972,11 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/woncore/models/block/bamboo_button_inventory.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_button_pressed.json",
-          "src/main/java/net/mcreator/woncore/block/BambooButtonBlock.java",
           "src/main/resources/assets/woncore/models/block/bamboo_button.json",
+          "src/main/java/net/mcreator/woncore/block/BambooButtonBlock.java",
           "src/main/resources/assets/woncore/blockstates/bamboo_button.json",
-          "src/main/resources/assets/woncore/models/item/bamboo_button.json"
+          "src/main/resources/assets/woncore/models/item/bamboo_button.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_button_pressed.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -2002,13 +1990,13 @@
       "registry_name": "bamboo_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/bamboo_door.json",
           "src/main/resources/assets/woncore/models/block/bamboo_door_top.json",
-          "src/main/java/net/mcreator/woncore/block/BambooDoorBlock.java",
+          "src/main/resources/assets/woncore/models/block/bamboo_door_bottom.json",
           "src/main/resources/assets/woncore/blockstates/bamboo_door.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_door_bottom_hinge.json",
           "src/main/resources/assets/woncore/models/block/bamboo_door_top_hinge.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_door_bottom.json"
+          "src/main/resources/assets/woncore/models/block/bamboo_door_bottom_hinge.json",
+          "src/main/java/net/mcreator/woncore/block/BambooDoorBlock.java",
+          "src/main/resources/assets/woncore/models/item/bamboo_door.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -2022,12 +2010,12 @@
       "registry_name": "bamboo_trap_door",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/bamboo_trap_door.json",
           "src/main/java/net/mcreator/woncore/block/BambooTrapDoorBlock.java",
           "src/main/resources/assets/woncore/models/item/bamboo_trap_door.json",
+          "src/main/resources/assets/woncore/blockstates/bamboo_trap_door.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_trap_door_top.json",
           "src/main/resources/assets/woncore/models/block/bamboo_trap_door.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_trap_door_open.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_trap_door_top.json"
+          "src/main/resources/assets/woncore/models/block/bamboo_trap_door_open.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -2041,10 +2029,10 @@
       "registry_name": "bamboo_mosaic",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/bamboo_mosaic.json",
           "src/main/java/net/mcreator/woncore/block/BambooMosaicBlock.java",
-          "src/main/resources/assets/woncore/models/item/bamboo_mosaic.json",
-          "src/main/resources/assets/woncore/blockstates/bamboo_mosaic.json"
+          "src/main/resources/assets/woncore/blockstates/bamboo_mosaic.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_mosaic.json",
+          "src/main/resources/assets/woncore/models/item/bamboo_mosaic.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -2058,12 +2046,12 @@
       "registry_name": "bamboo_mosaic_stairs",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_stairs_outer.json",
-          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_stairs_inner.json",
           "src/main/resources/assets/woncore/models/item/bamboo_mosaic_stairs.json",
-          "src/main/resources/assets/woncore/blockstates/bamboo_mosaic_stairs.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_stairs.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_stairs_inner.json",
           "src/main/java/net/mcreator/woncore/block/BambooMosaicStairsBlock.java",
-          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_stairs.json"
+          "src/main/resources/assets/woncore/blockstates/bamboo_mosaic_stairs.json",
+          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_stairs_outer.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -2077,11 +2065,11 @@
       "registry_name": "bamboo_mosaic_slab",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_slab.json",
           "src/main/resources/assets/woncore/models/block/bamboo_mosaic_slab_top.json",
-          "src/main/resources/assets/woncore/models/item/bamboo_mosaic_slab.json",
-          "src/main/java/net/mcreator/woncore/block/BambooMosaicSlabBlock.java",
           "src/main/resources/assets/woncore/models/block/bamboo_mosaic_slab_full.json",
+          "src/main/java/net/mcreator/woncore/block/BambooMosaicSlabBlock.java",
+          "src/main/resources/assets/woncore/models/block/bamboo_mosaic_slab.json",
+          "src/main/resources/assets/woncore/models/item/bamboo_mosaic_slab.json",
           "src/main/resources/assets/woncore/blockstates/bamboo_mosaic_slab.json"
         ]
       },
@@ -2207,11 +2195,11 @@
       "registry_name": "bamboo_pressure_plate",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/BambooPressurePlateBlock.java",
-          "src/main/resources/assets/woncore/models/block/bamboo_pressure_plate.json",
           "src/main/resources/assets/woncore/models/block/bamboo_pressure_plate_down.json",
+          "src/main/java/net/mcreator/woncore/block/BambooPressurePlateBlock.java",
+          "src/main/resources/assets/woncore/blockstates/bamboo_pressure_plate.json",
           "src/main/resources/assets/woncore/models/item/bamboo_pressure_plate.json",
-          "src/main/resources/assets/woncore/blockstates/bamboo_pressure_plate.json"
+          "src/main/resources/assets/woncore/models/block/bamboo_pressure_plate.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Bamboo"
@@ -2337,10 +2325,10 @@
       "registry_name": "cypress",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/cypress.json",
           "src/main/resources/assets/woncore/models/block/cypress.json",
-          "src/main/resources/assets/woncore/blockstates/cypress.json",
-          "src/main/java/net/mcreator/woncore/block/CypressBlock.java"
+          "src/main/java/net/mcreator/woncore/block/CypressBlock.java",
+          "src/main/resources/assets/woncore/models/item/cypress.json",
+          "src/main/resources/assets/woncore/blockstates/cypress.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks"
@@ -2354,10 +2342,10 @@
       "registry_name": "banc",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/banc.json",
+          "src/main/resources/assets/woncore/models/block/banc.json",
           "src/main/resources/assets/woncore/models/item/banc.json",
           "src/main/java/net/mcreator/woncore/block/BancBlock.java",
-          "src/main/resources/assets/woncore/models/block/banc.json"
+          "src/main/resources/assets/woncore/blockstates/banc.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks"
@@ -2371,10 +2359,10 @@
       "registry_name": "ammunition",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/ammunition.json",
           "src/main/java/net/mcreator/woncore/block/AmmunitionBlock.java",
+          "src/main/resources/assets/woncore/models/item/ammunition.json",
           "src/main/resources/assets/woncore/blockstates/ammunition.json",
-          "src/main/resources/assets/woncore/models/item/ammunition.json"
+          "src/main/resources/assets/woncore/models/block/ammunition.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks"
@@ -2433,8 +2421,8 @@
       "registry_name": "crank_shaft",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/crank_shaft.json",
-          "src/main/java/net/mcreator/woncore/item/CrankShaftItem.java"
+          "src/main/java/net/mcreator/woncore/item/CrankShaftItem.java",
+          "src/main/resources/assets/woncore/models/item/crank_shaft.json"
         ]
       },
       "path": "~/Items"
@@ -2463,8 +2451,8 @@
       "registry_name": "reinforced_plating",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/ReinforcedPlatingItem.java",
-          "src/main/resources/assets/woncore/models/item/reinforced_plating.json"
+          "src/main/resources/assets/woncore/models/item/reinforced_plating.json",
+          "src/main/java/net/mcreator/woncore/item/ReinforcedPlatingItem.java"
         ]
       },
       "path": "~/Items"
@@ -2494,9 +2482,9 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/woncore/block/WhiteCrystalBlock.java",
+          "src/main/resources/assets/woncore/blockstates/white_crystal.json",
           "src/main/resources/assets/woncore/models/item/white_crystal.json",
-          "src/main/resources/assets/woncore/models/block/white_crystal.json",
-          "src/main/resources/assets/woncore/blockstates/white_crystal.json"
+          "src/main/resources/assets/woncore/models/block/white_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2510,10 +2498,10 @@
       "registry_name": "yellow_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/YellowCrystalBlock.java",
-          "src/main/resources/assets/woncore/models/block/yellow_crystal.json",
           "src/main/resources/assets/woncore/models/item/yellow_crystal.json",
-          "src/main/resources/assets/woncore/blockstates/yellow_crystal.json"
+          "src/main/resources/assets/woncore/blockstates/yellow_crystal.json",
+          "src/main/resources/assets/woncore/models/block/yellow_crystal.json",
+          "src/main/java/net/mcreator/woncore/block/YellowCrystalBlock.java"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2527,10 +2515,10 @@
       "registry_name": "red_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/RedCrystalBlock.java",
           "src/main/resources/assets/woncore/blockstates/red_crystal.json",
-          "src/main/resources/assets/woncore/models/block/red_crystal.json",
-          "src/main/resources/assets/woncore/models/item/red_crystal.json"
+          "src/main/java/net/mcreator/woncore/block/RedCrystalBlock.java",
+          "src/main/resources/assets/woncore/models/item/red_crystal.json",
+          "src/main/resources/assets/woncore/models/block/red_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2544,9 +2532,9 @@
       "registry_name": "purple_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/PurpleCrystalBlock.java",
-          "src/main/resources/assets/woncore/models/block/purple_crystal.json",
           "src/main/resources/assets/woncore/models/item/purple_crystal.json",
+          "src/main/resources/assets/woncore/models/block/purple_crystal.json",
+          "src/main/java/net/mcreator/woncore/block/PurpleCrystalBlock.java",
           "src/main/resources/assets/woncore/blockstates/purple_crystal.json"
         ]
       },
@@ -2562,8 +2550,8 @@
       "metadata": {
         "files": [
           "src/main/java/net/mcreator/woncore/block/PinkCrystalBlock.java",
-          "src/main/resources/assets/woncore/blockstates/pink_crystal.json",
           "src/main/resources/assets/woncore/models/block/pink_crystal.json",
+          "src/main/resources/assets/woncore/blockstates/pink_crystal.json",
           "src/main/resources/assets/woncore/models/item/pink_crystal.json"
         ]
       },
@@ -2578,9 +2566,9 @@
       "registry_name": "orange_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/orange_crystal.json",
           "src/main/java/net/mcreator/woncore/block/OrangeCrystalBlock.java",
           "src/main/resources/assets/woncore/models/item/orange_crystal.json",
+          "src/main/resources/assets/woncore/blockstates/orange_crystal.json",
           "src/main/resources/assets/woncore/models/block/orange_crystal.json"
         ]
       },
@@ -2595,9 +2583,9 @@
       "registry_name": "magenta_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/MagentaCrystalBlock.java",
-          "src/main/resources/assets/woncore/models/block/magenta_crystal.json",
           "src/main/resources/assets/woncore/blockstates/magenta_crystal.json",
+          "src/main/resources/assets/woncore/models/block/magenta_crystal.json",
+          "src/main/java/net/mcreator/woncore/block/MagentaCrystalBlock.java",
           "src/main/resources/assets/woncore/models/item/magenta_crystal.json"
         ]
       },
@@ -2613,9 +2601,9 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/woncore/models/item/lime_crystal.json",
-          "src/main/java/net/mcreator/woncore/block/LimeCrystalBlock.java",
+          "src/main/resources/assets/woncore/blockstates/lime_crystal.json",
           "src/main/resources/assets/woncore/models/block/lime_crystal.json",
-          "src/main/resources/assets/woncore/blockstates/lime_crystal.json"
+          "src/main/java/net/mcreator/woncore/block/LimeCrystalBlock.java"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2629,10 +2617,10 @@
       "registry_name": "light_gray_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/light_gray_crystal.json",
           "src/main/java/net/mcreator/woncore/block/LightGrayCrystalBlock.java",
+          "src/main/resources/assets/woncore/models/item/light_gray_crystal.json",
           "src/main/resources/assets/woncore/models/block/light_gray_crystal.json",
-          "src/main/resources/assets/woncore/models/item/light_gray_crystal.json"
+          "src/main/resources/assets/woncore/blockstates/light_gray_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2646,10 +2634,10 @@
       "registry_name": "light_blue_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/light_blue_crystal.json",
-          "src/main/java/net/mcreator/woncore/block/LightBlueCrystalBlock.java",
+          "src/main/resources/assets/woncore/models/block/light_blue_crystal.json",
           "src/main/resources/assets/woncore/blockstates/light_blue_crystal.json",
-          "src/main/resources/assets/woncore/models/block/light_blue_crystal.json"
+          "src/main/resources/assets/woncore/models/item/light_blue_crystal.json",
+          "src/main/java/net/mcreator/woncore/block/LightBlueCrystalBlock.java"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2663,10 +2651,10 @@
       "registry_name": "green_crystal",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/blockstates/green_crystal.json",
           "src/main/resources/assets/woncore/models/block/green_crystal.json",
           "src/main/java/net/mcreator/woncore/block/GreenCrystalBlock.java",
-          "src/main/resources/assets/woncore/models/item/green_crystal.json",
-          "src/main/resources/assets/woncore/blockstates/green_crystal.json"
+          "src/main/resources/assets/woncore/models/item/green_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2680,10 +2668,10 @@
       "registry_name": "gray_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/GrayCrystalBlock.java",
           "src/main/resources/assets/woncore/models/item/gray_crystal.json",
-          "src/main/resources/assets/woncore/blockstates/gray_crystal.json",
-          "src/main/resources/assets/woncore/models/block/gray_crystal.json"
+          "src/main/resources/assets/woncore/models/block/gray_crystal.json",
+          "src/main/java/net/mcreator/woncore/block/GrayCrystalBlock.java",
+          "src/main/resources/assets/woncore/blockstates/gray_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2699,8 +2687,8 @@
         "files": [
           "src/main/java/net/mcreator/woncore/block/CyanCrystalBlock.java",
           "src/main/resources/assets/woncore/models/item/cyan_crystal.json",
-          "src/main/resources/assets/woncore/models/block/cyan_crystal.json",
-          "src/main/resources/assets/woncore/blockstates/cyan_crystal.json"
+          "src/main/resources/assets/woncore/blockstates/cyan_crystal.json",
+          "src/main/resources/assets/woncore/models/block/cyan_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2714,8 +2702,8 @@
       "registry_name": "brown_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/block/brown_crystal.json",
           "src/main/java/net/mcreator/woncore/block/BrownCrystalBlock.java",
+          "src/main/resources/assets/woncore/models/block/brown_crystal.json",
           "src/main/resources/assets/woncore/blockstates/brown_crystal.json",
           "src/main/resources/assets/woncore/models/item/brown_crystal.json"
         ]
@@ -2731,10 +2719,10 @@
       "registry_name": "blue_crystal",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/blockstates/blue_crystal.json",
           "src/main/resources/assets/woncore/models/item/blue_crystal.json",
           "src/main/resources/assets/woncore/models/block/blue_crystal.json",
-          "src/main/java/net/mcreator/woncore/block/BlueCrystalBlock.java"
+          "src/main/java/net/mcreator/woncore/block/BlueCrystalBlock.java",
+          "src/main/resources/assets/woncore/blockstates/blue_crystal.json"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2748,10 +2736,10 @@
       "registry_name": "black_crystal",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/block/BlackCrystalBlock.java",
           "src/main/resources/assets/woncore/blockstates/black_crystal.json",
+          "src/main/resources/assets/woncore/models/block/black_crystal.json",
           "src/main/resources/assets/woncore/models/item/black_crystal.json",
-          "src/main/resources/assets/woncore/models/block/black_crystal.json"
+          "src/main/java/net/mcreator/woncore/block/BlackCrystalBlock.java"
         ]
       },
       "path": "~/Blocks/Decorations Blocks/Cystal Block"
@@ -2782,6 +2770,18 @@
         "files": []
       },
       "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "Items",
+      "type": "tab",
+      "sortid": 349,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "items",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
     }
   ],
   "variable_elements": [
@@ -2829,8 +2829,8 @@
       "item.woncore.reinforced_plating": "Reinforced Plating",
       "item.woncore.hardened_leather_ingot": "Hardened Leather Ingot",
       "subtitles.stg44firedistant": "",
-      "item.spaghettis.name": "Spaghettis",
       "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
+      "item.spaghettis.name": "Spaghettis",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Slab",
       "item.chocolate_milkshake.name": "Chocolate Milkshake",
       "item.woncore.piston": "Piston",
@@ -2849,9 +2849,9 @@
       "item.woncore.mastodonte_chestplate": "Mastodonte Body",
       "block.woncore.brown_crystal": "Brown Crystal",
       "item.woncore.tactical_chestplate": "Tactical Body",
-      "item.void_stone.name": "Void Stone",
-      "item.rice_cake.name": "Rice Cake",
       "item.pistons.name": "Pistons",
+      "item.rice_cake.name": "Rice Cake",
+      "item.void_stone.name": "Void Stone",
       "key.woncore.night_vision": "Night Vision (with armors)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Purple Crystal",
@@ -3025,13 +3025,13 @@
       "block.woncore.yellow_crystal": "Yellow Crystal",
       "item.woncore.gun_barrel": "Gun Barrel",
       "item.woncore.hardened_leather_helmet": "Hardened Leather Helmet",
+      "itemGroup.tabitems": "WoN Items",
       "subtitles.stg44fire": "",
       "block.woncore.bamboo_wood": "Bamboo",
       "block.woncore.caisse_premium": "Caisse Premium",
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
       "item.woncore.processor": "Processor",
       "item.orange_sandwich.name": "Orange Sandwich",
-      "itemGroup.tabwon_items": "WoN Items",
       "item.toast.name": "Toast",
       "block.woncore.logo_won": "Logo WON",
       "block.woncore.lime_crystal": "Lime Crystal",
@@ -3076,8 +3076,8 @@
       "item.woncore.reinforced_plating": "Plaques renforcées",
       "item.woncore.hardened_leather_ingot": "Cuir renforcé",
       "subtitles.stg44firedistant": "",
-      "item.spaghettis.name": "Spaghettis",
       "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Escaliers",
+      "item.spaghettis.name": "Spaghettis",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Dalle",
       "item.chocolate_milkshake.name": "Milkshake au chocolat",
       "item.woncore.piston": "Piston",
@@ -3096,9 +3096,9 @@
       "item.woncore.mastodonte_chestplate": "Plastron de Mastodonte",
       "block.woncore.brown_crystal": "Crystal Marron",
       "item.woncore.tactical_chestplate": "Plastron tactique",
-      "item.void_stone.name": "Pierre du vide",
-      "item.rice_cake.name": "Gâteau de riz",
       "item.pistons.name": "Pistons",
+      "item.rice_cake.name": "Gâteau de riz",
+      "item.void_stone.name": "Pierre du vide",
       "key.woncore.night_vision": "Night Vision (avec armures)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Crystal Violet",
@@ -3272,13 +3272,13 @@
       "block.woncore.yellow_crystal": "Crystal Jaune",
       "item.woncore.gun_barrel": "Canon de fusil",
       "item.woncore.hardened_leather_helmet": "Casque en cuir renforcé",
+      "itemGroup.tabitems": "WoN Items",
       "subtitles.stg44fire": "",
       "block.woncore.bamboo_wood": "Bamboo",
       "block.woncore.caisse_premium": "Caisse Premium",
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
       "item.woncore.processor": "Processeur",
       "item.orange_sandwich.name": "Sandwich à l\u0027orange",
-      "itemGroup.tabwon_items": "Won Items",
       "item.toast.name": "Pain grillé",
       "block.woncore.logo_won": "Logo WON",
       "block.woncore.lime_crystal": "Crystal Lime",
@@ -3381,6 +3381,10 @@
       },
       {
         "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Tabs",
         "children": []
       }
     ]

@@ -8,6 +8,6 @@ import net.mcreator.woncore.init.WoncoreModTabs;
 
 public class DelimitationFlagItem extends Item {
 	public DelimitationFlagItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_WON_ITEMS).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_TOOLS).stacksTo(1).rarity(Rarity.COMMON));
 	}
 }
