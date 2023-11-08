@@ -14,7 +14,7 @@
       "name": "TacticalBodyTickEvent"
     },
     "creativeTab": {
-      "value": "CUSTOM:WonStuff"
+      "value": "CUSTOM:Combat"
     },
     "armorTextureFile": "tactical",
     "helmetName": "Tactical Helmet",

@@ -79,7 +79,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 	public static class Helmet extends MastodonteItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF).fireResistant());
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT).fireResistant());
 		}
 
 		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
@@ -107,7 +107,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 	public static class Chestplate extends MastodonteItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF).fireResistant());
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT).fireResistant());
 		}
 
 		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
@@ -140,7 +140,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 	public static class Leggings extends MastodonteItem {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF).fireResistant());
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT).fireResistant());
 		}
 
 		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
@@ -169,7 +169,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 	public static class Boots extends MastodonteItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF).fireResistant());
+			super(EquipmentSlot.FEET, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT).fireResistant());
 		}
 
 		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {

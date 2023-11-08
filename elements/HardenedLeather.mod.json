@@ -11,7 +11,7 @@
     "enableBoots": true,
     "textureBoots": "hardenedleatherbootsitem",
     "creativeTab": {
-      "value": "CUSTOM:WonStuff"
+      "value": "CUSTOM:Combat"
     },
     "armorTextureFile": "hl_",
     "helmetName": "Hardened Leather Helmet",

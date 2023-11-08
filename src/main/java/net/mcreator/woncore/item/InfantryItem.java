@@ -62,7 +62,7 @@ public abstract class InfantryItem extends ArmorItem {
 
 	public static class Helmet extends InfantryItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override

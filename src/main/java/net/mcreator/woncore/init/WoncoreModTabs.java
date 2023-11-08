@@ -11,24 +11,13 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
 public class WoncoreModTabs {
-	public static CreativeModeTab TAB_WON_STUFF;
 	public static CreativeModeTab TAB_ADMIN;
 	public static CreativeModeTab TAB_WORLD_OF_NATIONS_BLOCKS;
 	public static CreativeModeTab TAB_TOOLS;
 	public static CreativeModeTab TAB_ITEMS;
+	public static CreativeModeTab TAB_COMBAT;
 
 	public static void load() {
-		TAB_WON_STUFF = new CreativeModeTab("tabwon_stuff") {
-			@Override
-			public ItemStack makeIcon() {
-				return new ItemStack(WoncoreModItems.MASTODONTE_HELMET.get());
-			}
-
-			@OnlyIn(Dist.CLIENT)
-			public boolean hasSearchBar() {
-				return false;
-			}
-		};
 		TAB_ADMIN = new CreativeModeTab("tabadmin") {
 			@Override
 			public ItemStack makeIcon() {
@@ -66,6 +55,17 @@ public class WoncoreModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(WoncoreModItems.MONEY.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_COMBAT = new CreativeModeTab("tabcombat") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(WoncoreModItems.MASTODONTE_CHESTPLATE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

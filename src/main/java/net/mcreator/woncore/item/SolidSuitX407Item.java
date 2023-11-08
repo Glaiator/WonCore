@@ -65,7 +65,7 @@ public abstract class SolidSuitX407Item extends ArmorItem {
 
 	public static class Helmet extends SolidSuitX407Item {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override
@@ -76,7 +76,7 @@ public abstract class SolidSuitX407Item extends ArmorItem {
 
 	public static class Chestplate extends SolidSuitX407Item {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override
@@ -92,7 +92,7 @@ public abstract class SolidSuitX407Item extends ArmorItem {
 
 	public static class Leggings extends SolidSuitX407Item {
 		public Leggings() {
-			super(EquipmentSlot.LEGS, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.LEGS, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override
@@ -103,7 +103,7 @@ public abstract class SolidSuitX407Item extends ArmorItem {
 
 	public static class Boots extends SolidSuitX407Item {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override

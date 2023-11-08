@@ -4,7 +4,7 @@
   "definition": {
     "name": "WoN Combat",
     "icon": {
-      "value": "CUSTOM:Mastodonte.helmet"
+      "value": "CUSTOM:Mastodonte.body"
     },
     "showSearch": false
   }

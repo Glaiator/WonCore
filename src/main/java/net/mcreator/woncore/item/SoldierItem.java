@@ -63,7 +63,7 @@ public abstract class SoldierItem extends ArmorItem {
 
 	public static class Helmet extends SoldierItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.HEAD, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override
@@ -74,7 +74,7 @@ public abstract class SoldierItem extends ArmorItem {
 
 	public static class Chestplate extends SoldierItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.CHEST, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override
@@ -85,7 +85,7 @@ public abstract class SoldierItem extends ArmorItem {
 
 	public static class Boots extends SoldierItem {
 		public Boots() {
-			super(EquipmentSlot.FEET, new Item.Properties().tab(WoncoreModTabs.TAB_WON_STUFF));
+			super(EquipmentSlot.FEET, new Item.Properties().tab(WoncoreModTabs.TAB_COMBAT));
 		}
 
 		@Override
