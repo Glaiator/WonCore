@@ -61,6 +61,7 @@ import net.mcreator.woncore.item.HardenedLeatherIngotItem;
 import net.mcreator.woncore.item.GunBarrelItem;
 import net.mcreator.woncore.item.GlassLensItem;
 import net.mcreator.woncore.item.GearItem;
+import net.mcreator.woncore.item.FuelItem;
 import net.mcreator.woncore.item.FlagItem;
 import net.mcreator.woncore.item.EpicTankBodyItem;
 import net.mcreator.woncore.item.DelimitationFlagItem;
@@ -217,6 +218,7 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> BLUE_CRYSTAL = block(WoncoreModBlocks.BLUE_CRYSTAL, WoncoreModTabs.TAB_WORLD_OF_NATIONS_BLOCKS);
 	public static final RegistryObject<Item> BLACK_CRYSTAL = block(WoncoreModBlocks.BLACK_CRYSTAL, WoncoreModTabs.TAB_WORLD_OF_NATIONS_BLOCKS);
 	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
+	public static final RegistryObject<Item> FUEL = REGISTRY.register("fuel", () -> new FuelItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
