@@ -87,10 +87,10 @@
         "ec": true,
         "files": [
           "src/main/resources/assets/woncore/models/item/mastodonte_helmet.json",
-          "src/main/java/net/mcreator/woncore/item/MastodonteItem.java",
+          "src/main/resources/assets/woncore/models/item/mastodonte_leggings.json",
           "src/main/resources/assets/woncore/models/item/mastodonte_boots.json",
           "src/main/resources/assets/woncore/models/item/mastodonte_chestplate.json",
-          "src/main/resources/assets/woncore/models/item/mastodonte_leggings.json"
+          "src/main/java/net/mcreator/woncore/item/MastodonteItem.java"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -225,11 +225,11 @@
       "registry_name": "hardened_leather",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/hardened_leather_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/hardened_leather_leggings.json",
           "src/main/java/net/mcreator/woncore/item/HardenedLeatherItem.java",
-          "src/main/resources/assets/woncore/models/item/hardened_leather_boots.json",
           "src/main/resources/assets/woncore/models/item/hardened_leather_helmet.json",
-          "src/main/resources/assets/woncore/models/item/hardened_leather_leggings.json"
+          "src/main/resources/assets/woncore/models/item/hardened_leather_boots.json",
+          "src/main/resources/assets/woncore/models/item/hardened_leather_chestplate.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -971,9 +971,9 @@
       "registry_name": "soldier",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/soldier_chestplate.json",
           "src/main/resources/assets/woncore/models/item/soldier_helmet.json",
           "src/main/java/net/mcreator/woncore/item/SoldierItem.java",
+          "src/main/resources/assets/woncore/models/item/soldier_chestplate.json",
           "src/main/resources/assets/woncore/models/item/soldier_boots.json"
         ]
       },
@@ -988,11 +988,11 @@
       "registry_name": "leather_clothes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/leather_clothes_helmet.json",
           "src/main/resources/assets/woncore/models/item/leather_clothes_leggings.json",
-          "src/main/resources/assets/woncore/models/item/leather_clothes_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/leather_clothes_helmet.json",
           "src/main/java/net/mcreator/woncore/item/LeatherClothesItem.java",
-          "src/main/resources/assets/woncore/models/item/leather_clothes_boots.json"
+          "src/main/resources/assets/woncore/models/item/leather_clothes_boots.json",
+          "src/main/resources/assets/woncore/models/item/leather_clothes_chestplate.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1006,9 +1006,9 @@
       "registry_name": "tactical",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/tactical_helmet.json",
           "src/main/java/net/mcreator/woncore/item/TacticalItem.java",
-          "src/main/resources/assets/woncore/models/item/tactical_chestplate.json",
-          "src/main/resources/assets/woncore/models/item/tactical_helmet.json"
+          "src/main/resources/assets/woncore/models/item/tactical_chestplate.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1022,8 +1022,8 @@
       "registry_name": "infantry",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/infantry_helmet.json",
-          "src/main/java/net/mcreator/woncore/item/InfantryItem.java"
+          "src/main/java/net/mcreator/woncore/item/InfantryItem.java",
+          "src/main/resources/assets/woncore/models/item/infantry_helmet.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1037,11 +1037,11 @@
       "registry_name": "solid_suit_x_407",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_chestplate.json",
           "src/main/resources/assets/woncore/models/item/solid_suit_x_407_boots.json",
           "src/main/resources/assets/woncore/models/item/solid_suit_x_407_leggings.json",
           "src/main/java/net/mcreator/woncore/item/SolidSuitX407Item.java",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_helmet.json",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_chestplate.json"
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_helmet.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -1055,8 +1055,8 @@
       "registry_name": "crown",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/CrownItem.java",
-          "src/main/resources/assets/woncore/models/item/crown_helmet.json"
+          "src/main/resources/assets/woncore/models/item/crown_helmet.json",
+          "src/main/java/net/mcreator/woncore/item/CrownItem.java"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -2797,6 +2797,24 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "FuturisteArmor",
+      "type": "armor",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "futuriste_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_boots.json",
+          "src/main/java/net/mcreator/woncore/item/FuturisteArmorItem.java",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_helmet.json",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_leggings.json"
+        ]
+      },
+      "path": "~/Stuffs/Armures"
     }
   ],
   "variable_elements": [
@@ -2918,6 +2936,7 @@
       "item.woncore.tactical_helmet": "Tactical Helmet",
       "tile.lettuce_crop_1.name": "Lettuce Crop",
       "item.woncore.soldier_boots": "Soldier Boots",
+      "item.woncore.futuriste_armor_leggings": "Futuriste Leggings",
       "item.woncore.delimitation_flag": "Delimitation Flag",
       "subtitles.stg44reload": "",
       "item.apricot_smoothie.name": "Apricot Smoothie",
@@ -3032,11 +3051,13 @@
       "item.woncore.mastodonte_helmet": "Mastodonte Helmet",
       "item.hamburger.name": "Hamburger",
       "item.woncore.leather_clothes_chestplate": "Leather Clothes Body",
+      "item.woncore.futuriste_armor_helmet": "Futuriste Helmet",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bamboo Button",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Copper Coil",
       "item.woncore.cylinder": "Cylinder",
+      "item.woncore.futuriste_armor_boots": "Futuriste Boots",
       "item.woncore.key": "Key",
       "block.woncore.yellow_crystal": "Yellow Crystal",
       "item.woncore.gun_barrel": "Gun Barrel",
@@ -3055,6 +3076,7 @@
       "block.woncore.black_crystal": "Black Crystal",
       "item.caramel_apple.name": "Caramel Apple",
       "block.woncore.gray_crystal": "Gray Crystal",
+      "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.heavy_engine": "Heavy Engine",
       "item.woncore.void_stone": "Void Stone",
       "fluid.woncore.mercury": "Mercury",
@@ -3166,6 +3188,7 @@
       "item.woncore.tactical_helmet": "Casque tactique",
       "tile.lettuce_crop_1.name": "Lettuce Crop",
       "item.woncore.soldier_boots": "Bottes de soldat",
+      "item.woncore.futuriste_armor_leggings": "Futuriste Leggings",
       "item.woncore.delimitation_flag": "Drapeau de délimitation",
       "subtitles.stg44reload": "",
       "item.apricot_smoothie.name": "Smoothie à l\u0027abricot",
@@ -3280,11 +3303,13 @@
       "item.woncore.mastodonte_helmet": "Casque de Mastodonte",
       "item.hamburger.name": "Hamburger",
       "item.woncore.leather_clothes_chestplate": "Plastron en cuir",
+      "item.woncore.futuriste_armor_helmet": "Futuriste Helmet",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bouton Bamboo",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Bobine de cuivre",
       "item.woncore.cylinder": "Cylinder",
+      "item.woncore.futuriste_armor_boots": "Futuriste Boots",
       "item.woncore.key": "Clé",
       "block.woncore.yellow_crystal": "Crystal Jaune",
       "item.woncore.gun_barrel": "Canon de fusil",
@@ -3303,6 +3328,7 @@
       "block.woncore.black_crystal": "Crystal Noir",
       "item.caramel_apple.name": "Pomme au caramel",
       "block.woncore.gray_crystal": "Crystal Gris",
+      "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.heavy_engine": "Moteur lourd",
       "item.woncore.void_stone": "Pierre du vide",
       "fluid.woncore.mercury": "Mercure",

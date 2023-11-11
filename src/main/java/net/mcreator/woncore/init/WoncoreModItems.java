@@ -61,6 +61,7 @@ import net.mcreator.woncore.item.HardenedLeatherIngotItem;
 import net.mcreator.woncore.item.GunBarrelItem;
 import net.mcreator.woncore.item.GlassLensItem;
 import net.mcreator.woncore.item.GearItem;
+import net.mcreator.woncore.item.FuturisteArmorItem;
 import net.mcreator.woncore.item.FuelItem;
 import net.mcreator.woncore.item.FlagItem;
 import net.mcreator.woncore.item.EpicTankBodyItem;
@@ -219,6 +220,10 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> BLACK_CRYSTAL = block(WoncoreModBlocks.BLACK_CRYSTAL, WoncoreModTabs.TAB_WORLD_OF_NATIONS_BLOCKS);
 	public static final RegistryObject<Item> KATANA = REGISTRY.register("katana", () -> new KatanaItem());
 	public static final RegistryObject<Item> FUEL = REGISTRY.register("fuel", () -> new FuelItem());
+	public static final RegistryObject<Item> FUTURISTE_ARMOR_HELMET = REGISTRY.register("futuriste_armor_helmet", () -> new FuturisteArmorItem.Helmet());
+	public static final RegistryObject<Item> FUTURISTE_ARMOR_CHESTPLATE = REGISTRY.register("futuriste_armor_chestplate", () -> new FuturisteArmorItem.Chestplate());
+	public static final RegistryObject<Item> FUTURISTE_ARMOR_LEGGINGS = REGISTRY.register("futuriste_armor_leggings", () -> new FuturisteArmorItem.Leggings());
+	public static final RegistryObject<Item> FUTURISTE_ARMOR_BOOTS = REGISTRY.register("futuriste_armor_boots", () -> new FuturisteArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
