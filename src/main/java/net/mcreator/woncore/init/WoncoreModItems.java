@@ -20,6 +20,7 @@ import net.mcreator.woncore.item.USBKeyItem;
 import net.mcreator.woncore.item.TankCannonItem;
 import net.mcreator.woncore.item.TankBodyItem;
 import net.mcreator.woncore.item.TacticalItem;
+import net.mcreator.woncore.item.TacticalArmorItem;
 import net.mcreator.woncore.item.SteelShieldItem;
 import net.mcreator.woncore.item.SpringItem;
 import net.mcreator.woncore.item.SolidSuitX407Item;
@@ -77,6 +78,7 @@ import net.mcreator.woncore.item.BandageItem;
 import net.mcreator.woncore.item.BagItem;
 import net.mcreator.woncore.item.ArmorPlateItem;
 import net.mcreator.woncore.item.AircraftWingSectionItem;
+import net.mcreator.woncore.item.AgentArmorItem;
 import net.mcreator.woncore.item.AerogelItem;
 import net.mcreator.woncore.item.AdvancedProcessorItem;
 import net.mcreator.woncore.item.AdvancedEngineItem;
@@ -224,6 +226,14 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> FUTURISTE_ARMOR_CHESTPLATE = REGISTRY.register("futuriste_armor_chestplate", () -> new FuturisteArmorItem.Chestplate());
 	public static final RegistryObject<Item> FUTURISTE_ARMOR_LEGGINGS = REGISTRY.register("futuriste_armor_leggings", () -> new FuturisteArmorItem.Leggings());
 	public static final RegistryObject<Item> FUTURISTE_ARMOR_BOOTS = REGISTRY.register("futuriste_armor_boots", () -> new FuturisteArmorItem.Boots());
+	public static final RegistryObject<Item> TACTICAL_ARMOR_HELMET = REGISTRY.register("tactical_armor_helmet", () -> new TacticalArmorItem.Helmet());
+	public static final RegistryObject<Item> TACTICAL_ARMOR_CHESTPLATE = REGISTRY.register("tactical_armor_chestplate", () -> new TacticalArmorItem.Chestplate());
+	public static final RegistryObject<Item> TACTICAL_ARMOR_LEGGINGS = REGISTRY.register("tactical_armor_leggings", () -> new TacticalArmorItem.Leggings());
+	public static final RegistryObject<Item> TACTICAL_ARMOR_BOOTS = REGISTRY.register("tactical_armor_boots", () -> new TacticalArmorItem.Boots());
+	public static final RegistryObject<Item> AGENT_ARMOR_HELMET = REGISTRY.register("agent_armor_helmet", () -> new AgentArmorItem.Helmet());
+	public static final RegistryObject<Item> AGENT_ARMOR_CHESTPLATE = REGISTRY.register("agent_armor_chestplate", () -> new AgentArmorItem.Chestplate());
+	public static final RegistryObject<Item> AGENT_ARMOR_LEGGINGS = REGISTRY.register("agent_armor_leggings", () -> new AgentArmorItem.Leggings());
+	public static final RegistryObject<Item> AGENT_ARMOR_BOOTS = REGISTRY.register("agent_armor_boots", () -> new AgentArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
