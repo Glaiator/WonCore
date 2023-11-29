@@ -2784,16 +2784,76 @@
       "path": "~/Tabs"
     },
     {
-      "name": "Fuel",
+      "name": "Magazine",
       "type": "item",
       "sortid": 351,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "fuel",
+      "registry_name": "magazine",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/FuelItem.java",
-          "src/main/resources/assets/woncore/models/item/fuel.json"
+          "src/main/resources/assets/woncore/models/item/magazine.json",
+          "src/main/java/net/mcreator/woncore/item/MagazineItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Gachette",
+      "type": "item",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gachette",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/gachette.json",
+          "src/main/java/net/mcreator/woncore/item/GachetteItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Grip",
+      "type": "item",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/GripItem.java",
+          "src/main/resources/assets/woncore/models/item/grip.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Crosse",
+      "type": "item",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crosse",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/CrosseItem.java",
+          "src/main/resources/assets/woncore/models/item/crosse.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "Receiver",
+      "type": "item",
+      "sortid": 355,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "receiver",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/receiver.json",
+          "src/main/java/net/mcreator/woncore/item/ReceiverItem.java"
         ]
       },
       "path": "~/Items"
@@ -2818,10 +2878,12 @@
     "en_us": {
       "block.woncore.green_crystal": "Green Crystal",
       "item.woncore.medical_kit": "Medical Kit",
-      "block.woncore.caisse_classique": "Caisse Classique",
+      "block.woncore.caisse_classique": "Classic Lootbox",
+      "item.woncore.crosse": "Stock",
       "item.fries.name": "Fries",
       "item.woncore.bandage": "Bandage",
       "item.wine.name": "�dWine",
+      "item.woncore.gachette": "Trigger",
       "item.deluxe_cheeseburguer.name": "�bDeluxe Cheeseburguer",
       "block.woncore.double_lamp": "Double Lamp",
       "block.woncore.ammunition": "Ammunition",
@@ -2829,6 +2891,7 @@
       "item.woncore.solid_suit_x_407_chestplate": "SolidSuit X407 Body",
       "item.woncore.key_2": "Key",
       "block.woncore.renforced_concrete": "Renforced Concrete",
+      "item.woncore.grip": "Grip",
       "item.kevlar.name": "�eKevlar",
       "item.chocolate_bar.name": "Chocolate Bar",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
@@ -2865,13 +2928,12 @@
       "item.woncore.mastodonte_chestplate": "Mastodonte Body",
       "block.woncore.brown_crystal": "Brown Crystal",
       "item.woncore.tactical_chestplate": "Tactical Body",
-      "item.pistons.name": "Pistons",
-      "item.rice_cake.name": "Rice Cake",
       "item.void_stone.name": "Void Stone",
+      "item.rice_cake.name": "Rice Cake",
+      "item.pistons.name": "Pistons",
       "key.woncore.night_vision": "Night Vision (with armors)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Purple Crystal",
-      "item.woncore.fuel": "Fuel",
       "block.woncore.bamboo_log": "Bamboo",
       "item.blackberry.name": "Blackberry",
       "item.high_capacity_battery.name": "�eHigh Capacity Battery",
@@ -2904,6 +2966,7 @@
       "item.extreme_chili.name": "�bExtreme Chili",
       "block.woncore.crate": "Crate",
       "item.advanced_engine.name": "Advanced Engine",
+      "item.woncore.receiver": "Receiver",
       "block.woncore.bamboo_pressure_plate": "Bamboo Pressure Plate",
       "tile.rice_crops_0.name": "Rice Crops 0",
       "block.woncore.cypress": "Cypress",
@@ -2973,7 +3036,7 @@
       "item.woncore.infantry_helmet": "Infantry Helmet",
       "item.footlong.name": "�eFootlong",
       "item.woncore.heavy_tank_cannon": "Heavy Tank Cannon",
-      "block.woncore.inviblock": "Block invisible",
+      "block.woncore.inviblock": "Invisible Block",
       "block.woncore.light_gray_crystal": "Light Gray Crystal",
       "item.bacon_cheeseburger.name": "Bacon Cheeseburger",
       "item.woncore.medical_bag": "Medical Bag",
@@ -3015,7 +3078,7 @@
       "item.apple_smoothie.name": "Apple Smoothie",
       "item.woncore.usb_key": "USB Key",
       "item.bacon_mushroom_burger.name": "Bacon Mushroom burger",
-      "block.woncore.caisse_noel": "Caisse Noel",
+      "block.woncore.caisse_noel": "Christmass Lootbox",
       "item.woncore.glass_lens": "Glass Lens",
       "item.blueberry_sandwich.name": "Blueberry Sandwich",
       "tile.lettuce_crop_3.name": "Lettuce Crop",
@@ -3032,6 +3095,7 @@
       "item.woncore.mastodonte_helmet": "Mastodonte Helmet",
       "item.hamburger.name": "Hamburger",
       "item.woncore.leather_clothes_chestplate": "Leather Clothes Body",
+      "item.woncore.magazine": "Magazine",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bamboo Button",
       "tile.garden_tropical.name": "Garden Tropical",
@@ -3044,7 +3108,7 @@
       "itemGroup.tabitems": "WoN Items",
       "subtitles.stg44fire": "",
       "block.woncore.bamboo_wood": "Bamboo",
-      "block.woncore.caisse_premium": "Caisse Premium",
+      "block.woncore.caisse_premium": "Premium Lootbox",
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
       "item.woncore.processor": "Processor",
       "item.orange_sandwich.name": "Orange Sandwich",
@@ -3060,16 +3124,17 @@
       "fluid.woncore.mercury": "Mercury",
       "item.lettuce.name": "Lettuce",
       "item.processor.name": "Processor",
-      "item.trigger.name": "Trigger and grip",
       "item.steak_and_ships.name": "�eSteak And Ships"
     },
     "fr_fr": {
       "block.woncore.green_crystal": "Crystal Vert",
       "item.woncore.medical_kit": "Kit Medical",
       "block.woncore.caisse_classique": "Caisse Classique",
+      "item.woncore.crosse": "Crosse",
       "item.fries.name": "Frites",
       "item.woncore.bandage": "Bandage",
       "item.wine.name": "�dVin",
+      "item.woncore.gachette": "Gachette",
       "item.deluxe_cheeseburguer.name": "�bDeluxe Cheeseburguer",
       "block.woncore.double_lamp": "Double Lamp",
       "block.woncore.ammunition": "Munitions",
@@ -3077,6 +3142,7 @@
       "item.woncore.solid_suit_x_407_chestplate": "Plastron SolidSuit X407 ",
       "item.woncore.key_2": "Clé",
       "block.woncore.renforced_concrete": "Béton Armé",
+      "item.woncore.grip": "Grip",
       "item.kevlar.name": "�eKevlar",
       "item.chocolate_bar.name": "Barre chocolatée",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
@@ -3113,13 +3179,12 @@
       "item.woncore.mastodonte_chestplate": "Plastron de Mastodonte",
       "block.woncore.brown_crystal": "Crystal Marron",
       "item.woncore.tactical_chestplate": "Plastron tactique",
-      "item.pistons.name": "Pistons",
-      "item.rice_cake.name": "Gâteau de riz",
       "item.void_stone.name": "Pierre du vide",
+      "item.rice_cake.name": "Gâteau de riz",
+      "item.pistons.name": "Pistons",
       "key.woncore.night_vision": "Night Vision (avec armures)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Crystal Violet",
-      "item.woncore.fuel": "Fuel",
       "block.woncore.bamboo_log": "Bamboo",
       "item.blackberry.name": "Mûre",
       "item.high_capacity_battery.name": "�eBatterie haute capacité",
@@ -3152,6 +3217,7 @@
       "item.extreme_chili.name": "�bExtreme Chili",
       "block.woncore.crate": "Caisse",
       "item.advanced_engine.name": "Moteur avancé",
+      "item.woncore.receiver": "Récepteur",
       "block.woncore.bamboo_pressure_plate": "Bamboo Plaque de Pression",
       "tile.rice_crops_0.name": "Rice Crops 0",
       "block.woncore.cypress": "Cyprès",
@@ -3280,6 +3346,7 @@
       "item.woncore.mastodonte_helmet": "Casque de Mastodonte",
       "item.hamburger.name": "Hamburger",
       "item.woncore.leather_clothes_chestplate": "Plastron en cuir",
+      "item.woncore.magazine": "Chargeur",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bouton Bamboo",
       "tile.garden_tropical.name": "Garden Tropical",
@@ -3308,7 +3375,6 @@
       "fluid.woncore.mercury": "Mercure",
       "item.lettuce.name": "Laitue",
       "item.processor.name": "Processeur",
-      "item.trigger.name": "Gâchette et poignée",
       "item.steak_and_ships.name": "�eSteak et frites"
     }
   },

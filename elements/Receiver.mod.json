@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "44_fuelcan",
+    "texture": "44_receiver",
     "customModelName": "Normal",
-    "name": "Fuel",
+    "name": "Récepteur",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Items"
     },
-    "stackSize": 1,
+    "stackSize": 64,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -28,7 +28,7 @@
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
-    "inventoryStackSize": 1,
+    "inventoryStackSize": 64,
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
