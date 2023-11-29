@@ -2784,16 +2784,16 @@
       "path": "~/Tabs"
     },
     {
-      "name": "Magazine",
+      "name": "Grip",
       "type": "item",
-      "sortid": 351,
+      "sortid": 353,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "magazine",
+      "registry_name": "grip",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/magazine.json",
-          "src/main/java/net/mcreator/woncore/item/MagazineItem.java"
+          "src/main/java/net/mcreator/woncore/item/GripItem.java",
+          "src/main/resources/assets/woncore/models/item/grip.json"
         ]
       },
       "path": "~/Items"
@@ -2814,16 +2814,16 @@
       "path": "~/Items"
     },
     {
-      "name": "Grip",
+      "name": "Receiver",
       "type": "item",
-      "sortid": 353,
+      "sortid": 355,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "grip",
+      "registry_name": "receiver",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/GripItem.java",
-          "src/main/resources/assets/woncore/models/item/grip.json"
+          "src/main/resources/assets/woncore/models/item/receiver.json",
+          "src/main/java/net/mcreator/woncore/item/ReceiverItem.java"
         ]
       },
       "path": "~/Items"
@@ -2844,19 +2844,73 @@
       "path": "~/Items"
     },
     {
-      "name": "Receiver",
+      "name": "Magazine",
       "type": "item",
-      "sortid": 355,
+      "sortid": 351,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "receiver",
+      "registry_name": "magazine",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/receiver.json",
-          "src/main/java/net/mcreator/woncore/item/ReceiverItem.java"
+          "src/main/resources/assets/woncore/models/item/magazine.json",
+          "src/main/java/net/mcreator/woncore/item/MagazineItem.java"
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "TacticalArmor",
+      "type": "armor",
+      "sortid": 353,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tactical_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/tactical_armor_boots.json",
+          "src/main/resources/assets/woncore/models/item/tactical_armor_leggings.json",
+          "src/main/java/net/mcreator/woncore/item/TacticalArmorItem.java",
+          "src/main/resources/assets/woncore/models/item/tactical_armor_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/tactical_armor_helmet.json"
+        ]
+      },
+      "path": "~/Stuffs/Armures"
+    },
+    {
+      "name": "AgentArmor",
+      "type": "armor",
+      "sortid": 354,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "agent_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/agent_armor_leggings.json",
+          "src/main/resources/assets/woncore/models/item/agent_armor_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/agent_armor_helmet.json",
+          "src/main/java/net/mcreator/woncore/item/AgentArmorItem.java",
+          "src/main/resources/assets/woncore/models/item/agent_armor_boots.json"
+        ]
+      },
+      "path": "~/Stuffs/Armures"
+    },
+    {
+      "name": "FuturisteArmor",
+      "type": "armor",
+      "sortid": 352,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "futuriste_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_helmet.json",
+          "src/main/java/net/mcreator/woncore/item/FuturisteArmorItem.java",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_leggings.json",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_boots.json"
+        ]
+      },
+      "path": "~/Stuffs/Armures"
     }
   ],
   "variable_elements": [
@@ -3130,11 +3184,9 @@
       "block.woncore.green_crystal": "Crystal Vert",
       "item.woncore.medical_kit": "Kit Medical",
       "block.woncore.caisse_classique": "Caisse Classique",
-      "item.woncore.crosse": "Crosse",
       "item.fries.name": "Frites",
       "item.woncore.bandage": "Bandage",
       "item.wine.name": "�dVin",
-      "item.woncore.gachette": "Gachette",
       "item.deluxe_cheeseburguer.name": "�bDeluxe Cheeseburguer",
       "block.woncore.double_lamp": "Double Lamp",
       "block.woncore.ammunition": "Munitions",
@@ -3179,12 +3231,14 @@
       "item.woncore.mastodonte_chestplate": "Plastron de Mastodonte",
       "block.woncore.brown_crystal": "Crystal Marron",
       "item.woncore.tactical_chestplate": "Plastron tactique",
+      "item.woncore.tactical_armor_leggings": "Tactical Leggings",
       "item.void_stone.name": "Pierre du vide",
       "item.rice_cake.name": "Gâteau de riz",
       "item.pistons.name": "Pistons",
       "key.woncore.night_vision": "Night Vision (avec armures)",
       "item.woncore.crown_2_helmet": "Crown",
       "block.woncore.purple_crystal": "Crystal Violet",
+      "item.woncore.fuel": "Fuel",
       "block.woncore.bamboo_log": "Bamboo",
       "item.blackberry.name": "Mûre",
       "item.high_capacity_battery.name": "�eBatterie haute capacité",
@@ -3203,6 +3257,7 @@
       "item.woncore.leather_clothes_boots": "Bottes en cuir",
       "item.supreme_pizza.name": "�bSupreme Pizza",
       "tile.rice_crops_1.name": "Rice Crops 0",
+      "item.woncore.agent_armor_helmet": "Agent Helmet",
       "item.woncore.solid_suit_x_407_leggings": "Pentalon SolidSuit X407",
       "item.stawberry_smoothie.name": "Smoothie aux fraises",
       "item.orange_smoothie.name": "Smoothie à l\u0027orange",
@@ -3217,7 +3272,6 @@
       "item.extreme_chili.name": "�bExtreme Chili",
       "block.woncore.crate": "Caisse",
       "item.advanced_engine.name": "Moteur avancé",
-      "item.woncore.receiver": "Récepteur",
       "block.woncore.bamboo_pressure_plate": "Bamboo Plaque de Pression",
       "tile.rice_crops_0.name": "Rice Crops 0",
       "block.woncore.cypress": "Cyprès",
@@ -3232,6 +3286,7 @@
       "item.woncore.tactical_helmet": "Casque tactique",
       "tile.lettuce_crop_1.name": "Lettuce Crop",
       "item.woncore.soldier_boots": "Bottes de soldat",
+      "item.woncore.futuriste_armor_leggings": "Futuriste Leggings",
       "item.woncore.delimitation_flag": "Drapeau de délimitation",
       "subtitles.stg44reload": "",
       "item.apricot_smoothie.name": "Smoothie à l\u0027abricot",
@@ -3241,6 +3296,7 @@
       "item.high_voltage_battery.name": "Batterie haute tension",
       "item.woncore.tank_body": "Corps de réservoir",
       "gui.woncore.night_vision_overlay.label_qzd": "\u003cVAR:string:nightvision\u003e",
+      "item.woncore.agent_armor_leggings": "Agent Leggings",
       "item.blueberry_seeds.name": "Graines de myrtille",
       "item.hearty_breakfast.name": "�ePetit déjeuner copieux",
       "item.blackberry_smoothie.name": "Smoothie aux mûres",
@@ -3251,6 +3307,7 @@
       "item.cheese.name": "Fromage",
       "block.woncore.palm_leaves": "Feuilles de palmier",
       "item.woncore.advanced_engine": "Moteur avancé",
+      "item.woncore.tactical_armor_boots": "Tactical Boot",
       "item.woncore.epic_tank_body": "Corps de réservoir lourd",
       "itemGroup.tabadmin": "Admin",
       "block.woncore.little_crate": "Petite Caisse",
@@ -3270,6 +3327,7 @@
       "block.woncore.red_crystal": "Crystal Rouge",
       "item.raspberry_smoothie.name": "Smoothie aux framboises",
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
+      "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
       "block.woncore.bamboo_stairs": "Bamboo Escaliers",
       "item.woncore.solid_suit_x_407_boots": "Bottes SolidSuit X407",
       "item.cherry_sandwich.name": "Sandwich aux cerises",
@@ -3284,6 +3342,7 @@
       "item.woncore.hardened_leather_boots": "Bottes en cuir renforcé",
       "item.woncore.mercury_bucket": "Seau de mercure",
       "item.woncore.leather_clothes_helmet": "Casque en cuir",
+      "item.woncore.agent_armor_chestplate": "Agent Chestplate",
       "item.woncore.infantry_helmet": "Casque d\u0027infanterie",
       "item.footlong.name": "�eFootlong",
       "item.woncore.heavy_tank_cannon": "Canon de char lourd",
@@ -3298,6 +3357,7 @@
       "item.watermelon_smoothie.name": "Smoothie à la pastèque",
       "block.woncore.lamp": "Lamp",
       "block.woncore.computer": "Ordinateur",
+      "item.woncore.agent_armor_boots": "Agent Boots",
       "tile.blackberry_crop_0.name": "Blackberry Crop",
       "item.woncore.bag": "Sac",
       "item.chili.name": "�eChili",
@@ -3346,12 +3406,13 @@
       "item.woncore.mastodonte_helmet": "Casque de Mastodonte",
       "item.hamburger.name": "Hamburger",
       "item.woncore.leather_clothes_chestplate": "Plastron en cuir",
-      "item.woncore.magazine": "Chargeur",
+      "item.woncore.futuriste_armor_helmet": "Futuriste Helmet",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
       "block.woncore.bamboo_button": "Bouton Bamboo",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Bobine de cuivre",
       "item.woncore.cylinder": "Cylinder",
+      "item.woncore.futuriste_armor_boots": "Futuriste Boots",
       "item.woncore.key": "Clé",
       "block.woncore.yellow_crystal": "Crystal Jaune",
       "item.woncore.gun_barrel": "Canon de fusil",
@@ -3361,6 +3422,7 @@
       "block.woncore.bamboo_wood": "Bamboo",
       "block.woncore.caisse_premium": "Caisse Premium",
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
+      "item.woncore.tactical_armor_helmet": "Tactical Helmet",
       "item.woncore.processor": "Processeur",
       "item.orange_sandwich.name": "Sandwich à l\u0027orange",
       "item.toast.name": "Pain grillé",
@@ -3370,11 +3432,13 @@
       "block.woncore.black_crystal": "Crystal Noir",
       "item.caramel_apple.name": "Pomme au caramel",
       "block.woncore.gray_crystal": "Crystal Gris",
+      "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.heavy_engine": "Moteur lourd",
       "item.woncore.void_stone": "Pierre du vide",
       "fluid.woncore.mercury": "Mercure",
       "item.lettuce.name": "Laitue",
       "item.processor.name": "Processeur",
+      "item.trigger.name": "Gâchette et poignée",
       "item.steak_and_ships.name": "�eSteak et frites"
     }
   },
@@ -3382,22 +3446,14 @@
     "name": "~",
     "children": [
       {
-        "name": "Nourriture",
+        "name": "Items",
         "children": []
       },
       {
         "name": "Stuffs",
         "children": [
           {
-            "name": "Outils",
-            "children": []
-          },
-          {
-            "name": "Autre",
-            "children": []
-          },
-          {
-            "name": "Armures",
+            "name": "Soins",
             "children": []
           },
           {
@@ -3405,30 +3461,29 @@
             "children": []
           },
           {
-            "name": "Soins",
+            "name": "Autre",
+            "children": []
+          },
+          {
+            "name": "Outils",
+            "children": []
+          },
+          {
+            "name": "Armures",
             "children": []
           }
         ]
       },
       {
-        "name": "Blocks",
+        "name": "Nourriture",
+        "children": []
+      },
+      {
+        "name": "Craft",
         "children": [
           {
-            "name": "Renforced Concrete",
+            "name": "Bamboo Recipe",
             "children": []
-          },
-          {
-            "name": "Decorations Blocks",
-            "children": [
-              {
-                "name": "Bamboo",
-                "children": []
-              },
-              {
-                "name": "Cystal Block",
-                "children": []
-              }
-            ]
           }
         ]
       },
@@ -3446,24 +3501,33 @@
         ]
       },
       {
-        "name": "Items",
-        "children": []
-      },
-      {
-        "name": "Ressources",
-        "children": []
-      },
-      {
-        "name": "Craft",
+        "name": "Blocks",
         "children": [
           {
-            "name": "Bamboo Recipe",
+            "name": "Renforced Concrete",
             "children": []
+          },
+          {
+            "name": "Decorations Blocks",
+            "children": [
+              {
+                "name": "Cystal Block",
+                "children": []
+              },
+              {
+                "name": "Bamboo",
+                "children": []
+              }
+            ]
           }
         ]
       },
       {
         "name": "Tags",
+        "children": []
+      },
+      {
+        "name": "Ressources",
         "children": []
       },
       {

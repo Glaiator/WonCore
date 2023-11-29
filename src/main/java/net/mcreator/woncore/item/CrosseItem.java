@@ -1,13 +1,13 @@
 
 package net.mcreator.woncore.item;
 
-import net.minecraft.world.item.Rarity;
-import net.minecraft.world.item.Item;
-
-import net.mcreator.woncore.init.WoncoreModTabs;
+import net.minecraft.world.entity.ai.attributes.Attributes;
+import javax.annotation.Nullable;
 
 public class CrosseItem extends Item {
+
 	public CrosseItem() {
 		super(new Item.Properties().tab(WoncoreModTabs.TAB_ITEMS).stacksTo(64).rarity(Rarity.COMMON));
 	}
+
 }
