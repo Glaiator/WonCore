@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "futuriste_helmet",
+    "textureHelmet": "futuristic_helmet",
     "enableBody": true,
-    "textureBody": "futuriste_chestplate",
+    "textureBody": "futuristic_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "futuriste_leggings",
+    "textureLeggings": "futuristic_leggings",
     "enableBoots": true,
-    "textureBoots": "futuriste_boots",
+    "textureBoots": "futuristic_boots",
     "creativeTab": {
       "value": "CUSTOM:Combat"
     },
