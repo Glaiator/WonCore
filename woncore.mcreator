@@ -1315,76 +1315,6 @@
       "path": "~/Items"
     },
     {
-      "name": "HLeatherH",
-      "type": "recipe",
-      "sortid": 256,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "h_leather_h",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/h_leather_h.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "HLeatherL",
-      "type": "recipe",
-      "sortid": 255,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "h_leather_l",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/h_leather_l.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "HLeatherBoots",
-      "type": "recipe",
-      "sortid": 257,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "h_leather_boots",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/h_leather_boots.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "HLeatherC",
-      "type": "recipe",
-      "sortid": 258,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "h_leather_c",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/h_leather_c.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "HLeather",
-      "type": "recipe",
-      "sortid": 259,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "h_leather",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/h_leather.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
       "name": "SolidSuitX407BodyTickEvent",
       "type": "procedure",
       "sortid": 260,
@@ -1513,34 +1443,6 @@
         ]
       },
       "path": "~/Stuffs/Armures"
-    },
-    {
-      "name": "BigBottleRecipe",
-      "type": "recipe",
-      "sortid": 266,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_bottle_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/big_bottle_recipe.json"
-        ]
-      },
-      "path": "~/Craft"
-    },
-    {
-      "name": "BigBottleWaterR",
-      "type": "recipe",
-      "sortid": 268,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "big_bottle_water_r",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/woncore/recipes/big_bottle_water_r.json"
-        ]
-      },
-      "path": "~/Craft"
     },
     {
       "name": "MastodonteBodyTickEvent",
@@ -2911,6 +2813,126 @@
         ]
       },
       "path": "~/Stuffs/Armures"
+    },
+    {
+      "name": "Matraque",
+      "type": "tool",
+      "sortid": 356,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "matraque",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/matraque.json",
+          "src/main/java/net/mcreator/woncore/item/MatraqueItem.java"
+        ]
+      },
+      "path": "~/Stuffs/Armes"
+    },
+    {
+      "name": "Batonninja",
+      "type": "tool",
+      "sortid": 357,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "batonninja",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/BatonninjaItem.java",
+          "src/main/resources/assets/woncore/models/item/batonninja.json"
+        ]
+      },
+      "path": "~/Stuffs/Armes"
+    },
+    {
+      "name": "Statuette",
+      "type": "item",
+      "sortid": 358,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "statuette",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/StatuetteItem.java",
+          "src/main/resources/assets/woncore/models/item/statuette.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PieceDiamant",
+      "type": "item",
+      "sortid": 359,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_diamant",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/PieceDiamantItem.java",
+          "src/main/resources/assets/woncore/models/item/piece_diamant.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PieceEmeraude",
+      "type": "item",
+      "sortid": 360,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_emeraude",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/PieceEmeraudeItem.java",
+          "src/main/resources/assets/woncore/models/item/piece_emeraude.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PieceOr",
+      "type": "item",
+      "sortid": 361,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_or",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/piece_or.json",
+          "src/main/java/net/mcreator/woncore/item/PieceOrItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PieceFer",
+      "type": "item",
+      "sortid": 362,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_fer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/piece_fer.json",
+          "src/main/java/net/mcreator/woncore/item/PieceFerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PieceBronze",
+      "type": "item",
+      "sortid": 363,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piece_bronze",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/piece_bronze.json",
+          "src/main/java/net/mcreator/woncore/item/PieceBronzeItem.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -2931,6 +2953,7 @@
   "language_map": {
     "en_us": {
       "block.woncore.green_crystal": "Green Crystal",
+      "item.woncore.piece_fer": "Piece en fer",
       "item.woncore.medical_kit": "Medical Kit",
       "block.woncore.caisse_classique": "Caisse Classique",
       "item.woncore.crosse": "Crosse",
@@ -2950,6 +2973,7 @@
       "item.chocolate_bar.name": "Chocolate Bar",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
       "item.empty_glass.name": "Empty Glass",
+      "item.woncore.batonninja": "Baton de ninja",
       "item.woncore.soldier_helmet": "Soldier Helmet",
       "gui.woncore.night_vision_overlay.label_on": "ON",
       "item.woncore.nuclear_battery": "Nuclear battery",
@@ -3062,6 +3086,7 @@
       "item.woncore.epic_tank_body": "Heavy Tank Body",
       "itemGroup.tabadmin": "WoN Admin",
       "block.woncore.little_crate": "Little Crate",
+      "item.woncore.piece_or": "Piece en or",
       "item.meat_feast_pizza.name": "�eMeat Feast Pizza",
       "item.armor_plate.name": "Armor Plate",
       "item.woncore.tank_cannon": "Tank Cannon",
@@ -3073,6 +3098,7 @@
       "item.woncore.armor_plate": "Armor Plate",
       "item.woncore.ring": "Ring",
       "item.nuclear_battery.name": "�dNuclear Battery",
+      "item.woncore.statuette": "Statuette",
       "item.heavy_engine.name": "�bHeavy Engine",
       "item.cranberry_smoothie.name": "Cranberry Smoothie",
       "block.woncore.red_crystal": "Red Crystal",
@@ -3094,6 +3120,7 @@
       "item.woncore.mercury_bucket": "Mercury Bucket",
       "item.woncore.leather_clothes_helmet": "Leather Clothes Helmet",
       "item.woncore.agent_armor_chestplate": "Agent Chestplate",
+      "item.woncore.piece_diamant": "Pièce en diamant",
       "item.woncore.infantry_helmet": "Infantry Helmet",
       "item.footlong.name": "�eFootlong",
       "item.woncore.heavy_tank_cannon": "Heavy Tank Cannon",
@@ -3137,6 +3164,7 @@
       "item.rice.name": "Rice",
       "item.woncore.money": "Money",
       "block.woncore.bamboo_trap_door": "Bamboo Trap Door",
+      "item.woncore.matraque": "Matraque",
       "item.apple_smoothie.name": "Apple Smoothie",
       "item.woncore.usb_key": "USB Key",
       "item.bacon_mushroom_burger.name": "Bacon Mushroom burger",
@@ -3150,6 +3178,7 @@
       "item.woncore.hardened_leather_chestplate": "Hardened Leather Body",
       "block.woncore.bamboo_slab": "Bamboo Slab",
       "item.woncore.satchel": "Satchel",
+      "item.woncore.piece_emeraude": "Piece en émeraude",
       "block.woncore.dark_sign_2x_3": "Dark sign 2x 3",
       "item.metal.name": "Metal",
       "item.woncore.hardened_leather_leggings": "Hardened Leather Leggings",
@@ -3183,6 +3212,7 @@
       "item.butter.name": "Butter",
       "block.woncore.black_crystal": "Black Crystal",
       "item.caramel_apple.name": "Caramel Apple",
+      "item.woncore.piece_bronze": "Piece en bronze",
       "block.woncore.gray_crystal": "Gray Crystal",
       "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.heavy_engine": "Heavy Engine",
@@ -3194,6 +3224,7 @@
     },
     "fr_fr": {
       "block.woncore.green_crystal": "Crystal Vert",
+      "item.woncore.piece_fer": "Piece en fer",
       "item.woncore.medical_kit": "Kit Medical",
       "block.woncore.caisse_classique": "Caisse Classique",
       "item.woncore.crosse": "Crosse",
@@ -3213,6 +3244,7 @@
       "item.chocolate_bar.name": "Barre chocolatée",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
       "item.empty_glass.name": "Verre vide",
+      "item.woncore.batonninja": "Baton de ninja",
       "item.woncore.soldier_helmet": "Casque de soldat",
       "gui.woncore.night_vision_overlay.label_on": "ON",
       "item.woncore.nuclear_battery": "Batterie nucléaire",
@@ -3326,6 +3358,7 @@
       "item.woncore.epic_tank_body": "Corps de réservoir lourd",
       "itemGroup.tabadmin": "Admin",
       "block.woncore.little_crate": "Petite Caisse",
+      "item.woncore.piece_or": "Piece en or",
       "item.meat_feast_pizza.name": "�ePizza à la viande",
       "item.armor_plate.name": "Plaque d\u0027armure",
       "item.woncore.tank_cannon": "Canon de char",
@@ -3337,6 +3370,7 @@
       "item.woncore.armor_plate": "Plaque de blindage",
       "item.woncore.ring": "Bague",
       "item.nuclear_battery.name": "�dBatterie nucléaire",
+      "item.woncore.statuette": "Statuette",
       "item.heavy_engine.name": "�bMoteur lourd",
       "item.cranberry_smoothie.name": "Smoothie aux canneberges",
       "block.woncore.red_crystal": "Crystal Rouge",
@@ -3358,6 +3392,7 @@
       "item.woncore.mercury_bucket": "Seau de mercure",
       "item.woncore.leather_clothes_helmet": "Casque en cuir",
       "item.woncore.agent_armor_chestplate": "Agent Chestplate",
+      "item.woncore.piece_diamant": "Pièce en diamant",
       "item.woncore.infantry_helmet": "Casque d\u0027infanterie",
       "item.footlong.name": "�eFootlong",
       "item.woncore.heavy_tank_cannon": "Canon de char lourd",
@@ -3401,6 +3436,7 @@
       "item.rice.name": "Riz",
       "item.woncore.money": "Argent",
       "block.woncore.bamboo_trap_door": "Bamboo Trappe",
+      "item.woncore.matraque": "Matraque",
       "item.apple_smoothie.name": "Smoothie aux pommes",
       "item.woncore.usb_key": "Clé USB",
       "item.bacon_mushroom_burger.name": "Hamburger au bacon et champignons",
@@ -3414,6 +3450,7 @@
       "item.woncore.hardened_leather_chestplate": "Plastron en cuir renforcé",
       "block.woncore.bamboo_slab": "Bamboo Dalle",
       "item.woncore.satchel": "Sacoche",
+      "item.woncore.piece_emeraude": "Piece en émeraude",
       "block.woncore.dark_sign_2x_3": "Panneau 2x 3 Sombre",
       "item.metal.name": "Metal",
       "item.woncore.hardened_leather_leggings": "Jambières en cuir renforcé",
@@ -3447,6 +3484,7 @@
       "item.butter.name": "Beurre",
       "block.woncore.black_crystal": "Crystal Noir",
       "item.caramel_apple.name": "Pomme au caramel",
+      "item.woncore.piece_bronze": "Piece en bronze",
       "block.woncore.gray_crystal": "Crystal Gris",
       "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.heavy_engine": "Moteur lourd",
