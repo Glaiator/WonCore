@@ -41,7 +41,7 @@ public abstract class FuturisteArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 9;
+				return 0;
 			}
 
 			@Override
