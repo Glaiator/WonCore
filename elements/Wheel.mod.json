@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_tank_body",
+    "texture": "roue",
     "customModelName": "Normal",
-    "name": "Advanced Engine",
+    "name": "Wheel",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Components"
     },
-    "stackSize": 1,
+    "stackSize": 16,
     "enchantability": -1,
     "useDuration": 0,
     "toolType": 1.0,

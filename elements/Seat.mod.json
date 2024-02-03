@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_tank_body",
+    "texture": "seat",
     "customModelName": "Normal",
-    "name": "Advanced Engine",
+    "name": "Seat",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Components"
     },
-    "stackSize": 1,
+    "stackSize": 8,
     "enchantability": -1,
     "useDuration": 0,
     "toolType": 1.0,

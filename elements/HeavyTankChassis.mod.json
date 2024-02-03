@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_tank_body",
+    "texture": "heavytankhead",
     "customModelName": "Normal",
-    "name": "Advanced Engine",
+    "name": "Heavy Tank Chassis",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Components"

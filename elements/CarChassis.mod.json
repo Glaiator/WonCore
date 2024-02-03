@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "light_tank_body",
+    "texture": "car",
     "customModelName": "Normal",
-    "name": "Advanced Engine",
+    "name": "Car Chassis",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:Components"

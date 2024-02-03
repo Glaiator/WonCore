@@ -16,6 +16,7 @@ public class WoncoreModTabs {
 	public static CreativeModeTab TAB_TOOLS;
 	public static CreativeModeTab TAB_ITEMS;
 	public static CreativeModeTab TAB_COMBAT;
+	public static CreativeModeTab TAB_COMPONENTS;
 
 	public static void load() {
 		TAB_ADMIN = new CreativeModeTab("tabadmin") {
@@ -66,6 +67,17 @@ public class WoncoreModTabs {
 			@Override
 			public ItemStack makeIcon() {
 				return new ItemStack(WoncoreModItems.MASTODONTE_CHESTPLATE.get());
+			}
+
+			@OnlyIn(Dist.CLIENT)
+			public boolean hasSearchBar() {
+				return false;
+			}
+		};
+		TAB_COMPONENTS = new CreativeModeTab("tabcomponents") {
+			@Override
+			public ItemStack makeIcon() {
+				return new ItemStack(WoncoreModItems.ADVANCED_ENGINE.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

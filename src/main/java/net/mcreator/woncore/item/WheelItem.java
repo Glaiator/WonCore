@@ -6,9 +6,9 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.woncore.init.WoncoreModTabs;
 
-public class AdvancedEngineItem extends Item {
-	public AdvancedEngineItem() {
-		super(new Item.Properties().tab(WoncoreModTabs.TAB_COMPONENTS).stacksTo(1).rarity(Rarity.COMMON));
+public class WheelItem extends Item {
+	public WheelItem() {
+		super(new Item.Properties().tab(WoncoreModTabs.TAB_COMPONENTS).stacksTo(16).rarity(Rarity.COMMON));
 	}
 
 	@Override
