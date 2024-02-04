@@ -92,7 +92,7 @@ import net.mcreator.woncore.item.BlueprintItem;
 import net.mcreator.woncore.item.BatonninjaItem;
 import net.mcreator.woncore.item.BandageItem;
 import net.mcreator.woncore.item.BagItem;
-import net.mcreator.woncore.item.ArmorplateItem;
+import net.mcreator.woncore.item.ArmorPlateItem;
 import net.mcreator.woncore.item.AgentArmorItem;
 import net.mcreator.woncore.item.AerogelItem;
 import net.mcreator.woncore.item.AdvancedProcessorItem;
@@ -250,7 +250,6 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> HEAVY_TANK_CHASSIS = REGISTRY.register("heavy_tank_chassis", () -> new HeavyTankChassisItem());
 	public static final RegistryObject<Item> WHEEL = REGISTRY.register("wheel", () -> new WheelItem());
 	public static final RegistryObject<Item> SEAT = REGISTRY.register("seat", () -> new SeatItem());
-	public static final RegistryObject<Item> ARMORPLATE = REGISTRY.register("armorplate", () -> new ArmorplateItem());
 	public static final RegistryObject<Item> PISTON = REGISTRY.register("piston", () -> new PistonItem());
 	public static final RegistryObject<Item> TANKCANNON = REGISTRY.register("tankcannon", () -> new TankcannonItem());
 	public static final RegistryObject<Item> TANKGUNCANNON = REGISTRY.register("tankguncannon", () -> new TankguncannonItem());
@@ -264,6 +263,7 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> METAL_TUBE = REGISTRY.register("metal_tube", () -> new MetalTubeItem());
 	public static final RegistryObject<Item> METAL_ROD = REGISTRY.register("metal_rod", () -> new MetalRodItem());
 	public static final RegistryObject<Item> FUTURISTIC_ENGINE = REGISTRY.register("futuristic_engine", () -> new FuturisticEngineItem());
+	public static final RegistryObject<Item> ARMOR_PLATE = REGISTRY.register("armor_plate", () -> new ArmorPlateItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

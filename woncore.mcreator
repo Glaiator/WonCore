@@ -2782,21 +2782,6 @@
       "path": "~/Components"
     },
     {
-      "name": "Armorplate",
-      "type": "item",
-      "sortid": 374,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "armorplate",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/ArmorplateItem.java",
-          "src/main/resources/assets/woncore/models/item/armorplate.json"
-        ]
-      },
-      "path": "~/Components"
-    },
-    {
       "name": "Piston",
       "type": "item",
       "sortid": 375,
@@ -2990,6 +2975,21 @@
         ]
       },
       "path": "~/Components"
+    },
+    {
+      "name": "ArmorPlate",
+      "type": "item",
+      "sortid": 388,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armor_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/ArmorPlateItem.java",
+          "src/main/resources/assets/woncore/models/item/armor_plate.json"
+        ]
+      },
+      "path": "~/Components"
     }
   ],
   "variable_elements": [
@@ -3158,6 +3158,7 @@
       "item.woncore.mana": "Mana",
       "item.woncore.metal_tube": "Metal Tube",
       "item.woncore.ring": "Ring",
+      "item.woncore.armor_plate": "Armor Plate",
       "item.nuclear_battery.name": "�dNuclear Battery",
       "item.woncore.statuette": "Statuette",
       "item.woncore.heavy_tank_chassis": "Heavy Tank Chassis",
@@ -3167,7 +3168,6 @@
       "item.raspberry_smoothie.name": "Raspberry Smoothie",
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
       "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
-      "item.woncore.armorplate": "Armor Plate",
       "block.woncore.bamboo_stairs": "Bamboo Stairs",
       "item.woncore.solid_suit_x_407_boots": "SolidSuit X407 Boots",
       "item.cherry_sandwich.name": "Cherry Sandwich",
@@ -3434,6 +3434,7 @@
       "item.woncore.mana": "Mana",
       "item.woncore.metal_tube": "Metal Tube",
       "item.woncore.ring": "Bague",
+      "item.woncore.armor_plate": "Armor Plate",
       "item.nuclear_battery.name": "�dBatterie nucléaire",
       "item.woncore.statuette": "Statuette",
       "item.woncore.heavy_tank_chassis": "Chassis Tank Lourd",
@@ -3443,7 +3444,6 @@
       "item.raspberry_smoothie.name": "Smoothie aux framboises",
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
       "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
-      "item.woncore.armorplate": "Plaque de blindage",
       "block.woncore.bamboo_stairs": "Bamboo Escaliers",
       "item.woncore.solid_suit_x_407_boots": "Bottes SolidSuit X407",
       "item.cherry_sandwich.name": "Sandwich aux cerises",

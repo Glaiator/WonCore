@@ -6,8 +6,8 @@ import net.minecraft.world.item.Item;
 
 import net.mcreator.woncore.init.WoncoreModTabs;
 
-public class ArmorplateItem extends Item {
-	public ArmorplateItem() {
+public class ArmorPlateItem extends Item {
+	public ArmorPlateItem() {
 		super(new Item.Properties().tab(WoncoreModTabs.TAB_COMPONENTS).stacksTo(64).rarity(Rarity.COMMON));
 	}
 }
