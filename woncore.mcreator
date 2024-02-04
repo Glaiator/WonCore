@@ -2780,6 +2780,201 @@
         ]
       },
       "path": "~/Components"
+    },
+    {
+      "name": "Armorplate",
+      "type": "item",
+      "sortid": 374,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armorplate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/ArmorplateItem.java",
+          "src/main/resources/assets/woncore/models/item/armorplate.json"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "Piston",
+      "type": "item",
+      "sortid": 375,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "piston",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/piston.json",
+          "src/main/java/net/mcreator/woncore/item/PistonItem.java"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "Tankcannon",
+      "type": "item",
+      "sortid": 376,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tankcannon",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/tankcannon.json",
+          "src/main/java/net/mcreator/woncore/item/TankcannonItem.java"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "Tankguncannon",
+      "type": "item",
+      "sortid": 377,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tankguncannon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/TankguncannonItem.java",
+          "src/main/resources/assets/woncore/models/item/tankguncannon.json"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "Engrenage",
+      "type": "item",
+      "sortid": 378,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "engrenage",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/engrenage.json",
+          "src/main/java/net/mcreator/woncore/item/EngrenageItem.java"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "Processor",
+      "type": "item",
+      "sortid": 379,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "processor",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/ProcessorItem.java",
+          "src/main/resources/assets/woncore/models/item/processor.json"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "AdvancedProcessor",
+      "type": "item",
+      "sortid": 380,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "advanced_processor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/advanced_processor.json",
+          "src/main/java/net/mcreator/woncore/item/AdvancedProcessorItem.java"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "EvolvedProcessor",
+      "type": "item",
+      "sortid": 381,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "evolved_processor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/evolved_processor.json",
+          "src/main/java/net/mcreator/woncore/item/EvolvedProcessorItem.java"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "SteelShield",
+      "type": "item",
+      "sortid": 382,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "steel_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/SteelShieldItem.java",
+          "src/main/resources/assets/woncore/models/item/steel_shield.json"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "CrankShaft",
+      "type": "item",
+      "sortid": 383,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crank_shaft",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/CrankShaftItem.java",
+          "src/main/resources/assets/woncore/models/item/crank_shaft.json"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "TankTrack",
+      "type": "item",
+      "sortid": 384,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tank_track",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/tank_track.json",
+          "src/main/java/net/mcreator/woncore/item/TankTrackItem.java"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "MetalTube",
+      "type": "item",
+      "sortid": 385,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_tube",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/MetalTubeItem.java",
+          "src/main/resources/assets/woncore/models/item/metal_tube.json"
+        ]
+      },
+      "path": "~/Components"
+    },
+    {
+      "name": "MetalRod",
+      "type": "item",
+      "sortid": 386,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "metal_rod",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/MetalRodItem.java",
+          "src/main/resources/assets/woncore/models/item/metal_rod.json"
+        ]
+      },
+      "path": "~/Components"
     }
   ],
   "variable_elements": [
@@ -2832,13 +3027,16 @@
       "item.woncore.leather_clothes_leggings": "Leather Clothes Leggings",
       "item.engrenage.name": "Gear",
       "item.woncore.reinforced_plating": "Reinforced Plating",
+      "item.woncore.engrenage": "Engrenage",
       "item.woncore.hardened_leather_ingot": "Hardened Leather Ingot",
       "subtitles.stg44firedistant": "",
       "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
       "item.spaghettis.name": "Spaghettis",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Slab",
       "item.chocolate_milkshake.name": "Chocolate Milkshake",
+      "item.woncore.piston": "Piston",
       "tile.garden_cotton.name": "Garden Cotton",
+      "item.woncore.advanced_processor": "Advanced Processor",
       "block.woncore.mercury": "Mercury",
       "block.woncore.lampadaire_base": "Lampadaire Base",
       "item.woncore.plane_chassis": "Plane Chassis",
@@ -2865,8 +3063,10 @@
       "item.blackberry.name": "Blackberry",
       "item.high_capacity_battery.name": "�eHigh Capacity Battery",
       "item.advanced_processor.name": "�bAdvanced Processor",
+      "item.woncore.steel_shield": "Steel Shield",
       "item.woncore.high_capacity_battery": "High capacity battery",
       "item.rice_seeds.name": "Rice seeds",
+      "item.woncore.evolved_processor": "Evolved Processor",
       "tile.rooten_crop_0.name": "Rooten Crop 0",
       "tile.blackberry_crop_1.name": "Blackberry Crop",
       "block.woncore.white_crystal": "White Crystal",
@@ -2878,6 +3078,7 @@
       "item.woncore.leather_clothes_boots": "Leather Clothes Boots",
       "item.supreme_pizza.name": "�bSupreme Pizza",
       "tile.rice_crops_1.name": "Rice Crops 0",
+      "item.woncore.tank_track": "Tank Track",
       "item.woncore.agent_armor_helmet": "Agent Helmet",
       "item.woncore.solid_suit_x_407_leggings": "SolidSuit X407 Leggings",
       "item.stawberry_smoothie.name": "Strawberry Smoothie",
@@ -2939,6 +3140,7 @@
       "itemGroup.tabcomponents": "Components",
       "block.woncore.magenta_crystal": "Magenta Crystal",
       "item.woncore.mana": "Mana",
+      "item.woncore.metal_tube": "Metal Tube",
       "item.woncore.ring": "Ring",
       "item.nuclear_battery.name": "�dNuclear Battery",
       "item.woncore.statuette": "Statuette",
@@ -2949,6 +3151,7 @@
       "item.raspberry_smoothie.name": "Raspberry Smoothie",
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
       "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
+      "item.woncore.armorplate": "Armor Plate",
       "block.woncore.bamboo_stairs": "Bamboo Stairs",
       "item.woncore.solid_suit_x_407_boots": "SolidSuit X407 Boots",
       "item.cherry_sandwich.name": "Cherry Sandwich",
@@ -2967,6 +3170,7 @@
       "item.woncore.piece_diamant": "Pièce en diamant",
       "item.woncore.infantry_helmet": "Infantry Helmet",
       "item.footlong.name": "�eFootlong",
+      "item.woncore.tankcannon": "Tank Cannon",
       "block.woncore.inviblock": "Block invisible",
       "block.woncore.light_gray_crystal": "Light Gray Crystal",
       "item.bacon_cheeseburger.name": "Bacon Cheeseburger",
@@ -3002,6 +3206,7 @@
       "block.woncore.wall_sign_2x_3": "Wall Sign 2x 3",
       "item.raspberry_sandwich.name": "Raspberry Sandwich",
       "item.woncore.crown_helmet": "Crown",
+      "item.woncore.crank_shaft": "Crank Shaft",
       "item.rice.name": "Rice",
       "item.woncore.money": "Money",
       "block.woncore.bamboo_trap_door": "Bamboo Trap Door",
@@ -3015,6 +3220,7 @@
       "tile.lettuce_crop_3.name": "Lettuce Crop",
       "item.woncore.katana": "Katana",
       "item.blackberry_seeds.name": "Blackberry Seeds",
+      "item.woncore.metal_rod": "Metal Rod",
       "item.woncore.hardened_leather_chestplate": "Hardened Leather Body",
       "block.woncore.bamboo_slab": "Bamboo Slab",
       "item.woncore.satchel": "Satchel",
@@ -3028,6 +3234,7 @@
       "item.woncore.magazine": "Chargeur",
       "item.woncore.futuriste_armor_helmet": "Futuriste Helmet",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
+      "item.woncore.tankguncannon": "Tank gun barrel",
       "block.woncore.bamboo_button": "Bamboo Button",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Copper Coil",
@@ -3042,6 +3249,7 @@
       "block.woncore.caisse_premium": "Caisse Premium",
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
       "item.woncore.tactical_armor_helmet": "Tactical Helmet",
+      "item.woncore.processor": "Processor",
       "item.orange_sandwich.name": "Orange Sandwich",
       "item.toast.name": "Toast",
       "block.woncore.logo_won": "Logo WON",
@@ -3093,13 +3301,16 @@
       "item.woncore.leather_clothes_leggings": "Pantalon en cuir",
       "item.engrenage.name": "Engrenage",
       "item.woncore.reinforced_plating": "Plaques renforcées",
+      "item.woncore.engrenage": "Engrenage",
       "item.woncore.hardened_leather_ingot": "Cuir renforcé",
       "subtitles.stg44firedistant": "",
       "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Escaliers",
       "item.spaghettis.name": "Spaghettis",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Dalle",
       "item.chocolate_milkshake.name": "Milkshake au chocolat",
+      "item.woncore.piston": "Piston",
       "tile.garden_cotton.name": "Garden Cotton",
+      "item.woncore.advanced_processor": "Advanced Processor",
       "block.woncore.mercury": "Mercure",
       "block.woncore.lampadaire_base": "Lampadaire Base",
       "item.woncore.plane_chassis": "Plane Chassis",
@@ -3127,8 +3338,10 @@
       "item.blackberry.name": "Mûre",
       "item.high_capacity_battery.name": "�eBatterie haute capacité",
       "item.advanced_processor.name": "�bProcesseur avancé",
+      "item.woncore.steel_shield": "Steel Shield",
       "item.woncore.high_capacity_battery": "Batterie haute capacité",
       "item.rice_seeds.name": "Graines de riz",
+      "item.woncore.evolved_processor": "Evolved Processor",
       "tile.rooten_crop_0.name": "Rooten Crop 0",
       "tile.blackberry_crop_1.name": "Blackberry Crop",
       "block.woncore.white_crystal": "Crystal Blanc",
@@ -3140,6 +3353,7 @@
       "item.woncore.leather_clothes_boots": "Bottes en cuir",
       "item.supreme_pizza.name": "�bSupreme Pizza",
       "tile.rice_crops_1.name": "Rice Crops 0",
+      "item.woncore.tank_track": "Tank Track",
       "item.woncore.agent_armor_helmet": "Agent Helmet",
       "item.woncore.solid_suit_x_407_leggings": "Pentalon SolidSuit X407",
       "item.stawberry_smoothie.name": "Smoothie aux fraises",
@@ -3201,6 +3415,7 @@
       "itemGroup.tabcomponents": "Components",
       "block.woncore.magenta_crystal": "Crystal Magenta",
       "item.woncore.mana": "Mana",
+      "item.woncore.metal_tube": "Metal Tube",
       "item.woncore.ring": "Bague",
       "item.nuclear_battery.name": "�dBatterie nucléaire",
       "item.woncore.statuette": "Statuette",
@@ -3211,6 +3426,7 @@
       "item.raspberry_smoothie.name": "Smoothie aux framboises",
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
       "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
+      "item.woncore.armorplate": "Armor Plate",
       "block.woncore.bamboo_stairs": "Bamboo Escaliers",
       "item.woncore.solid_suit_x_407_boots": "Bottes SolidSuit X407",
       "item.cherry_sandwich.name": "Sandwich aux cerises",
@@ -3229,6 +3445,7 @@
       "item.woncore.piece_diamant": "Pièce en diamant",
       "item.woncore.infantry_helmet": "Casque d\u0027infanterie",
       "item.footlong.name": "�eFootlong",
+      "item.woncore.tankcannon": "Tank Cannon",
       "block.woncore.inviblock": "Block invisible",
       "block.woncore.light_gray_crystal": "Crystal Gris Clair",
       "item.bacon_cheeseburger.name": "Cheeseburger au bacon",
@@ -3264,6 +3481,7 @@
       "block.woncore.wall_sign_2x_3": "Panneau 2x 3 Murale",
       "item.raspberry_sandwich.name": "Sandwich aux framboises",
       "item.woncore.crown_helmet": "Crown",
+      "item.woncore.crank_shaft": "Crank Shaft",
       "item.rice.name": "Riz",
       "item.woncore.money": "Argent",
       "block.woncore.bamboo_trap_door": "Bamboo Trappe",
@@ -3277,6 +3495,7 @@
       "tile.lettuce_crop_3.name": "Lettuce Crop",
       "item.woncore.katana": "Katana",
       "item.blackberry_seeds.name": "Graines de mûre",
+      "item.woncore.metal_rod": "Metal Rod",
       "item.woncore.hardened_leather_chestplate": "Plastron en cuir renforcé",
       "block.woncore.bamboo_slab": "Bamboo Dalle",
       "item.woncore.satchel": "Sacoche",
@@ -3290,6 +3509,7 @@
       "item.woncore.futuriste_armor_helmet": "Futuriste Helmet",
       "item.woncore.magazine": "Chargeur",
       "tile.blue_berry_crop_2.name": "Blueberry Crop",
+      "item.woncore.tankguncannon": "Tank gun barrel",
       "block.woncore.bamboo_button": "Bouton Bamboo",
       "tile.garden_tropical.name": "Garden Tropical",
       "item.copper_coil.name": "Bobine de cuivre",
@@ -3304,6 +3524,7 @@
       "block.woncore.caisse_premium": "Caisse Premium",
       "gui.woncore.night_vision_overlay.label_nightvision_on": "NightVision:",
       "item.woncore.tactical_armor_helmet": "Tactical Helmet",
+      "item.woncore.processor": "Processor",
       "item.orange_sandwich.name": "Sandwich à l\u0027orange",
       "item.toast.name": "Pain grillé",
       "block.woncore.logo_won": "Logo WON",
