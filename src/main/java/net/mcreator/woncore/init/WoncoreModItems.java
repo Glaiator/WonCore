@@ -76,6 +76,7 @@ import net.mcreator.woncore.item.GunBarrelItem;
 import net.mcreator.woncore.item.GripItem;
 import net.mcreator.woncore.item.GlassLensItem;
 import net.mcreator.woncore.item.GachetteItem;
+import net.mcreator.woncore.item.FuturisticEngineItem;
 import net.mcreator.woncore.item.FuturisteArmorItem;
 import net.mcreator.woncore.item.FlagItem;
 import net.mcreator.woncore.item.EvolvedProcessorItem;
@@ -262,6 +263,7 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> TANK_TRACK = REGISTRY.register("tank_track", () -> new TankTrackItem());
 	public static final RegistryObject<Item> METAL_TUBE = REGISTRY.register("metal_tube", () -> new MetalTubeItem());
 	public static final RegistryObject<Item> METAL_ROD = REGISTRY.register("metal_rod", () -> new MetalRodItem());
+	public static final RegistryObject<Item> FUTURISTIC_ENGINE = REGISTRY.register("futuristic_engine", () -> new FuturisticEngineItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
