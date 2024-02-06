@@ -2990,6 +2990,42 @@
         ]
       },
       "path": "~/Components"
+    },
+    {
+      "name": "MorphineRightclick",
+      "type": "procedure",
+      "sortid": 389,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "morphine_rightclick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/procedures/MorphineRightclickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Stuffs/Soins"
     }
   ],
   "variable_elements": [

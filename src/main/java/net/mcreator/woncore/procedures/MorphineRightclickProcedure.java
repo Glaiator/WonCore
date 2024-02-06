@@ -1,27 +1,28 @@
 package net.mcreator.woncore.procedures;
 
+import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.effect.MobEffectInstance;
+import net.minecraft.server.level.ServerLevel;
+import net.minecraft.core.particles.ParticleTypes;
 
 import net.mcreator.woncore.init.WoncoreModItems;
 
-public class MedicalKitRightclickedProcedure {
-	public static void execute(Entity entity) {
+public class MorphineRightclickProcedure {
+	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
 		if (entity instanceof Player _player) {
-			ItemStack _stktoremove = new ItemStack(WoncoreModItems.MEDICAL_KIT.get());
+			ItemStack _stktoremove = new ItemStack(WoncoreModItems.MORPHINE.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
-		if (entity instanceof LivingEntity _entity)
-			_entity.setHealth((float) ((entity instanceof LivingEntity _livEnt ? _livEnt.getHealth() : -1) + 10));
 		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 600, 1, false, false));
-		if (entity instanceof Player _player)
-			_player.getFoodData().setFoodLevel((int) ((entity instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) + 10));
+			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 5000, 2));
+		if (world instanceof ServerLevel _level)
+			_level.sendParticles(ParticleTypes.HEART, x, y, z, 5, 0, 2, 0, 1);
 	}
 }
