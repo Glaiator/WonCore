@@ -46,7 +46,10 @@ import net.mcreator.woncore.item.PieceDiamantItem;
 import net.mcreator.woncore.item.PieceBronzeItem;
 import net.mcreator.woncore.item.PhoneItem;
 import net.mcreator.woncore.item.NuclearBatteryItem;
-import net.mcreator.woncore.item.MultitoolItem;
+import net.mcreator.woncore.item.MultitoolPickaxeItem;
+import net.mcreator.woncore.item.MultitoolFarmerItem;
+import net.mcreator.woncore.item.MultitoolAxeItem;
+import net.mcreator.woncore.item.MultiToolsItem;
 import net.mcreator.woncore.item.MorphineItem;
 import net.mcreator.woncore.item.MoneyItem;
 import net.mcreator.woncore.item.MetalTubeItem;
@@ -88,6 +91,7 @@ import net.mcreator.woncore.item.Crown2Item;
 import net.mcreator.woncore.item.CrosseItem;
 import net.mcreator.woncore.item.CrankShaftItem;
 import net.mcreator.woncore.item.CarChassisItem;
+import net.mcreator.woncore.item.BurningPickaxeItem;
 import net.mcreator.woncore.item.BlueprintItem;
 import net.mcreator.woncore.item.BatonninjaItem;
 import net.mcreator.woncore.item.BandageItem;
@@ -172,7 +176,6 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> FLAG = REGISTRY.register("flag", () -> new FlagItem());
 	public static final RegistryObject<Item> SKULL = REGISTRY.register("skull", () -> new SkullItem());
 	public static final RegistryObject<Item> BLUEPRINT = REGISTRY.register("blueprint", () -> new BlueprintItem());
-	public static final RegistryObject<Item> MULTITOOL = REGISTRY.register("multitool", () -> new MultitoolItem());
 	public static final RegistryObject<Item> RENFORCED_CONCRETE = block(WoncoreModBlocks.RENFORCED_CONCRETE, CreativeModeTab.TAB_BUILDING_BLOCKS);
 	public static final RegistryObject<Item> RENFORCED_CONCRETE_1 = block(WoncoreModBlocks.RENFORCED_CONCRETE_1, null);
 	public static final RegistryObject<Item> RENFORCED_CONCRETE_2 = block(WoncoreModBlocks.RENFORCED_CONCRETE_2, null);
@@ -264,6 +267,11 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> METAL_ROD = REGISTRY.register("metal_rod", () -> new MetalRodItem());
 	public static final RegistryObject<Item> FUTURISTIC_ENGINE = REGISTRY.register("futuristic_engine", () -> new FuturisticEngineItem());
 	public static final RegistryObject<Item> ARMOR_PLATE = REGISTRY.register("armor_plate", () -> new ArmorPlateItem());
+	public static final RegistryObject<Item> MULTI_TOOLS = REGISTRY.register("multi_tools", () -> new MultiToolsItem());
+	public static final RegistryObject<Item> BURNING_PICKAXE = REGISTRY.register("burning_pickaxe", () -> new BurningPickaxeItem());
+	public static final RegistryObject<Item> MULTITOOL_PICKAXE = REGISTRY.register("multitool_pickaxe", () -> new MultitoolPickaxeItem());
+	public static final RegistryObject<Item> MULTITOOL_AXE = REGISTRY.register("multitool_axe", () -> new MultitoolAxeItem());
+	public static final RegistryObject<Item> MULTITOOL_FARMER = REGISTRY.register("multitool_farmer", () -> new MultitoolFarmerItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

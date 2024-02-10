@@ -44,7 +44,7 @@ public class WoncoreModTabs {
 		TAB_TOOLS = new CreativeModeTab("tabtools") {
 			@Override
 			public ItemStack makeIcon() {
-				return new ItemStack(WoncoreModItems.MULTITOOL.get());
+				return new ItemStack(WoncoreModItems.MULTI_TOOLS.get());
 			}
 
 			@OnlyIn(Dist.CLIENT)

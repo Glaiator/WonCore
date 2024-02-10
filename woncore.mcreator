@@ -1216,20 +1216,6 @@
       "path": "~/Stuffs/Armures"
     },
     {
-      "name": "Multitool",
-      "type": "item",
-      "sortid": 272,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "multitool",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/woncore/item/MultitoolItem.java",
-          "src/main/resources/assets/woncore/models/item/multitool.json"
-        ]
-      }
-    },
-    {
       "name": "CaissedelarguageLorsDeLapparitionInitialeDeLentite",
       "type": "procedure",
       "sortid": 273,
@@ -3026,6 +3012,96 @@
         ]
       },
       "path": "~/Stuffs/Soins"
+    },
+    {
+      "name": "MultiTools",
+      "type": "tool",
+      "sortid": 390,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multi_tools",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/multi_tools.json",
+          "src/main/java/net/mcreator/woncore/item/MultiToolsItem.java"
+        ]
+      },
+      "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "BurningPickaxe",
+      "type": "tool",
+      "sortid": 391,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/burning_pickaxe.json",
+          "src/main/java/net/mcreator/woncore/item/BurningPickaxeItem.java"
+        ]
+      },
+      "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "MultitoolPickaxe",
+      "type": "tool",
+      "sortid": 392,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitool_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/MultitoolPickaxeItem.java",
+          "src/main/resources/assets/woncore/models/item/multitool_pickaxe.json"
+        ]
+      },
+      "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "MultitoolAxe",
+      "type": "tool",
+      "sortid": 393,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitool_axe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/MultitoolAxeItem.java",
+          "src/main/resources/assets/woncore/models/item/multitool_axe.json"
+        ]
+      },
+      "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "MultitoolFarmer",
+      "type": "tool",
+      "sortid": 394,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "multitool_farmer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/multitool_farmer.json",
+          "src/main/java/net/mcreator/woncore/item/MultitoolFarmerItem.java"
+        ]
+      },
+      "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "BurningOrePickaxe",
+      "type": "procedure",
+      "sortid": 395,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burning_ore_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/procedures/BurningOrePickaxeProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Stuffs/Outils"
     }
   ],
   "variable_elements": [
@@ -3093,6 +3169,7 @@
       "item.woncore.plane_chassis": "Plane Chassis",
       "block.woncore.bamboo_mosaic": "Bamboo Mosaic",
       "item.woncore.mastodonte_boots": "Mastodonte Boots",
+      "item.woncore.multitool_axe": "Multitool Axe",
       "item.strawberry_sandwich.name": "Strawberry Sandwich",
       "item.expresso.name": "�eExpresso",
       "item.woncore.solid_suit_x_407_helmet": "SolidSuit X407 Helmet",
@@ -3139,7 +3216,6 @@
       "block.woncore.lampadaire_barre": "Lampadaire Barre",
       "block.woncore.pink_crystal": "Pink Crystal",
       "item.woncore.skull": "Skull",
-      "item.woncore.multitool": "Multitool",
       "itemGroup.tabworld_of_nations_blocks": "WoN Blocks",
       "block.woncore.light_blue_crystal": "Light Blue Crystal",
       "item.extreme_chili.name": "�bExtreme Chili",
@@ -3199,6 +3275,7 @@
       "item.woncore.statuette": "Statuette",
       "item.woncore.heavy_tank_chassis": "Heavy Tank Chassis",
       "item.heavy_engine.name": "�bHeavy Engine",
+      "item.woncore.multitool_farmer": "Multitool Farmer",
       "item.cranberry_smoothie.name": "Cranberry Smoothie",
       "block.woncore.red_crystal": "Red Crystal",
       "item.raspberry_smoothie.name": "Raspberry Smoothie",
@@ -3263,6 +3340,7 @@
       "item.woncore.money": "Money",
       "block.woncore.bamboo_trap_door": "Bamboo Trap Door",
       "item.woncore.matraque": "Matraque",
+      "item.woncore.multitool_pickaxe": "Multitool Pickaxe",
       "item.apple_smoothie.name": "Apple Smoothie",
       "item.woncore.usb_key": "USB Key",
       "item.bacon_mushroom_burger.name": "Bacon Mushroom burger",
@@ -3274,7 +3352,9 @@
       "item.blackberry_seeds.name": "Blackberry Seeds",
       "item.woncore.metal_rod": "Metal Rod",
       "item.woncore.hardened_leather_chestplate": "Hardened Leather Body",
+      "item.woncore.multi_tools": "Multi Tools",
       "block.woncore.bamboo_slab": "Bamboo Slab",
+      "item.woncore.burning_pickaxe": "Burning Pickaxe",
       "item.woncore.satchel": "Satchel",
       "item.woncore.piece_emeraude": "Piece en émeraude",
       "block.woncore.dark_sign_2x_3": "Dark sign 2x 3",
@@ -3368,6 +3448,7 @@
       "item.woncore.plane_chassis": "Chassis d\u0027avion",
       "block.woncore.bamboo_mosaic": "Bamboo Mosaic",
       "item.woncore.mastodonte_boots": "Bottes de Mastodonte",
+      "item.woncore.multitool_axe": "Multitool Axe",
       "item.strawberry_sandwich.name": "Sandwich aux fraises",
       "item.expresso.name": "�eExpresso",
       "item.woncore.solid_suit_x_407_helmet": "Casque SolidSuit X407 ",
@@ -3415,7 +3496,6 @@
       "block.woncore.lampadaire_barre": "Lampadaire Barre",
       "block.woncore.pink_crystal": "Crystal Rose",
       "item.woncore.skull": "Crâne",
-      "item.woncore.multitool": "Multi-outils",
       "itemGroup.tabworld_of_nations_blocks": "WoN Blocks",
       "block.woncore.light_blue_crystal": "Crystal Bleu Clair",
       "item.extreme_chili.name": "�bExtreme Chili",
@@ -3475,6 +3555,7 @@
       "item.woncore.statuette": "Statuette",
       "item.woncore.heavy_tank_chassis": "Chassis Tank Lourd",
       "item.heavy_engine.name": "Moteur Lourd",
+      "item.woncore.multitool_farmer": "Multitool Farmer",
       "item.cranberry_smoothie.name": "Smoothie aux canneberges",
       "block.woncore.red_crystal": "Crystal Rouge",
       "item.raspberry_smoothie.name": "Smoothie aux framboises",
@@ -3539,6 +3620,7 @@
       "item.woncore.money": "Argent",
       "block.woncore.bamboo_trap_door": "Bamboo Trappe",
       "item.woncore.matraque": "Matraque",
+      "item.woncore.multitool_pickaxe": "Multitool Pickaxe",
       "item.apple_smoothie.name": "Smoothie aux pommes",
       "item.woncore.usb_key": "Clé USB",
       "item.bacon_mushroom_burger.name": "Hamburger au bacon et champignons",
@@ -3550,7 +3632,9 @@
       "item.blackberry_seeds.name": "Graines de mûre",
       "item.woncore.metal_rod": "Barre en métal",
       "item.woncore.hardened_leather_chestplate": "Plastron en cuir renforcé",
+      "item.woncore.multi_tools": "Multi Tools",
       "block.woncore.bamboo_slab": "Bamboo Dalle",
+      "item.woncore.burning_pickaxe": "Burning Pickaxe",
       "item.woncore.satchel": "Sacoche",
       "item.woncore.piece_emeraude": "Piece en émeraude",
       "block.woncore.dark_sign_2x_3": "Panneau 2x 3 Sombre",
