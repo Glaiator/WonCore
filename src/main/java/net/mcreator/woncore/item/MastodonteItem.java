@@ -42,7 +42,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{6, 8, 10, 4}[slot.getIndex()];
+				return new int[]{6, 9, 10, 6}[slot.getIndex()];
 			}
 
 			@Override
@@ -52,7 +52,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_netherite"));
 			}
 
 			@Override

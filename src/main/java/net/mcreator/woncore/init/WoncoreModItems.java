@@ -38,6 +38,10 @@ import net.mcreator.woncore.item.ReinforcedPlatingItem;
 import net.mcreator.woncore.item.ReceiverItem;
 import net.mcreator.woncore.item.ProcessorItem;
 import net.mcreator.woncore.item.PlaneChassisItem;
+import net.mcreator.woncore.item.PlanTigerItem;
+import net.mcreator.woncore.item.PlanT90Item;
+import net.mcreator.woncore.item.PlanT34Item;
+import net.mcreator.woncore.item.PlanShermanItem;
 import net.mcreator.woncore.item.PistonItem;
 import net.mcreator.woncore.item.PieceOrItem;
 import net.mcreator.woncore.item.PieceFerItem;
@@ -272,6 +276,10 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> MULTITOOL_PICKAXE = REGISTRY.register("multitool_pickaxe", () -> new MultitoolPickaxeItem());
 	public static final RegistryObject<Item> MULTITOOL_AXE = REGISTRY.register("multitool_axe", () -> new MultitoolAxeItem());
 	public static final RegistryObject<Item> MULTITOOL_FARMER = REGISTRY.register("multitool_farmer", () -> new MultitoolFarmerItem());
+	public static final RegistryObject<Item> PLAN_SHERMAN = REGISTRY.register("plan_sherman", () -> new PlanShermanItem());
+	public static final RegistryObject<Item> PLAN_T_34 = REGISTRY.register("plan_t_34", () -> new PlanT34Item());
+	public static final RegistryObject<Item> PLAN_TIGER = REGISTRY.register("plan_tiger", () -> new PlanTigerItem());
+	public static final RegistryObject<Item> PLAN_T_90 = REGISTRY.register("plan_t_90", () -> new PlanT90Item());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

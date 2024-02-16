@@ -3102,6 +3102,66 @@
         "dependencies": []
       },
       "path": "~/Stuffs/Outils"
+    },
+    {
+      "name": "PlanSherman",
+      "type": "item",
+      "sortid": 396,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plan_sherman",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/plan_sherman.json",
+          "src/main/java/net/mcreator/woncore/item/PlanShermanItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PlanT34",
+      "type": "item",
+      "sortid": 397,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plan_t_34",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/woncore/item/PlanT34Item.java",
+          "src/main/resources/assets/woncore/models/item/plan_t_34.json"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PlanTiger",
+      "type": "item",
+      "sortid": 398,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plan_tiger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/plan_tiger.json",
+          "src/main/java/net/mcreator/woncore/item/PlanTigerItem.java"
+        ]
+      },
+      "path": "~/Items"
+    },
+    {
+      "name": "PlanT90",
+      "type": "item",
+      "sortid": 399,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "plan_t_90",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/plan_t_90.json",
+          "src/main/java/net/mcreator/woncore/item/PlanT90Item.java"
+        ]
+      },
+      "path": "~/Items"
     }
   ],
   "variable_elements": [
@@ -3177,6 +3237,7 @@
       "item.woncore.sabre": "Sabre",
       "block.woncore.sign_2x_3": "Sign 2x 3",
       "item.woncore.mastodonte_chestplate": "Mastodonte Body",
+      "item.woncore.plan_t_34": "Plan T34",
       "block.woncore.brown_crystal": "Brown Crystal",
       "item.woncore.tactical_chestplate": "Tactical Body",
       "item.woncore.tactical_armor_leggings": "Tactical Leggings",
@@ -3286,6 +3347,7 @@
       "item.cherry_sandwich.name": "Cherry Sandwich",
       "item.croissant.name": "Croissant",
       "block.woncore.bamboo_fencegate": "Bamboo Fence Gate",
+      "item.woncore.plan_t_90": "Plan T90",
       "entity.woncore.airdrop_2": "Air Drop",
       "item.nutella.name": "Nutella",
       "entity.woncore.airdrop_1": "Air Drop",
@@ -3300,6 +3362,7 @@
       "item.woncore.infantry_helmet": "Infantry Helmet",
       "item.footlong.name": "�eFootlong",
       "item.woncore.tankcannon": "Tank Cannon",
+      "item.woncore.plan_tiger": "Plan Tiger IV",
       "block.woncore.inviblock": "Block invisible",
       "block.woncore.light_gray_crystal": "Light Gray Crystal",
       "item.bacon_cheeseburger.name": "Bacon Cheeseburger",
@@ -3392,6 +3455,7 @@
       "item.caramel_apple.name": "Caramel Apple",
       "item.woncore.piece_bronze": "Piece en bronze",
       "block.woncore.gray_crystal": "Gray Crystal",
+      "item.woncore.plan_sherman": "Plan M4 Sherman",
       "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.void_stone": "Void Stone",
       "fluid.woncore.mercury": "Mercury",
@@ -3456,6 +3520,7 @@
       "item.woncore.sabre": "Sabre",
       "block.woncore.sign_2x_3": "Panneau 2x 3",
       "item.woncore.mastodonte_chestplate": "Plastron de Mastodonte",
+      "item.woncore.plan_t_34": "Plan T34",
       "block.woncore.brown_crystal": "Crystal Marron",
       "item.woncore.tactical_chestplate": "Plastron tactique",
       "item.woncore.tactical_armor_leggings": "Tactical Leggings",
@@ -3566,6 +3631,7 @@
       "item.cherry_sandwich.name": "Sandwich aux cerises",
       "item.croissant.name": "Croissant",
       "block.woncore.bamboo_fencegate": "Portail Bamboo",
+      "item.woncore.plan_t_90": "Plan T90",
       "entity.woncore.airdrop_2": "Largage",
       "item.nutella.name": "Nutella",
       "entity.woncore.airdrop_1": "Largage",
@@ -3580,6 +3646,7 @@
       "item.woncore.infantry_helmet": "Casque d\u0027infanterie",
       "item.footlong.name": "�eFootlong",
       "item.woncore.tankcannon": "Canon de tank",
+      "item.woncore.plan_tiger": "Plan Tiger IV",
       "block.woncore.inviblock": "Block invisible",
       "block.woncore.light_gray_crystal": "Crystal Gris Clair",
       "item.bacon_cheeseburger.name": "Cheeseburger au bacon",
@@ -3672,6 +3739,7 @@
       "item.caramel_apple.name": "Pomme au caramel",
       "item.woncore.piece_bronze": "Piece en bronze",
       "block.woncore.gray_crystal": "Crystal Gris",
+      "item.woncore.plan_sherman": "Plan Sherman",
       "item.woncore.futuriste_armor_chestplate": "Futuriste Chestplate",
       "item.woncore.void_stone": "Pierre du vide",
       "fluid.woncore.mercury": "Mercure",
