@@ -32,7 +32,7 @@ public class MultiToolsItem extends TieredItem {
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -75,7 +75,7 @@ public class MultiToolsItem extends TieredItem {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return 4f;
+		return 9f;
 	}
 
 	@Override

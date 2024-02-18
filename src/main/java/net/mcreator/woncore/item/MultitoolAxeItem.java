@@ -12,11 +12,11 @@ public class MultitoolAxeItem extends AxeItem {
 	public MultitoolAxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 200;
+				return 500;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -24,7 +24,7 @@ public class MultitoolAxeItem extends AxeItem {
 			}
 
 			public int getLevel() {
-				return 1;
+				return 4;
 			}
 
 			public int getEnchantmentValue() {
