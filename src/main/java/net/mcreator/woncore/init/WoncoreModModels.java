@@ -9,6 +9,17 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.woncore.client.model.ModelmastoH_model;
+import net.mcreator.woncore.client.model.ModelmastoC_model;
+import net.mcreator.woncore.client.model.Modellargage;
+import net.mcreator.woncore.client.model.Modelfuturiste_armor;
+import net.mcreator.woncore.client.model.Modelcaisse_de_larguage_sans_parachute;
+import net.mcreator.woncore.client.model.Modelcaisse_de_larguage;
+import net.mcreator.woncore.client.model.ModelTenue_Agent;
+import net.mcreator.woncore.client.model.ModelTactical_Armor;
+import net.mcreator.woncore.client.model.ModelMastoL_model;
+import net.mcreator.woncore.client.model.ModelMastoB_model;
+
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = {Dist.CLIENT})
 public class WoncoreModModels {
 	@SubscribeEvent
