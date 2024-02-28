@@ -86,11 +86,11 @@
         "eb": true,
         "ec": true,
         "files": [
-          "src/main/resources/assets/woncore/models/item/mastodonte_helmet.json",
-          "src/main/java/net/mcreator/woncore/item/MastodonteItem.java",
-          "src/main/resources/assets/woncore/models/item/mastodonte_boots.json",
           "src/main/resources/assets/woncore/models/item/mastodonte_chestplate.json",
-          "src/main/resources/assets/woncore/models/item/mastodonte_leggings.json"
+          "src/main/resources/assets/woncore/models/item/mastodonte_leggings.json",
+          "src/main/resources/assets/woncore/models/item/mastodonte_boots.json",
+          "src/main/resources/assets/woncore/models/item/mastodonte_helmet.json",
+          "src/main/java/net/mcreator/woncore/item/MastodonteItem.java"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -225,10 +225,10 @@
       "registry_name": "hardened_leather",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/hardened_leather_chestplate.json",
-          "src/main/java/net/mcreator/woncore/item/HardenedLeatherItem.java",
           "src/main/resources/assets/woncore/models/item/hardened_leather_boots.json",
+          "src/main/java/net/mcreator/woncore/item/HardenedLeatherItem.java",
           "src/main/resources/assets/woncore/models/item/hardened_leather_helmet.json",
+          "src/main/resources/assets/woncore/models/item/hardened_leather_chestplate.json",
           "src/main/resources/assets/woncore/models/item/hardened_leather_leggings.json"
         ]
       },
@@ -701,10 +701,10 @@
       "registry_name": "soldier",
       "metadata": {
         "files": [
+          "src/main/resources/assets/woncore/models/item/soldier_boots.json",
           "src/main/resources/assets/woncore/models/item/soldier_chestplate.json",
           "src/main/resources/assets/woncore/models/item/soldier_helmet.json",
-          "src/main/java/net/mcreator/woncore/item/SoldierItem.java",
-          "src/main/resources/assets/woncore/models/item/soldier_boots.json"
+          "src/main/java/net/mcreator/woncore/item/SoldierItem.java"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -718,11 +718,11 @@
       "registry_name": "leather_clothes",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/leather_clothes_helmet.json",
-          "src/main/resources/assets/woncore/models/item/leather_clothes_leggings.json",
-          "src/main/resources/assets/woncore/models/item/leather_clothes_chestplate.json",
           "src/main/java/net/mcreator/woncore/item/LeatherClothesItem.java",
-          "src/main/resources/assets/woncore/models/item/leather_clothes_boots.json"
+          "src/main/resources/assets/woncore/models/item/leather_clothes_boots.json",
+          "src/main/resources/assets/woncore/models/item/leather_clothes_leggings.json",
+          "src/main/resources/assets/woncore/models/item/leather_clothes_helmet.json",
+          "src/main/resources/assets/woncore/models/item/leather_clothes_chestplate.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -736,8 +736,8 @@
       "registry_name": "tactical",
       "metadata": {
         "files": [
-          "src/main/java/net/mcreator/woncore/item/TacticalItem.java",
           "src/main/resources/assets/woncore/models/item/tactical_chestplate.json",
+          "src/main/java/net/mcreator/woncore/item/TacticalItem.java",
           "src/main/resources/assets/woncore/models/item/tactical_helmet.json"
         ]
       },
@@ -767,11 +767,11 @@
       "registry_name": "solid_suit_x_407",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_boots.json",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_leggings.json",
           "src/main/java/net/mcreator/woncore/item/SolidSuitX407Item.java",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_helmet.json",
-          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_chestplate.json"
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_leggings.json",
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_boots.json",
+          "src/main/resources/assets/woncore/models/item/solid_suit_x_407_helmet.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -800,8 +800,8 @@
       "registry_name": "crown_2",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/crown_2_helmet.json",
-          "src/main/java/net/mcreator/woncore/item/Crown2Item.java"
+          "src/main/java/net/mcreator/woncore/item/Crown2Item.java",
+          "src/main/resources/assets/woncore/models/item/crown_2_helmet.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -2455,10 +2455,10 @@
       "registry_name": "tactical_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/tactical_armor_boots.json",
-          "src/main/resources/assets/woncore/models/item/tactical_armor_leggings.json",
-          "src/main/java/net/mcreator/woncore/item/TacticalArmorItem.java",
           "src/main/resources/assets/woncore/models/item/tactical_armor_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/tactical_armor_leggings.json",
+          "src/main/resources/assets/woncore/models/item/tactical_armor_boots.json",
+          "src/main/java/net/mcreator/woncore/item/TacticalArmorItem.java",
           "src/main/resources/assets/woncore/models/item/tactical_armor_helmet.json"
         ]
       },
@@ -2473,11 +2473,11 @@
       "registry_name": "agent_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/agent_armor_leggings.json",
-          "src/main/resources/assets/woncore/models/item/agent_armor_chestplate.json",
-          "src/main/resources/assets/woncore/models/item/agent_armor_helmet.json",
           "src/main/java/net/mcreator/woncore/item/AgentArmorItem.java",
-          "src/main/resources/assets/woncore/models/item/agent_armor_boots.json"
+          "src/main/resources/assets/woncore/models/item/agent_armor_chestplate.json",
+          "src/main/resources/assets/woncore/models/item/agent_armor_boots.json",
+          "src/main/resources/assets/woncore/models/item/agent_armor_helmet.json",
+          "src/main/resources/assets/woncore/models/item/agent_armor_leggings.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -2491,11 +2491,11 @@
       "registry_name": "futuriste_armor",
       "metadata": {
         "files": [
-          "src/main/resources/assets/woncore/models/item/futuriste_armor_helmet.json",
           "src/main/java/net/mcreator/woncore/item/FuturisteArmorItem.java",
           "src/main/resources/assets/woncore/models/item/futuriste_armor_chestplate.json",
-          "src/main/resources/assets/woncore/models/item/futuriste_armor_leggings.json",
-          "src/main/resources/assets/woncore/models/item/futuriste_armor_boots.json"
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_boots.json",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_helmet.json",
+          "src/main/resources/assets/woncore/models/item/futuriste_armor_leggings.json"
         ]
       },
       "path": "~/Stuffs/Armures"
@@ -3162,6 +3162,24 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "Soldier2",
+      "type": "armor",
+      "sortid": 400,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soldier_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/soldier_2_helmet.json",
+          "src/main/resources/assets/woncore/models/item/soldier_2_chestplate.json",
+          "src/main/java/net/mcreator/woncore/item/Soldier2Item.java",
+          "src/main/resources/assets/woncore/models/item/soldier_2_boots.json",
+          "src/main/resources/assets/woncore/models/item/soldier_2_leggings.json"
+        ]
+      },
+      "path": "~/Stuffs/Armures"
     }
   ],
   "variable_elements": [
@@ -3181,8 +3199,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.woncore.green_crystal": "Green Crystal",
       "item.woncore.piece_fer": "Piece en fer",
+      "block.woncore.green_crystal": "Green Crystal",
       "item.woncore.medical_kit": "Medical Kit",
       "block.woncore.caisse_classique": "Caisse Classique",
       "item.woncore.crosse": "Crosse",
@@ -3195,10 +3213,10 @@
       "block.woncore.ammunition": "Ammunition",
       "item.aerogel.name": "�bAerogel",
       "item.woncore.light_tank_chassis": "Light Tank Chassis",
-      "item.woncore.solid_suit_x_407_chestplate": "SolidSuit X407 Body",
-      "item.woncore.key_2": "Key",
-      "block.woncore.renforced_concrete": "Renforced Concrete",
       "item.woncore.grip": "Grip",
+      "block.woncore.renforced_concrete": "Renforced Concrete",
+      "item.woncore.key_2": "Key",
+      "item.woncore.solid_suit_x_407_chestplate": "SolidSuit X407 Body",
       "item.kevlar.name": "�eKevlar",
       "item.chocolate_bar.name": "Chocolate Bar",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
@@ -3206,8 +3224,8 @@
       "item.woncore.batonninja": "Baton de ninja",
       "item.woncore.soldier_helmet": "Soldier Helmet",
       "gui.woncore.night_vision_overlay.label_on": "ON",
-      "item.woncore.nuclear_battery": "Nuclear battery",
       "item.woncore.saphire": "Saphire",
+      "item.woncore.nuclear_battery": "Nuclear battery",
       "itemGroup.tabcombat": "WoN Combat",
       "tile.water_garden.name": "Water Garden",
       "item.blueberry.name": "Blueberry",
@@ -3217,8 +3235,8 @@
       "item.woncore.engrenage": "Engrenage",
       "item.woncore.hardened_leather_ingot": "Hardened Leather Ingot",
       "subtitles.stg44firedistant": "",
-      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
       "item.spaghettis.name": "Spaghettis",
+      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Slab",
       "item.chocolate_milkshake.name": "Chocolate Milkshake",
       "item.woncore.piston": "Piston",
@@ -3239,6 +3257,7 @@
       "item.woncore.mastodonte_chestplate": "Mastodonte Body",
       "item.woncore.plan_t_34": "Plan T34",
       "block.woncore.brown_crystal": "Brown Crystal",
+      "item.woncore.soldier_2_boots": "Soldier Boots",
       "item.woncore.tactical_chestplate": "Tactical Body",
       "item.woncore.tactical_armor_leggings": "Tactical Leggings",
       "item.woncore.medium_tank_chassis": "Medium Tank Chassis",
@@ -3269,10 +3288,12 @@
       "item.supreme_pizza.name": "�bSupreme Pizza",
       "tile.rice_crops_1.name": "Rice Crops 0",
       "item.woncore.tank_track": "Tank Track",
+      "item.woncore.soldier_2_helmet": "Soldier Helmet",
       "item.woncore.agent_armor_helmet": "Agent Helmet",
       "item.woncore.solid_suit_x_407_leggings": "SolidSuit X407 Leggings",
       "item.stawberry_smoothie.name": "Strawberry Smoothie",
       "item.orange_smoothie.name": "Orange Smoothie",
+      "item.woncore.soldier_2_leggings": "Soldier Leggings",
       "item.woncore.ruby": "Ruby",
       "block.woncore.lampadaire_barre": "Lampadaire Barre",
       "block.woncore.pink_crystal": "Pink Crystal",
@@ -3400,6 +3421,7 @@
       "item.woncore.crown_helmet": "Crown",
       "item.woncore.crank_shaft": "Crank Shaft",
       "item.rice.name": "Rice",
+      "item.woncore.soldier_2_chestplate": "Soldier ChestePlate",
       "item.woncore.money": "Money",
       "block.woncore.bamboo_trap_door": "Bamboo Trap Door",
       "item.woncore.matraque": "Matraque",
@@ -3464,8 +3486,8 @@
       "item.steak_and_ships.name": "�eSteak And Ships"
     },
     "fr_fr": {
-      "block.woncore.green_crystal": "Crystal Vert",
       "item.woncore.piece_fer": "Piece en fer",
+      "block.woncore.green_crystal": "Crystal Vert",
       "item.woncore.medical_kit": "Kit Medical",
       "block.woncore.caisse_classique": "Caisse Classique",
       "item.woncore.crosse": "Crosse",
@@ -3478,10 +3500,10 @@
       "block.woncore.ammunition": "Munitions",
       "item.aerogel.name": "�bAerogel",
       "item.woncore.light_tank_chassis": "Chassis Tank Léger",
-      "item.woncore.solid_suit_x_407_chestplate": "Plastron SolidSuit X407 ",
-      "item.woncore.key_2": "Clé",
-      "block.woncore.renforced_concrete": "Béton Armé",
       "item.woncore.grip": "Grip",
+      "block.woncore.renforced_concrete": "Béton Armé",
+      "item.woncore.key_2": "Clé",
+      "item.woncore.solid_suit_x_407_chestplate": "Plastron SolidSuit X407 ",
       "item.kevlar.name": "�eKevlar",
       "item.chocolate_bar.name": "Barre chocolatée",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
@@ -3489,8 +3511,8 @@
       "item.woncore.batonninja": "Baton de ninja",
       "item.woncore.soldier_helmet": "Casque de soldat",
       "gui.woncore.night_vision_overlay.label_on": "ON",
-      "item.woncore.nuclear_battery": "Batterie nucléaire",
       "item.woncore.saphire": "Saphire",
+      "item.woncore.nuclear_battery": "Batterie nucléaire",
       "itemGroup.tabcombat": "WoN Combat",
       "tile.water_garden.name": "Water Garden",
       "item.blueberry.name": "Myrtille",
@@ -3500,8 +3522,8 @@
       "item.woncore.engrenage": "Engrenage",
       "item.woncore.hardened_leather_ingot": "Cuir renforcé",
       "subtitles.stg44firedistant": "",
-      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Escaliers",
       "item.spaghettis.name": "Spaghettis",
+      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Escaliers",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Dalle",
       "item.chocolate_milkshake.name": "Milkshake au chocolat",
       "item.woncore.piston": "Piston",
@@ -3522,6 +3544,7 @@
       "item.woncore.mastodonte_chestplate": "Plastron de Mastodonte",
       "item.woncore.plan_t_34": "Plan T34",
       "block.woncore.brown_crystal": "Crystal Marron",
+      "item.woncore.soldier_2_boots": "Soldier Boots",
       "item.woncore.tactical_chestplate": "Plastron tactique",
       "item.woncore.tactical_armor_leggings": "Tactical Leggings",
       "item.woncore.medium_tank_chassis": "Chassis Tank Moyen",
@@ -3553,10 +3576,12 @@
       "item.supreme_pizza.name": "�bSupreme Pizza",
       "tile.rice_crops_1.name": "Rice Crops 0",
       "item.woncore.tank_track": "Chenille de tank",
+      "item.woncore.soldier_2_helmet": "Soldier Helmet",
       "item.woncore.agent_armor_helmet": "Agent Helmet",
       "item.woncore.solid_suit_x_407_leggings": "Pentalon SolidSuit X407",
       "item.stawberry_smoothie.name": "Smoothie aux fraises",
       "item.orange_smoothie.name": "Smoothie à l\u0027orange",
+      "item.woncore.soldier_2_leggings": "Soldier Leggings",
       "item.woncore.ruby": "Rubie",
       "block.woncore.lampadaire_barre": "Lampadaire Barre",
       "block.woncore.pink_crystal": "Crystal Rose",
@@ -3684,6 +3709,7 @@
       "item.woncore.crown_helmet": "Crown",
       "item.woncore.crank_shaft": "Vilebrequin",
       "item.rice.name": "Riz",
+      "item.woncore.soldier_2_chestplate": "Soldier Body",
       "item.woncore.money": "Argent",
       "block.woncore.bamboo_trap_door": "Bamboo Trappe",
       "item.woncore.matraque": "Matraque",

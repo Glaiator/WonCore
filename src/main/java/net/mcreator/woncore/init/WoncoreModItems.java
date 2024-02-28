@@ -27,6 +27,7 @@ import net.mcreator.woncore.item.StatuetteItem;
 import net.mcreator.woncore.item.SpringItem;
 import net.mcreator.woncore.item.SolidSuitX407Item;
 import net.mcreator.woncore.item.SoldierItem;
+import net.mcreator.woncore.item.Soldier2Item;
 import net.mcreator.woncore.item.SkullItem;
 import net.mcreator.woncore.item.SeatItem;
 import net.mcreator.woncore.item.SatchelItem;
@@ -280,6 +281,10 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> PLAN_T_34 = REGISTRY.register("plan_t_34", () -> new PlanT34Item());
 	public static final RegistryObject<Item> PLAN_TIGER = REGISTRY.register("plan_tiger", () -> new PlanTigerItem());
 	public static final RegistryObject<Item> PLAN_T_90 = REGISTRY.register("plan_t_90", () -> new PlanT90Item());
+	public static final RegistryObject<Item> SOLDIER_2_HELMET = REGISTRY.register("soldier_2_helmet", () -> new Soldier2Item.Helmet());
+	public static final RegistryObject<Item> SOLDIER_2_CHESTPLATE = REGISTRY.register("soldier_2_chestplate", () -> new Soldier2Item.Chestplate());
+	public static final RegistryObject<Item> SOLDIER_2_LEGGINGS = REGISTRY.register("soldier_2_leggings", () -> new Soldier2Item.Leggings());
+	public static final RegistryObject<Item> SOLDIER_2_BOOTS = REGISTRY.register("soldier_2_boots", () -> new Soldier2Item.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
