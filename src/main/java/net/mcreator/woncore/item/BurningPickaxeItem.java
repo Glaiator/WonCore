@@ -9,6 +9,7 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -19,6 +20,7 @@ import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.core.BlockPos;
 
+import net.mcreator.woncore.procedures.BurningOrePickaxeProcedure;
 import net.mcreator.woncore.init.WoncoreModTabs;
 
 import com.google.common.collect.Multimap;
@@ -28,11 +30,11 @@ public class BurningPickaxeItem extends TieredItem {
 	public BurningPickaxeItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 500;
 			}
 
 			public float getSpeed() {
-				return 4f;
+				return 9f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -44,11 +46,11 @@ public class BurningPickaxeItem extends TieredItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 2;
+				return 0;
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(Items.DIAMOND));
 			}
 		}, new Item.Properties().tab(WoncoreModTabs.TAB_TOOLS));
 	}
@@ -75,7 +77,7 @@ public class BurningPickaxeItem extends TieredItem {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return 4f;
+		return 9f;
 	}
 
 	@Override
@@ -93,6 +95,7 @@ public class BurningPickaxeItem extends TieredItem {
 	@Override
 	public boolean mineBlock(ItemStack itemstack, Level world, BlockState blockstate, BlockPos pos, LivingEntity entity) {
 		itemstack.hurtAndBreak(1, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
+		BurningOrePickaxeProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 		return true;
 	}
 
@@ -100,5 +103,20 @@ public class BurningPickaxeItem extends TieredItem {
 	public boolean hurtEnemy(ItemStack itemstack, LivingEntity entity, LivingEntity sourceentity) {
 		itemstack.hurtAndBreak(2, entity, i -> i.broadcastBreakEvent(EquipmentSlot.MAINHAND));
 		return true;
+	}
+
+	@Override
+	public boolean hasContainerItem(ItemStack stack) {
+		return true;
+	}
+
+	@Override
+	public ItemStack getContainerItem(ItemStack itemstack) {
+		return new ItemStack(this);
+	}
+
+	@Override
+	public boolean isRepairable(ItemStack itemstack) {
+		return false;
 	}
 }
