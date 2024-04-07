@@ -43,6 +43,8 @@ import net.mcreator.woncore.item.PlanTigerItem;
 import net.mcreator.woncore.item.PlanT90Item;
 import net.mcreator.woncore.item.PlanT34Item;
 import net.mcreator.woncore.item.PlanShermanItem;
+import net.mcreator.woncore.item.PlanItem;
+import net.mcreator.woncore.item.PlanCharLeclercItem;
 import net.mcreator.woncore.item.PistonItem;
 import net.mcreator.woncore.item.PieceOrItem;
 import net.mcreator.woncore.item.PieceFerItem;
@@ -285,6 +287,8 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> SOLDIER_2_CHESTPLATE = REGISTRY.register("soldier_2_chestplate", () -> new Soldier2Item.Chestplate());
 	public static final RegistryObject<Item> SOLDIER_2_LEGGINGS = REGISTRY.register("soldier_2_leggings", () -> new Soldier2Item.Leggings());
 	public static final RegistryObject<Item> SOLDIER_2_BOOTS = REGISTRY.register("soldier_2_boots", () -> new Soldier2Item.Boots());
+	public static final RegistryObject<Item> PLAN = REGISTRY.register("plan", () -> new PlanItem());
+	public static final RegistryObject<Item> PLAN_CHAR_LECLERC = REGISTRY.register("plan_char_leclerc", () -> new PlanCharLeclercItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

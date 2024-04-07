@@ -32,7 +32,7 @@ public class MultiToolsItem extends TieredItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
@@ -40,7 +40,7 @@ public class MultiToolsItem extends TieredItem {
 			}
 
 			public int getLevel() {
-				return 4;
+				return 5;
 			}
 
 			public int getEnchantmentValue() {
@@ -55,7 +55,7 @@ public class MultiToolsItem extends TieredItem {
 
 	@Override
 	public boolean isCorrectToolForDrops(BlockState blockstate) {
-		int tier = 4;
+		int tier = 5;
 		if (tier < 3 && blockstate.is(BlockTags.NEEDS_DIAMOND_TOOL)) {
 			return false;
 		} else if (tier < 2 && blockstate.is(BlockTags.NEEDS_IRON_TOOL)) {
@@ -75,7 +75,7 @@ public class MultiToolsItem extends TieredItem {
 
 	@Override
 	public float getDestroySpeed(ItemStack itemstack, BlockState blockstate) {
-		return 9f;
+		return 12f;
 	}
 
 	@Override

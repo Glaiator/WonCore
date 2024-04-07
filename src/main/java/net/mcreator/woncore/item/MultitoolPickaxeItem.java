@@ -16,7 +16,7 @@ public class MultitoolPickaxeItem extends PickaxeItem {
 			}
 
 			public float getSpeed() {
-				return 9f;
+				return 12f;
 			}
 
 			public float getAttackDamageBonus() {
