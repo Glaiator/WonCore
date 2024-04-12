@@ -36,7 +36,7 @@ public abstract class AgentArmorItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{2, 4, 5, 2}[slot.getIndex()];
+				return new int[]{2, 5, 6, 3}[slot.getIndex()];
 			}
 
 			@Override

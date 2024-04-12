@@ -37,12 +37,12 @@ public abstract class MastodonteItem extends ArmorItem {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 35;
 			}
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{6, 9, 10, 6}[slot.getIndex()];
+				return new int[]{5, 8, 10, 5}[slot.getIndex()];
 			}
 
 			@Override
