@@ -24,6 +24,7 @@ import net.mcreator.woncore.item.TacticalItem;
 import net.mcreator.woncore.item.TacticalArmorItem;
 import net.mcreator.woncore.item.SteelShieldItem;
 import net.mcreator.woncore.item.StatuetteItem;
+import net.mcreator.woncore.item.StandardkeyItem;
 import net.mcreator.woncore.item.SpringItem;
 import net.mcreator.woncore.item.SolidSuitX407Item;
 import net.mcreator.woncore.item.SoldierItem;
@@ -38,6 +39,7 @@ import net.mcreator.woncore.item.RingItem;
 import net.mcreator.woncore.item.ReinforcedPlatingItem;
 import net.mcreator.woncore.item.ReceiverItem;
 import net.mcreator.woncore.item.ProcessorItem;
+import net.mcreator.woncore.item.PremiumKeyItem;
 import net.mcreator.woncore.item.PlaneChassisItem;
 import net.mcreator.woncore.item.PlanTigerItem;
 import net.mcreator.woncore.item.PlanT90Item;
@@ -90,6 +92,7 @@ import net.mcreator.woncore.item.FuturisticEngineItem;
 import net.mcreator.woncore.item.FuturisteArmorItem;
 import net.mcreator.woncore.item.FlagItem;
 import net.mcreator.woncore.item.EvolvedProcessorItem;
+import net.mcreator.woncore.item.EventKeyItem;
 import net.mcreator.woncore.item.EngrenageItem;
 import net.mcreator.woncore.item.EngineItem;
 import net.mcreator.woncore.item.DelimitationFlagItem;
@@ -289,6 +292,9 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> SOLDIER_2_BOOTS = REGISTRY.register("soldier_2_boots", () -> new Soldier2Item.Boots());
 	public static final RegistryObject<Item> PLAN = REGISTRY.register("plan", () -> new PlanItem());
 	public static final RegistryObject<Item> PLAN_CHAR_LECLERC = REGISTRY.register("plan_char_leclerc", () -> new PlanCharLeclercItem());
+	public static final RegistryObject<Item> PREMIUM_KEY = REGISTRY.register("premium_key", () -> new PremiumKeyItem());
+	public static final RegistryObject<Item> EVENT_KEY = REGISTRY.register("event_key", () -> new EventKeyItem());
+	public static final RegistryObject<Item> STANDARDKEY = REGISTRY.register("standardkey", () -> new StandardkeyItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
