@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "texturecaissenoel",
-		"particle": "texturecaissenoel"
+		"0": "texturecaisseevent",
+		"particle": "texturecaisseevent"
 	},
 	"elements": [
 		{

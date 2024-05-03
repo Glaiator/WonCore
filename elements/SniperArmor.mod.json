@@ -1,0 +1,76 @@
+{
+  "_fv": 43,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "44_americanm1helmetnetting",
+    "enableBody": true,
+    "textureBody": "44_americanm42airbornechest",
+    "enableLeggings": true,
+    "textureLeggings": "44_americanm1941combatfielduniformpants",
+    "enableBoots": true,
+    "textureBoots": "44_americanboots",
+    "onHelmetTick": {
+      "name": "SniperArmorInvisibility"
+    },
+    "onBootsTick": {
+      "name": "SniperArmorInvisibility"
+    },
+    "creativeTab": {
+      "value": "CUSTOM:Combat"
+    },
+    "armorTextureFile": "vierge",
+    "helmetName": "Sniper Helmet",
+    "bodyName": "Sniper Chestplate",
+    "leggingsName": "Sniper Leggings",
+    "bootsName": "Sniper Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "ModelSniperArmor",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "sniperarmortexture.png",
+    "bodyModelName": "ModelSniperArmor",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "sniperarmortexture.png",
+    "leggingsModelName": "ModelSniperArmor",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "sniperarmortexture.png",
+    "bootsModelName": "ModelSniperArmor",
+    "bootsModelPartL": "LeftBoots",
+    "bootsModelPartR": "RightBoots",
+    "bootsModelTexture": "sniperarmortexture.png",
+    "helmetItemRenderType": 0,
+    "helmetItemCustomModelName": "Normal",
+    "bodyItemRenderType": 0,
+    "bodyItemCustomModelName": "Normal",
+    "leggingsItemRenderType": 0,
+    "leggingsItemCustomModelName": "Normal",
+    "bootsItemRenderType": 0,
+    "bootsItemCustomModelName": "Normal",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 25,
+    "damageValueHelmet": 3,
+    "damageValueBody": 5,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 3,
+    "enchantability": 0,
+    "toughness": 1.0,
+    "knockbackResistance": 0.30000000000000004,
+    "equipSound": {
+      "value": ""
+    },
+    "repairItems": [
+      {
+        "value": "Items.STRING"
+      }
+    ]
+  }
+}

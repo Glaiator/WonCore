@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "lootbox:default",
+    "customModelName": "lootboxevent:default",
     "rotationMode": 1,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -46,7 +46,7 @@
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 1,
+    "dropAmount": 0,
     "useLootTableForDrops": false,
     "requiresCorrectTool": false,
     "enchantPowerBonus": 0.0,

@@ -1,8 +1,8 @@
 {
-  "parent": "woncore:custom/lootbox",
+  "parent": "woncore:custom/lootboxevent",
   "textures": {
     "all": "woncore:blocks/texture_caisseevent",
     "particle": "woncore:blocks/texture_caisseevent",
-    "0": "woncore:blocks/texture_caisseclassique"
+    "0": "woncore:blocks/texture_caisseevent"
   }
 }

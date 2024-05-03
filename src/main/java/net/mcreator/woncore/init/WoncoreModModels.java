@@ -18,6 +18,7 @@ import net.mcreator.woncore.client.model.Modelcaisse_de_larguage;
 import net.mcreator.woncore.client.model.ModelTenue_Agent;
 import net.mcreator.woncore.client.model.ModelTactical_Armor;
 import net.mcreator.woncore.client.model.ModelSoldatArmor;
+import net.mcreator.woncore.client.model.ModelSniperArmor;
 import net.mcreator.woncore.client.model.ModelMastoL_model;
 import net.mcreator.woncore.client.model.ModelMastoB_model;
 
@@ -25,6 +26,7 @@ import net.mcreator.woncore.client.model.ModelMastoB_model;
 public class WoncoreModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
+		event.registerLayerDefinition(ModelSniperArmor.LAYER_LOCATION, ModelSniperArmor::createBodyLayer);
 		event.registerLayerDefinition(ModelMastoB_model.LAYER_LOCATION, ModelMastoB_model::createBodyLayer);
 		event.registerLayerDefinition(ModelmastoC_model.LAYER_LOCATION, ModelmastoC_model::createBodyLayer);
 		event.registerLayerDefinition(Modelcaisse_de_larguage_sans_parachute.LAYER_LOCATION, Modelcaisse_de_larguage_sans_parachute::createBodyLayer);

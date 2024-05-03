@@ -29,6 +29,7 @@ import net.mcreator.woncore.item.SpringItem;
 import net.mcreator.woncore.item.SolidSuitX407Item;
 import net.mcreator.woncore.item.SoldierItem;
 import net.mcreator.woncore.item.Soldier2Item;
+import net.mcreator.woncore.item.SniperArmorItem;
 import net.mcreator.woncore.item.SkullItem;
 import net.mcreator.woncore.item.SeatItem;
 import net.mcreator.woncore.item.SatchelItem;
@@ -296,6 +297,10 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> EVENT_KEY = REGISTRY.register("event_key", () -> new EventKeyItem());
 	public static final RegistryObject<Item> STANDARDKEY = REGISTRY.register("standardkey", () -> new StandardkeyItem());
 	public static final RegistryObject<Item> CAISSE_EVENT = block(WoncoreModBlocks.CAISSE_EVENT, WoncoreModTabs.TAB_ADMIN);
+	public static final RegistryObject<Item> SNIPER_ARMOR_HELMET = REGISTRY.register("sniper_armor_helmet", () -> new SniperArmorItem.Helmet());
+	public static final RegistryObject<Item> SNIPER_ARMOR_CHESTPLATE = REGISTRY.register("sniper_armor_chestplate", () -> new SniperArmorItem.Chestplate());
+	public static final RegistryObject<Item> SNIPER_ARMOR_LEGGINGS = REGISTRY.register("sniper_armor_leggings", () -> new SniperArmorItem.Leggings());
+	public static final RegistryObject<Item> SNIPER_ARMOR_BOOTS = REGISTRY.register("sniper_armor_boots", () -> new SniperArmorItem.Boots());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));
