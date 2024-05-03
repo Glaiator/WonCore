@@ -295,6 +295,7 @@ public class WoncoreModItems {
 	public static final RegistryObject<Item> PREMIUM_KEY = REGISTRY.register("premium_key", () -> new PremiumKeyItem());
 	public static final RegistryObject<Item> EVENT_KEY = REGISTRY.register("event_key", () -> new EventKeyItem());
 	public static final RegistryObject<Item> STANDARDKEY = REGISTRY.register("standardkey", () -> new StandardkeyItem());
+	public static final RegistryObject<Item> CAISSE_EVENT = block(WoncoreModBlocks.CAISSE_EVENT, WoncoreModTabs.TAB_ADMIN);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

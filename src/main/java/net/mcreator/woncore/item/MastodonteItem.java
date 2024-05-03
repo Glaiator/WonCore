@@ -42,7 +42,7 @@ public abstract class MastodonteItem extends ArmorItem {
 
 			@Override
 			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{5, 8, 10, 5}[slot.getIndex()];
+				return new int[]{6, 9, 10, 6}[slot.getIndex()];
 			}
 
 			@Override

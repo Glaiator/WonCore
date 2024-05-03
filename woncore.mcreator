@@ -3272,6 +3272,23 @@
         ]
       },
       "path": "~/Items"
+    },
+    {
+      "name": "CaisseEvent",
+      "type": "block",
+      "sortid": 406,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "caisse_event",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/woncore/models/item/caisse_event.json",
+          "src/main/java/net/mcreator/woncore/block/CaisseEventBlock.java",
+          "src/main/resources/assets/woncore/blockstates/caisse_event.json",
+          "src/main/resources/assets/woncore/models/block/caisse_event.json"
+        ]
+      },
+      "path": "~/Admin/Lootboxs"
     }
   ],
   "variable_elements": [
@@ -3291,8 +3308,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "block.woncore.green_crystal": "Green Crystal",
       "item.woncore.piece_fer": "Piece en fer",
+      "block.woncore.green_crystal": "Green Crystal",
       "item.woncore.medical_kit": "Medical Kit",
       "block.woncore.caisse_classique": "Caisse Classique",
       "item.woncore.crosse": "Crosse",
@@ -3305,10 +3322,10 @@
       "block.woncore.ammunition": "Ammunition",
       "item.aerogel.name": "�bAerogel",
       "item.woncore.light_tank_chassis": "Light Tank Chassis",
-      "item.woncore.solid_suit_x_407_chestplate": "SolidSuit X407 Body",
-      "item.woncore.key_2": "Key",
-      "block.woncore.renforced_concrete": "Renforced Concrete",
       "item.woncore.grip": "Grip",
+      "block.woncore.renforced_concrete": "Renforced Concrete",
+      "item.woncore.key_2": "Key",
+      "item.woncore.solid_suit_x_407_chestplate": "SolidSuit X407 Body",
       "item.kevlar.name": "�eKevlar",
       "item.chocolate_bar.name": "Chocolate Bar",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
@@ -3316,8 +3333,8 @@
       "item.woncore.batonninja": "Baton de ninja",
       "item.woncore.soldier_helmet": "Soldier Helmet",
       "gui.woncore.night_vision_overlay.label_on": "ON",
-      "item.woncore.nuclear_battery": "Nuclear battery",
       "item.woncore.saphire": "Saphire",
+      "item.woncore.nuclear_battery": "Nuclear battery",
       "itemGroup.tabcombat": "WoN Combat",
       "tile.water_garden.name": "Water Garden",
       "item.blueberry.name": "Blueberry",
@@ -3327,8 +3344,8 @@
       "item.woncore.engrenage": "Engrenage",
       "item.woncore.hardened_leather_ingot": "Hardened Leather Ingot",
       "subtitles.stg44firedistant": "",
-      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
       "item.spaghettis.name": "Spaghettis",
+      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Stairs",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Slab",
       "item.chocolate_milkshake.name": "Chocolate Milkshake",
       "item.woncore.piston": "Piston",
@@ -3459,6 +3476,7 @@
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
       "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
       "block.woncore.bamboo_stairs": "Bamboo Stairs",
+      "block.woncore.caisse_event": "Caisse Event",
       "item.woncore.solid_suit_x_407_boots": "SolidSuit X407 Boots",
       "item.cherry_sandwich.name": "Cherry Sandwich",
       "item.croissant.name": "Croissant",
@@ -3583,8 +3601,8 @@
       "item.steak_and_ships.name": "�eSteak And Ships"
     },
     "fr_fr": {
-      "block.woncore.green_crystal": "Crystal Vert",
       "item.woncore.piece_fer": "Piece en fer",
+      "block.woncore.green_crystal": "Crystal Vert",
       "item.woncore.medical_kit": "Kit Medical",
       "block.woncore.caisse_classique": "Caisse Classique",
       "item.woncore.crosse": "Crosse",
@@ -3597,10 +3615,10 @@
       "block.woncore.ammunition": "Munitions",
       "item.aerogel.name": "�bAerogel",
       "item.woncore.light_tank_chassis": "Chassis Tank Léger",
-      "item.woncore.solid_suit_x_407_chestplate": "Plastron SolidSuit X407 ",
-      "item.woncore.key_2": "Clé",
-      "block.woncore.renforced_concrete": "Béton Armé",
       "item.woncore.grip": "Grip",
+      "block.woncore.renforced_concrete": "Béton Armé",
+      "item.woncore.key_2": "Clé",
+      "item.woncore.solid_suit_x_407_chestplate": "Plastron SolidSuit X407 ",
       "item.kevlar.name": "�eKevlar",
       "item.chocolate_bar.name": "Barre chocolatée",
       "tile.lettuce_crop_0.name": "Lettuce Crop",
@@ -3608,8 +3626,8 @@
       "item.woncore.batonninja": "Baton de ninja",
       "item.woncore.soldier_helmet": "Casque de soldat",
       "gui.woncore.night_vision_overlay.label_on": "ON",
-      "item.woncore.nuclear_battery": "Batterie nucléaire",
       "item.woncore.saphire": "Saphire",
+      "item.woncore.nuclear_battery": "Batterie nucléaire",
       "itemGroup.tabcombat": "WoN Combat",
       "tile.water_garden.name": "Water Garden",
       "item.blueberry.name": "Myrtille",
@@ -3619,8 +3637,8 @@
       "item.woncore.engrenage": "Engrenage",
       "item.woncore.hardened_leather_ingot": "Cuir renforcé",
       "subtitles.stg44firedistant": "",
-      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Escaliers",
       "item.spaghettis.name": "Spaghettis",
+      "block.woncore.bamboo_mosaic_stairs": "Bamboo Mosaic Escaliers",
       "block.woncore.bamboo_mosaic_slab": "Bamboo Mosaic Dalle",
       "item.chocolate_milkshake.name": "Milkshake au chocolat",
       "item.woncore.piston": "Piston",
@@ -3752,6 +3770,7 @@
       "tile.blue_berry_crop_0.name": "Blueberry Crop",
       "item.woncore.tactical_armor_chestplate": "Tactical Chestplate",
       "block.woncore.bamboo_stairs": "Bamboo Escaliers",
+      "block.woncore.caisse_event": "Caisse Event",
       "item.woncore.solid_suit_x_407_boots": "Bottes SolidSuit X407",
       "item.cherry_sandwich.name": "Sandwich aux cerises",
       "item.croissant.name": "Croissant",

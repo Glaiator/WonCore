@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "woncore:block/caisse_event"
+    },
+    "facing=east": {
+      "model": "woncore:block/caisse_event",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "woncore:block/caisse_event",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "woncore:block/caisse_event",
+      "y": 270
+    }
+  }
+}

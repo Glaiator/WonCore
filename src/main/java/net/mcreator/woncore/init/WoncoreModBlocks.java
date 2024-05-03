@@ -51,6 +51,7 @@ import net.mcreator.woncore.block.CrateBlock;
 import net.mcreator.woncore.block.ComputerBlock;
 import net.mcreator.woncore.block.CaissePremiumBlock;
 import net.mcreator.woncore.block.CaisseNoelBlock;
+import net.mcreator.woncore.block.CaisseEventBlock;
 import net.mcreator.woncore.block.CaisseClassiqueBlock;
 import net.mcreator.woncore.block.BrownCrystalBlock;
 import net.mcreator.woncore.block.BlueCrystalBlock;
@@ -132,6 +133,7 @@ public class WoncoreModBlocks {
 	public static final RegistryObject<Block> BROWN_CRYSTAL = REGISTRY.register("brown_crystal", () -> new BrownCrystalBlock());
 	public static final RegistryObject<Block> BLUE_CRYSTAL = REGISTRY.register("blue_crystal", () -> new BlueCrystalBlock());
 	public static final RegistryObject<Block> BLACK_CRYSTAL = REGISTRY.register("black_crystal", () -> new BlackCrystalBlock());
+	public static final RegistryObject<Block> CAISSE_EVENT = REGISTRY.register("caisse_event", () -> new CaisseEventBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
@@ -173,6 +175,7 @@ public class WoncoreModBlocks {
 			BrownCrystalBlock.registerRenderLayer();
 			BlueCrystalBlock.registerRenderLayer();
 			BlackCrystalBlock.registerRenderLayer();
+			CaisseEventBlock.registerRenderLayer();
 		}
 	}
 }
