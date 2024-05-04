@@ -3,13 +3,13 @@
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
-    "textureHelmet": "44_americanm1helmetnetting",
+    "textureHelmet": "sniper_cap",
     "enableBody": true,
-    "textureBody": "44_americanm42airbornechest",
+    "textureBody": "sniper_chestplate",
     "enableLeggings": true,
-    "textureLeggings": "44_americanm1941combatfielduniformpants",
+    "textureLeggings": "sniper_leggings",
     "enableBoots": true,
-    "textureBoots": "44_americanboots",
+    "textureBoots": "sniper_boots",
     "onHelmetTick": {
       "name": "SniperArmorInvisibility"
     },

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "woncore:items/44_americanm1941combatfielduniformpants"
+    "layer0": "woncore:items/sniper_leggings"
   }
 }

@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "woncore:items/44_americanboots"
+    "layer0": "woncore:items/sniper_boots"
   }
 }

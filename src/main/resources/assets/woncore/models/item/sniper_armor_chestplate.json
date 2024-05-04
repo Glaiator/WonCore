@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "woncore:items/44_americanm42airbornechest"
+    "layer0": "woncore:items/sniper_chestplate"
   }
 }
